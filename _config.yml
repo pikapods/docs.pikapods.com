@@ -1,7 +1,7 @@
 title: PikaPods Docs
 description: Notes on selected apps and PikaPods controls
 baseurl: ""
-url: "https://docs.borgbase.com"
+url: "https://docs.pikapods.com"
 
 permalink: pretty
 include: ["_redirects"]

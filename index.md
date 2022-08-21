@@ -16,7 +16,7 @@ More on how to get the most out of your apps.
 
 ## Introduction
 
-PikaPods provides container-based hosting for selected open source web apps.
+PikaPods provides container-based hosting for selected open source web apps. This page contains common questions and help on setting up specific apps.
 
 ### Apps
 
