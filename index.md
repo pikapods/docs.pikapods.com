@@ -9,7 +9,7 @@ permalink: /
 # PikaPods Documentation
 {: .fs-9 }
 
-More on how to get the most out of your apps.
+Get the most out of your apps.
 {: .fs-6 .fw-300 }
 
 ---

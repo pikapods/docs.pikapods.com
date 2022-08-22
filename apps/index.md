@@ -9,4 +9,4 @@ has_toc: true
 
 # App Notes
 
-Notes on additional install instructions for apps.
+Notes on additional install instructions and common issues for apps.
