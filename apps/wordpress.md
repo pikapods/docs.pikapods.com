@@ -11,4 +11,4 @@ When changing the domain, some references to the old domain may not get updated 
 You can use a tool like [Adminer](https://wordpress.org/plugins/pexlechris-adminer/) to import or export the whole database.
 
 ## Adjust PHP Settings
-The default upload limit is set to 64 MB. You can increase this or adjust other PHP settings by editing the `uploads.ini` file using SFTP.
+The default upload limit is set to 64 MB. You can increase this or adjust other PHP settings by editing the `uploads.ini` file using [SFTP](/faq/#accessing-pod-files-using-sftp).
