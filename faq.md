@@ -12,7 +12,7 @@ Some apps need to send emails to work properly. Currently PikaPods doesn't offer
 
 
 ## Using custom domains (CNAME)
-If you already pay for your own domain, you can map a subdomain to your pod. This is done by adding a CNAME record and giving your pod subdomain as target. We will also apply for a SSL certificate for this domain using ACME http-01 verification. So it can take a few minutes before the pod is reachable from the new domain. Precise steps for setting a CNAME record vary by provider, but roughly you should check the following:
+If you already pay for your own domain, you can map a subdomain to your pod. So your pod will be reachable as e.g. 'status.my-domain.com'. This is done by adding a CNAME record and giving your pod subdomain as target. We will also apply for a SSL certificate for this domain using ACME http-01 verification. So it can take a few minutes before the pod is reachable from the new domain. Precise steps for setting a CNAME record vary by provider, but roughly you should check the following:
 
 1. Take note of your pod's `xxx.pikapod.net` domain
 2. Ensure no CAA records are set that may prevent us from applying for a SSL certificate. If you already use CAA, please also add `sectigo.com`, as mentioned [here](https://zerossl.com/help/troubleshoot/caa-records/).
