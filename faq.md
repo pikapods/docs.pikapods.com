@@ -25,7 +25,7 @@ After adding a domain, we will periodically check if DNS is still set up correct
 
 
 ## Accessing pod files using SFTP
-SFTP is a way to securely access remote files. It's similar to FTP, but uses encryption. To access your pod's files, first enable SFTP in the pod's settings on the *SFTP* tab. This will display the hostname, username and password to use.
+SFTP is a way to securely access remote files. It's similar to FTP, but uses encryption. To access your pod's files, first enable SFTP in the pod's settings on the **Pod Settings > SFTP** tab. This will display the hostname, username and password to use.
 
 Then use any SFTP client to connect to the displayed hostname. Some popular SFTP clients:
 
@@ -33,6 +33,15 @@ Then use any SFTP client to connect to the displayed hostname. Some popular SFTP
 - [Cyberduck](https://cyberduck.io/): free, macOS
 - [Rclone](https://rclone.org/sftp/): free, Unix command line, good for larger transfers
 - [OpenSSH SFTP](https://man.openbsd.org/sftp): free, Unix command line, included with OpenSSH
+
+To connect to a pod, you need the following details, which will be displayed in the *SFTP* tab of your pod:
+
+- Hostname: This is the `.pikapod.net` domain of your pod. E.g. `eager-beaver.pikapod.net`
+- Port: This is always 22, which is the default port for SFTP
+- Username: Usually something like `p9999`
+- Password: A randomly generated password
+
+The first time you may be prompted to verify the server signature. So you can be certain to connect to the correct server in the future.
 
 
 ### Have any other questions? [Email Us!](mailto:hello@pikapods.com)
