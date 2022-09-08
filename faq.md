@@ -7,11 +7,19 @@ description: "Common errors and frequently asked questions"
 # Frequently Asked Questions
 
 
-## Sending Emails
-Some apps need to send emails to work properly. Currently PikaPods doesn't offer email sending services. We recommend [Mailjet](https://www.mailjet.com/), which has a free tier.
+## Sending emails
+Some apps need to send emails to work properly. Currently PikaPods doesn't offer email sending services. Some popular and proven options are [Mailjet](https://www.mailjet.com/), [Mailgun](https://www.mailgun.com/) and [Postmark](https://postmarkapp.com/). If you already use Amazon AWS, there is also [SES](https://aws.amazon.com/ses/).
 
 
-## Using custom domains (CNAME)
+## Support for individual apps
+If you have any concerns with your PikaPods account, billing or with running apps, email to [hello@pikapods.com](mailto:hello@pikapods.com) any time. You will generally receive a response within a few hours on working days.
+
+For well-defined, one-off setup tasks (like setting up email), we can sometimes help, if your account has seen a minimum of $50 in top-ups.
+
+Unfortunately we don't have the resources to help deal with specific app issues. You may find help in a community forum or similar for that app. Please don't file a Github issue, unless it is a genuine bug report. This is to avoid overloading the app author with support requests.
+
+
+## Using custom domains
 If you already pay for your own domain, you can map a subdomain to your pod. So your pod will be reachable as e.g. 'status.my-domain.com'. This is done by adding a CNAME record and giving your pod subdomain as target. We will also apply for a SSL certificate for this domain using ACME http-01 verification. So it can take a few minutes before the pod is reachable from the new domain. Precise steps for setting a CNAME record vary by provider, but roughly you should check the following:
 
 1. Take note of your pod's `xxx.pikapod.net` domain
