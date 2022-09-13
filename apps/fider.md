@@ -4,8 +4,6 @@ layout: page
 parent: Apps
 ---
 
-# Setup
-
 ## Sending email
 A Mailjet API key is required.
 

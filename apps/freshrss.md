@@ -4,8 +4,6 @@ layout: page
 parent: Apps
 ---
 
-# Setup
-
 ## Automatically refresh feeds
 To enable automtic updates, set the `CRON_MIN` setting exposed in the pod's *Env Var* settings to a valid Cron minute setting. E.g.:
 
