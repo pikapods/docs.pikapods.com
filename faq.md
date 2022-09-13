@@ -52,5 +52,11 @@ To connect to a pod, you need the following details, which will be displayed in 
 The first time you may be prompted to verify the server signature. So you can be certain to connect to the correct server in the future.
 
 
+## Debugging a Pod
+If a pod shows "Pod is loading..." for more than a few minutes, there is usually an issue with starting it. This could be an issue with settings or permissions. In most cases the detailed error can be found in the pod logs. To view them, just click the *Show Logs* button and look for obvious errors. If the error is unclear or log is empty, you can also use *Report Issue*, include the logs you got and we'll investigate further.
+
+<img src="/img/pod-show-logs.jpg" width="60%" />
+
+
 ### Have any other questions? [Email Us!](mailto:hello@pikapods.com)
 {: .no_toc }
