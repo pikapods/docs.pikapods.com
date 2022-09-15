@@ -5,12 +5,7 @@ parent: Apps
 ---
 
 ## Automatically refresh feeds
-To enable automtic updates, set the `CRON_MIN` setting exposed in the pod's *Env Var* settings to a valid Cron minute setting. E.g.:
+Containers are set up to refresh feeds twice an hour, at 7 and 37 minutes past the hour.
 
-- `35`: update once every hour, 35 minutes past the hour
-- `13,43`: twice an hour at X:13 and X:43
-- `*/20`: every 20 minutes
-
-**Note**: the update script won’t update any particular feed more often than once every twenty minutes, so it doesn’t make sense to trigger it much more frequently than that.
-
-More in the [official docs](https://freshrss.github.io/FreshRSS/en/admins/08_FeedUpdates.html) and [Docker docs](https://github.com/FreshRSS/FreshRSS/blob/edge/Docker/README.md#option-1-cron-inside-the-freshrss-docker-image).
+## Change domain
+This app saves the domain name during setup. If you decide to change it later, please also edit the option `base_url` in `data/config.php` using SFTP.
