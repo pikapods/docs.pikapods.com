@@ -58,5 +58,11 @@ If a pod shows "Pod is loading..." for more than a few minutes, there is usually
 <img src="/img/pod-show-logs.jpg" width="60%" />
 
 
+## Backups of pod data
+Keeping your data safe is very important to us. In addition to redundant drives, there are also daily backups of all databases and mounted files (everything you see over SFTP) pods use. These backups are meant to recover from server-wide failures. While it's also possible to restore individual pod files, we currently can't offer this service regularly.
+
+A more granular backup option will be added in the future, to also allow creating and restoring snapshots of individual pods. See [here](https://feedback.pikapods.com/posts/14/offer-backup-option) for more.
+
+
 ### Have any other questions? [Email Us!](mailto:hello@pikapods.com)
 {: .no_toc }
