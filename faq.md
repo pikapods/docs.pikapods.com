@@ -58,10 +58,20 @@ If a pod shows "Pod is loading..." for more than a few minutes, there is usually
 <img src="/img/pod-show-logs.jpg" width="60%" />
 
 
-## Backups of pod data
-Keeping your data safe is very important to us. In addition to redundant drives, there are also daily backups of all databases and mounted files (everything you see over SFTP) pods use. These backups are meant to recover from server-wide failures. While it's also possible to restore individual pod files, we currently can't offer this service regularly.
+## Backup of pod data
+Keeping your data safe is very important to us. In addition to redundant drives, there are also daily backups of all databases and mounted files (everything you see over SFTP) pods use. These backups are meant to recover from server-wide failures. While it's also possible to restore individual pod files in emergencies, we currently can't offer this service regularly.
 
-A more granular backup option will be added in the future, to also allow creating and restoring snapshots of individual pods. See [here](https://feedback.pikapods.com/posts/14/offer-backup-option) for more.
+All persistent pod data is available over [SFTP](#accessing-pod-files-using-sftp). Some pods also use an external database, usually Postgresql or MySQL/MariaDB. To retrieve a database dump, use the *Dump Database* button under *Pod Settings > Backup*. Old database dumps are automatically removed after 30 days and count towards your storage quota.
+
+You can make a full pod backup by following the steps:
+
+1. Enable [SFTP](#accessing-pod-files-using-sftp) on the pod
+2. Open the *Backup* tab in *Pod Settings*. If your pod uses a database do *Dump Database*. This saves a compressed database dump to SFTP. Not all pods use an external database. If a pod uses e.g. SQLite, you will find the database file on the SFTP volume.
+3. Stop the pod to make sure all data from memory is written to disk (e.g. for SQLite or Mongo databases)
+4. Copy all files and the database dump (if any) from SFTP. Using those files, you can run the app elsewhere or copy it to another pod.
+5. Start your pod again
+
+We plan on adding more granular backup- and restore options in the future. See [here](https://feedback.pikapods.com/posts/14/offer-backup-option) for the current progress.
 
 
 ### Have any other questions? [Email Us!](mailto:hello@pikapods.com)
