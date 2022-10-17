@@ -11,21 +11,13 @@ description: "Common errors and frequently asked questions"
 Some apps need to send emails to work properly. Currently PikaPods doesn't offer email sending services. Some popular and proven options are [Mailjet](https://www.mailjet.com/), [Mailgun](https://www.mailgun.com/) and [Postmark](https://postmarkapp.com/). If you already use Amazon AWS, there is also [SES](https://aws.amazon.com/ses/).
 
 
-## Support for individual apps
-If you have any concerns with your PikaPods account, billing or with running apps, email to [hello@pikapods.com](mailto:hello@pikapods.com) any time. You will generally receive a response within a few hours on working days.
-
-For well-defined, one-off setup tasks (like setting up email), we can sometimes help, if your account has seen a minimum of $50 in top-ups.
-
-Unfortunately we don't have the resources to help deal with specific app issues. You may find help in a community forum or similar for that app. Please don't file a Github issue, unless it is a genuine bug report. This is to avoid overloading the app author with support requests.
-
-
 ## Using custom domains
-If you already pay for your own domain, you can map a subdomain to your pod. So your pod will be reachable as e.g. 'status.my-domain.com'. This is done by adding a CNAME record and giving your pod subdomain as target. We will also apply for a SSL certificate for this domain using ACME http-01 verification. So it can take a few minutes before the pod is reachable from the new domain. Precise steps for setting a CNAME record vary by provider, but roughly you should check the following:
+If you already pay for your own domain, you can map a subdomain to your pod. So your pod will be reachable as e.g. `status.my-domain.com`. This is done by adding a CNAME record and setting your pod's pikapod.net domain as target. We will also apply for a SSL certificate for this domain. So it can take a few minutes before the pod is reachable from the new domain. Precise steps for setting a CNAME record vary by provider, but roughly you should check the following:
 
-1. Take note of your pod's `xxx.pikapod.net` domain
+1. Take note of your pod's `xxx-yyy.pikapod.net` domain
 2. Ensure no CAA records are set that may prevent us from applying for a SSL certificate. If you already use CAA, please also add `sectigo.com`, as mentioned [here](https://zerossl.com/help/troubleshoot/caa-records/).
 3. Add a CNAME record that points to your pod. E.g.
-   `wiki.mydomain.com. 3600 IN CNAME xxx.pikapod.net`
+   `status.my-domain.com. 3600 IN CNAME xxx-yyy.pikapod.net`
 4. Use a tool like [DNS Checker](https://dnschecker.org/) to ensure the record on your domains shows your `pikapod.net` domain
 5. Finally, add the new domain on PikaPod's control panel
 
@@ -52,12 +44,6 @@ To connect to a pod, you need the following details, which will be displayed in 
 The first time you may be prompted to verify the server signature. So you can be certain to connect to the correct server in the future.
 
 
-## Debugging a Pod
-If a pod shows "Pod is loading..." for more than a few minutes, there is usually an issue with starting it. This could be an issue with settings or permissions. In most cases the detailed error can be found in the pod logs. To view them, just click the *Show Logs* button and look for obvious errors. If the error is unclear or log is empty, you can also use *Report Issue*, include the logs you got and we'll investigate further.
-
-<img src="/img/pod-show-logs.jpg" width="60%" />
-
-
 ## Backup of pod data
 Keeping your data safe is very important to us. In addition to redundant drives, there are also daily backups of all databases and mounted files (everything you see over SFTP) pods use. These backups are meant to recover from server-wide failures. While it's also possible to restore individual pod files in emergencies, we currently can't offer this service regularly.
 
@@ -72,6 +58,20 @@ You can make a full pod backup by following the steps:
 5. Start your pod again
 
 We plan on adding more granular backup- and restore options in the future. See [here](https://feedback.pikapods.com/posts/14/offer-backup-option) for the current progress.
+
+
+## Debugging a Pod
+If a pod shows "Pod is loading..." for more than a few minutes, there is usually an issue with starting it. This could be an issue with settings or permissions. In most cases the detailed error can be found in the pod logs. To view them, just click the *Show Logs* button and look for obvious errors. If the error is unclear or log is empty, you can also use *Report Issue*, include the logs you got and we'll investigate further.
+
+<img src="/img/pod-show-logs.jpg" width="60%" />
+
+
+## Support for individual apps
+If you have any concerns with your PikaPods account, billing or with running apps, email to [hello@pikapods.com](mailto:hello@pikapods.com) any time. You will generally receive a response within a few hours on working days.
+
+For well-defined, one-off setup tasks (like setting up email), we can sometimes help, if your account has seen a minimum of $50 in top-ups.
+
+Unfortunately we don't have the resources to help deal with specific app issues. You may find help in a community forum or similar for that app. Please don't file a Github issue, unless it is a genuine bug report. This is to avoid overloading the app author with support requests.
 
 
 ### Have any other questions? [Email Us!](mailto:hello@pikapods.com)

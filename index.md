@@ -24,4 +24,4 @@ Notes on app setup and configuration: [More...](apps)
 
 ### FAQ
 
-Frequently asked questions about PikaPods in general: [More...](faq)
+Frequently asked questions about pods in general: [More...](faq)
