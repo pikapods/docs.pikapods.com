@@ -44,6 +44,24 @@ To connect to a pod, you need the following details, which will be displayed in 
 The first time you may be prompted to verify the server signature. So you can be certain to connect to the correct server in the future.
 
 
+## Adding new apps
+New apps are regularly being added. If your favorite app isn't available yet, you can suggest or vote for it on our [feedback](https://feedback.pikapods.com/) page. For an app to be suitable for PikaPods, it should roughly match those criteria:
+
+- Be a web application and use one HTTPS port only
+- Not use large amounts of CPU or bandwith by design (e.g. video encoding)
+- Not have a potential for abuse or impact on other pods (e.g. proxies or VPNs)
+- Have a license that allows self-hosting
+- Not compete with the author's own paid hosting service, unless alternative hosting options are actively promoted.
+- Have an official (or semi-official) Docker image available
+- Be actively developed and security issues are adressed
+
+
+## Updating apps
+Providing you with a stable experience is our main priority. As such we don't just automatically apply updates as they are released, but test them in a staging environment before making them available to all pods. Updates should also be for a stable release (in the context of the project) and released for a minimum of 3 days. Generally updates will reach your pod within 1-2 weeks of their release.
+
+For security-related updates, we may do ad-hoc updates of single apps.
+
+
 ## Backup of pod data
 Keeping your data safe is very important to us. In addition to redundant drives, there are also daily backups of all databases and mounted files (everything you see over SFTP) pods use. These backups are meant to recover from server-wide failures. While it's also possible to restore individual pod files in emergencies, we currently can't offer this service regularly.
 
