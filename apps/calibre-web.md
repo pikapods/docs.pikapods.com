@@ -13,6 +13,4 @@ To enable uploading books from the web interface, got o *Admin > Edit Basic Conf
 - *Path to Calibre Ebook Converter*: `/usr/bin/ebook-convert`
 - *Path to Kepubify E-Book Converter*: `/usr/bin/kepubify`
 
-More in the official image [docs](https://github.com/linuxserver/docker-calibre-web#application-setup).
-
-Finally, you may need to allow viewing books in *Admin > Users*.
+Finally, allow viewing books in *Admin > Users > Edit Users > Allow View*. After this a "Read in Browser" button will appear when opening the book.
