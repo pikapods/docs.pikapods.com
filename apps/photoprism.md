@@ -4,7 +4,25 @@ layout: page
 parent: Apps
 ---
 
-## Connect to WebDAV Storage (e.g. Nextcloud)
+## Sync from Mobile Apps
+
+The official PhotoPrism site already has a [guide](https://docs.photoprism.app/user-guide/sync/mobile-devices/) on how to sync with different mobile apps. For PikaPods specifically, the settings are as follows for WebDAV-based sync:
+
+- **Server**: Your PikaPods domain. E.g. `eager-beaver.pikapod.net`
+- **Port**: `443`
+- **Login**: Always `admin` (until multi-user support is added)
+- **Password**: The password used to log into PhotoPrism. Set as `PHOTOPRISM_ADMIN_PASSWORD` when setting up the pod and then editable from the PhotoPrism settings page.
+- **Directory**: `/originals/` or `/import/`
+- **Use SSL**: Should be enabled
+
+Automatic indexing will only start some minutes after upload. You can still follow the upload progress on *Library > Logs*.
+
+Example:
+
+[<img src="/img/photoprism-example-photosync.png" width="250" />](/img/photoprism-example-photosync.png)
+
+
+## Import from WebDAV Storage (e.g. Nextcloud)
 
 It's possible to import pictures from a remote WebDAV location, which e.g. Nextcloud (also available on PikaPods) can provide. Here the steps:
 
