@@ -15,7 +15,7 @@ Some apps need to send emails to work properly. Currently PikaPods doesn't offer
 If you already pay for your own domain, you can map a subdomain to your pod. So your pod will be reachable as e.g. `status.my-domain.com`. This is done by adding a CNAME record and setting your pod's pikapod.net domain as target. We will also apply for a SSL certificate for this domain. So it can take a few minutes before the pod is reachable from the new domain. Precise steps for setting a CNAME record vary by provider, but roughly you should check the following:
 
 1. Take note of your pod's `xxx-yyy.pikapod.net` domain
-2. Ensure no CAA records are set that may prevent us from applying for a SSL certificate. If you already use CAA, please also add `sectigo.com`, as mentioned [here](https://zerossl.com/help/troubleshoot/caa-records/).
+2. Ensure no CAA records are set that may prevent us from applying for a SSL certificate. If you already use CAA, please also add `sectigo.com`, as mentioned [here](https://zerossl.com/help/troubleshoot/caa-records/) and `letsencrypt.org` as mentioned [here](https://letsencrypt.org/docs/caa/).
 3. Add a CNAME record that points to your pod. E.g.
    `status.my-domain.com. 3600 IN CNAME xxx-yyy.pikapod.net`
 4. Use a tool like [DNS Checker](https://dnschecker.org/) to ensure the record on your domains shows your `pikapod.net` domain
