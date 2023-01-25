@@ -9,4 +9,5 @@ Only the most important configuration settings are exposed as environment variab
 
 See [here](https://docs.rsshub.app/en/install/#configuration) for available configuration.
 
-You may have to *Restart* the pod to apply configuration changes.
+You have to *Restart* the pod to apply configuration changes.
+
