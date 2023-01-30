@@ -44,6 +44,12 @@ To connect to a pod, you need the following details, which will be displayed in 
 The first time you may be prompted to verify the server signature. So you can be certain to connect to the correct server in the future.
 
 
+## Accessing the pod's database
+Advanced users can directly access the database to make small edits or import/export data. To access the database, first *Enable Database Access* in the pod's settings. This will display a login link and password.
+
+**For improved security, please be sure to keep this feature disabled when not using it.**
+
+
 ## Adding new apps
 New apps are regularly being added. If your favorite app isn't available yet, you can suggest or vote for it on our [feedback](https://feedback.pikapods.com/) page. For an app to be suitable for PikaPods, it should roughly match those criteria:
 
@@ -65,17 +71,18 @@ For security-related updates, we may do ad-hoc updates of single apps.
 ## Backup of pod data
 Keeping your data safe is very important to us. In addition to redundant drives, there are also daily backups of all databases and mounted files (everything you see over SFTP) pods use. These backups are meant to recover from server-wide failures. While it's also possible to restore individual pod files in emergencies, we currently can't offer this service regularly.
 
-All persistent pod data is available over [SFTP](#accessing-pod-files-using-sftp). Some pods also use an external database, usually Postgresql or MySQL/MariaDB. To retrieve a database dump, use the *Dump Database* button under *Pod Settings > Backup*. Old database dumps are automatically removed after 30 days and count towards your storage quota.
+All persistent pod data is available over [SFTP](#accessing-pod-files-using-sftp). Some pods also use an external database, usually Postgresql or MySQL/MariaDB.
 
 You can make a full pod backup by following the steps:
 
-1. Enable [SFTP](#accessing-pod-files-using-sftp) on the pod
-2. Open the *Backup* tab in *Pod Settings*. If your pod uses a database do *Dump Database*. This saves a compressed database dump to SFTP. Not all pods use an external database. If a pod uses e.g. SQLite, you will find the database file on the SFTP volume.
-3. Stop the pod to make sure all data from memory is written to disk (e.g. for SQLite or Mongo databases)
-4. Copy all files and the database dump (if any) from SFTP. Using those files, you can run the app elsewhere or copy it to another pod.
-5. Start your pod again
+1. Stop the pod to make sure all data from memory is written to disk (e.g. for SQLite or Mongo databases)
+2. Enable [SFTP](#accessing-pod-files-using-sftp) in the pod's settings.
+3. Log into the pod via SFTP and copy all files.
+4. Enable [Database access](#accessing-the-pods-database) in the pod's settings.
+5. Log into the pod's database and *Export* the whole database.
+6. Start your pod again
 
-We plan on adding more granular backup- and restore options in the future. See [here](https://feedback.pikapods.com/posts/14/offer-backup-option) for the current progress.
+We plan on adding more granular backup- and restore options in the future. See [here](https://feedback.pikapods.com/posts/14/offer-backup-option) for the latest progress.
 
 
 ## Debugging a Pod
