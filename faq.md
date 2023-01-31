@@ -12,14 +12,18 @@ Some apps need to send emails to work properly. Currently PikaPods doesn't offer
 
 
 ## Using custom domains
-If you already pay for your own domain, you can map a subdomain to your pod. So your pod will be reachable as e.g. `status.my-domain.com`. This is done by adding a CNAME record and setting your pod's pikapod.net domain as target. We will also apply for a SSL certificate for this domain. So it can take a few minutes before the pod is reachable from the new domain. Precise steps for setting a CNAME record vary by provider, but roughly you should check the following:
+If you already pay for your own domain, you can map a sub- or root domain to your pod. So your pod will be reachable as e.g. `status.my-domain.com` or `my-domain.com`. This is done by adding a `CNAME` or `ALIAS` record and setting your pod's pikapod.net domain as target. We will also apply for a SSL certificate for this domain. So it can take a few minutes before the pod is reachable from the new domain.
 
-1. Take note of your pod's `xxx-yyy.pikapod.net` domain
-2. Ensure no CAA records are set that may prevent us from applying for a SSL certificate. If you already use CAA, please also add `sectigo.com`, as mentioned [here](https://zerossl.com/help/troubleshoot/caa-records/) and `letsencrypt.org` as mentioned [here](https://letsencrypt.org/docs/caa/).
-3. Add a CNAME record that points to your pod. E.g.
-   `status.my-domain.com. 3600 IN CNAME xxx-yyy.pikapod.net`
-4. Use a tool like [DNS Checker](https://dnschecker.org/) to ensure the record on your domains shows your `pikapod.net` domain
-5. Finally, add the new domain on PikaPod's control panel
+1. Open *Pod Settings* and then the *Domain* tab.
+2. Enable *Custom Domain*. Take note of your pod's `xxx-yyy.pikapod.net` subdomain
+3. Ensure no CAA records are set that may prevent us from applying for a SSL certificate. If you already use CAA, please also add `sectigo.com`, as mentioned [here](https://zerossl.com/help/troubleshoot/caa-records/) and `letsencrypt.org` as mentioned [here](https://letsencrypt.org/docs/caa/).
+4. Then, depending on if you want to map a subdomain (e.g. `status.my-domain.com`) or root (apex) domain (e.g. `my-domain.com`):
+   
+   `CNAME` record for subdomains: `status.my-domain.com. 3600 IN CNAME xxx-yyy.pikapod.net`
+
+   `ALIAS` record for root domains: `@ 3600 IN ALIAS xxx-yyy.pikapod.net`
+5. Use a tool like [DNS Checker](https://dnschecker.org/) to ensure the record on your domains shows your `pikapod.net` domain or the same IP.
+6. Finally, add the new domain on PikaPod's control panel. If the setup is correct, it will be verified and saved.
 
 After adding a domain, we will periodically check if DNS is still set up correctly. If there is any issue you will receive a notification.
 
