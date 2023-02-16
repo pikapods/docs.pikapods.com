@@ -16,7 +16,7 @@ If you already pay for your own domain, you can map a sub- or root domain to you
 
 1. Open *Pod Settings* and then the *Domain* tab.
 2. Enable *Custom Domain*. Take note of your pod's `xxx-yyy.pikapod.net` subdomain
-3. Ensure no CAA records are set that may prevent us from applying for a SSL certificate. If you already use CAA, please also add `sectigo.com`, as mentioned [here](https://zerossl.com/help/troubleshoot/caa-records/) and `letsencrypt.org` as mentioned [here](https://letsencrypt.org/docs/caa/).
+3. Ensure no CAA records are set that may prevent us from applying for a SSL certificate. If you already use CAA, please also add `sectigo.com`, as mentioned [here](https://zerossl.com/help/troubleshoot/caa-records/) **and** `letsencrypt.org` as mentioned [here](https://letsencrypt.org/docs/caa/).
 4. Then, depending on if you want to map a subdomain (e.g. `status.my-domain.com`) or root (apex) domain (e.g. `my-domain.com`):
    
    `CNAME` record for subdomains: `status.my-domain.com. 3600 IN CNAME xxx-yyy.pikapod.net`
