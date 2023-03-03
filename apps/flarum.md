@@ -9,3 +9,6 @@ To change a user's email, you need to add email SMTP sending settings (Mailgun w
 
 ## Changing initial admin user
 You MUST add SMTP settings before editing the initial admin user.
+
+## Installing Extensions
+Please contact support at `hello@pikapods.com` and we will install the extensions you need for you. They will be kept in a mounted `plugins` folder and will persist container edits and updates.
