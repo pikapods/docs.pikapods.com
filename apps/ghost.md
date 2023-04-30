@@ -28,6 +28,8 @@ Used to e.g. send a welcome email or reset a user's password. You can use any SM
     - `mail__options__auth__pass`: The password shown in the grey box on Mailgun
 6. Now you should be able to send transactional emails. If you still get an error, check the pod's logs in *PikaPods*'s control panel. It will show the detailed error.
 
+## Editing `config.json`
+The upstream image currently [doesn't support](https://github.com/docker-library/ghost/issues/73) editing or persisting configuration files. All configuration is done via env vars. We already support many different Ghost options. If you need more added, please get in touch.
 
 ## Casper theme missing
 When using the default *Casper* theme, in rare cases the site may look broken after a pod restart. This is due to a [known issue](https://github.com/docker-library/ghost/issues/230) with Docker adding a broken symlink. If you experience this issue, go to *Settings > Design > Change Theme* and reinstall the desired theme.
