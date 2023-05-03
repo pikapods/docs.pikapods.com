@@ -98,6 +98,10 @@ If a pod shows "Pod is loading..." for more than a few minutes, there is usually
 <img src="/img/pod-show-logs.jpg" width="60%" />
 
 
+## IPv6 Support
+We fully support IPv6 as of May 2023. Before this, IPv6 worked over TCP, but possibly not ICMP. If your pod was created before May 2023, you may need to recreate it. This will happen automatically during updates or when you change resources or env vars.
+
+
 ## Support for individual apps
 If you have any concerns with your PikaPods account, billing or with running apps, email to [hello@pikapods.com](mailto:hello@pikapods.com) any time. You will generally receive a response within a few hours on working days.
 
