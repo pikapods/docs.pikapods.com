@@ -75,6 +75,10 @@ Providing you with a stable experience is our main priority. As such we don't ju
 For security-related updates, we may do ad-hoc updates of single apps.
 
 
+## Missing environment variables
+When adding new apps, we will add the most common and useful env vars from the start. Sometimes this doesn't include very specific or newly-added env vars. If you find that an env var you want to use is missing, just send us an email to to [hello@pikapods.com](mailto:hello@pikapods.com) and we will add it right away.
+
+
 ## Backup of pod data
 Keeping your data safe is very important to us. In addition to redundant drives, there are also daily backups of all databases and mounted files (everything you see over SFTP) pods use. These backups are meant to recover from server-wide failures. While it's also possible to restore individual pod files in emergencies, we currently can't offer this service regularly.
 
