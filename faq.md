@@ -13,6 +13,8 @@ To ensure system stability, every account is subject to limits on the amount of 
 ## Sending emails
 Some apps need to send emails to work properly. Currently PikaPods doesn't offer email sending services. Some popular and proven options are [Mailjet](https://www.mailjet.com/), [Mailgun](https://www.mailgun.com/) and [Postmark](https://postmarkapp.com/). If you already use Amazon AWS, there is also [SES](https://aws.amazon.com/ses/).
 
+No matter which provider you use for emails, be sure to use a *submission port*, like port 465 or 587. To prevent spam from our system port 25 is blocked.
+
 
 ## Using custom domains
 If you already pay for your own domain, you can map a sub- or root domain to your pod. So your pod will be reachable as e.g. `status.my-domain.com` or `my-domain.com`. This is done by adding a `CNAME` or `ALIAS` record and setting your pod's pikapod.net domain as target. We will also apply for a SSL certificate for this domain. So it can take a few minutes before the pod is reachable from the new domain.
