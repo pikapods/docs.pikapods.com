@@ -17,7 +17,7 @@ No matter which provider you use for emails, be sure to use a *submission port*,
 
 
 ## Using custom domains
-If you already pay for your own domain, you can map a sub- or root domain to your pod. So your pod will be reachable as e.g. `status.my-domain.com` or `my-domain.com`. This is done by adding a `CNAME` or `ALIAS` record and setting your pod's pikapod.net domain as target. We will also apply for a SSL certificate for this domain. So it can take a few minutes before the pod is reachable from the new domain.
+If you already pay for your own domain, you can map a sub- or root domain to your pod. So your pod will be reachable as e.g. `status.my-domain.com` or `my-domain.com`. This is done by adding a `CNAME` or `ALIAS` record and setting your pod's pikapod.net domain as target. We will also apply for a SSL certificate for this domain. So it can take a few minutes before the pod is reachable from the new domain. Steps to use a custom domain:
 
 1. Open *Pod Settings* and then the *Domain* tab.
 2. Enable *Custom Domain*. Take note of your pod's `xxx-yyy.pikapod.net` subdomain
@@ -32,6 +32,7 @@ If you already pay for your own domain, you can map a sub- or root domain to you
 
 After adding a domain, we will periodically check if DNS is still set up correctly. If there is any issue you will receive a notification.
 
+Only **one custom domain** can be mapped per pod. If you need additional alias domains, you will need to set up redirects with your DNS provider or a service like [Freedirector](https://freedirector.io/lite) (free, no signup needed) or [redirect.pizza](https://redirect.pizza/) (free tier).
 
 ## Accessing pod files using SFTP
 SFTP is a way to securely access remote files. It's similar to FTP, but uses encryption. To access your pod's files, first enable SFTP in the pod's settings on the **Pod Settings > SFTP** tab. This will display the hostname, username and password to use.
