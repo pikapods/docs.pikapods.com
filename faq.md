@@ -55,6 +55,7 @@ The first time you may be prompted to verify the server signature. So you can be
 
 Also note that you can only *write* to subfolders, like `data` or `music` that you may see. You can **not** add files in the top folder, since those wouldn't be accessible in your pod.
 
+Files starting with a dot (like `.config`) may be hidden in your SFTP client. If you don't see any files, try changing the setting to show hidden files.
 
 ## Accessing the pod's database
 Advanced users can directly access the database to make small edits or import/export data. To access the database, first *Enable Database Access* in the pod's settings. This will display a login link and password.
