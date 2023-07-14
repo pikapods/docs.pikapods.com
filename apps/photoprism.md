@@ -40,3 +40,21 @@ It's possible to import pictures from a remote WebDAV location, which e.g. Nextc
 12. Head back to photoprism tab and paste in WebDAV URL, user, and password
 13. Enable Directory sync by clicking the little sync button on the remote. Chose appropriate folder and interval
 14. Give the server a couple hours to copy and index all files.
+
+
+## Maximum Upload Size
+
+PikaPods does not impose a maximum upload limit. However, PhotoPrism's default maximum upload limit is set to 1 GB. You can increase this limit by setting the `PHOTOPRISM_ORIGINALS_LIMIT` environment variable. This value is in megabytes (MB), so to set the maximum upload limit to 2 GB, you would set `PHOTOPRISM_ORIGINALS_LIMIT` to `2000`.
+
+You can adjust the `PHOTOPRISM_ORIGINALS_LIMIT` value in the PikaPods control panel, in the pod's settings.
+
+Here are the steps on how to increase the maximum upload limit:
+
+- Open the PikaPods control panel.
+- Click on the pod's settings.
+- Scroll down to the "ENV VARS" section.
+- Enter the desired value in MB for the upload limit in the PHOTOPRISM_ORIGINALS_LIMIT field.
+- Click on the "Save" button.
+
+The maximum upload limit will be updated to the value you entered.
+
