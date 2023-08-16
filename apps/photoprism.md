@@ -1,7 +1,7 @@
 ---
 title: PhotoPrism
 layout: page
-parent: Apps
+parent: App Notes
 ---
 
 ## Sync from Mobile Apps

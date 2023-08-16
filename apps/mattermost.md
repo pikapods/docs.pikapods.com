@@ -1,7 +1,7 @@
 ---
 title: Mattermost
 layout: page
-parent: Apps
+parent: App Notes
 ---
 
 ## Initial Setup

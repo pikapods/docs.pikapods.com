@@ -1,7 +1,7 @@
 ---
 title: FreshRSS
 layout: page
-parent: Apps
+parent: App Notes
 ---
 
 ## Automatically refresh feeds

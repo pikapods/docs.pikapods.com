@@ -1,7 +1,7 @@
 ---
 title: Etherpad
 layout: page
-parent: Apps
+parent: App Notes
 ---
 
 ## Manage Users/Authentication

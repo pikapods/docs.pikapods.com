@@ -1,7 +1,7 @@
 ---
 title: WordPress
 layout: page
-parent: Apps
+parent: App Notes
 ---
 
 ## Change Domain

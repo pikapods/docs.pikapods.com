@@ -1,7 +1,7 @@
 ---
 title: Uptime Kuma
 layout: page
-parent: Apps
+parent: App Notes
 ---
 
 # Known Issues

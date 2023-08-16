@@ -1,7 +1,7 @@
 ---
 title: Ghost
 layout: page
-parent: Apps
+parent: App Notes
 ---
 
 ## Sending email

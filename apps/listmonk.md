@@ -1,7 +1,7 @@
 ---
 title: Listmonk
 layout: page
-parent: Apps
+parent: App Notes
 ---
 
 ## Customize System Templates

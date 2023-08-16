@@ -1,7 +1,7 @@
 ---
 title: Monica
 layout: page
-parent: Apps
+parent: App Notes
 ---
 
 ## Sending emails

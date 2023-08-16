@@ -1,7 +1,7 @@
 ---
 title: Umami
 layout: page
-parent: Apps
+parent: App Notes
 ---
 
 ## No Analytics after Update

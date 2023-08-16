@@ -1,7 +1,7 @@
 ---
 title: Nextcloud
 layout: page
-parent: Apps
+parent: App Notes
 ---
 
 ## Updates

@@ -1,7 +1,7 @@
 ---
 title: Immich
 layout: page
-parent: Apps
+parent: App Notes
 ---
 
 ## Bulk Upload/Import Pictures

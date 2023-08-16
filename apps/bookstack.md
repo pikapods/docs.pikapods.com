@@ -1,7 +1,7 @@
 ---
 title: Bookstack
 layout: page
-parent: Apps
+parent: App Notes
 ---
 
 ## Edit advanced settings

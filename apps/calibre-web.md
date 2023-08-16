@@ -1,7 +1,7 @@
 ---
 title: Calibre Web
 layout: page
-parent: Apps
+parent: App Notes
 ---
 
 ## Uploading Books

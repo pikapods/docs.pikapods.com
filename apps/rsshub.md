@@ -1,7 +1,7 @@
 ---
 title: RSSHub
 layout: page
-parent: Apps
+parent: App Notes
 ---
 
 ## Adding additional Configuration
