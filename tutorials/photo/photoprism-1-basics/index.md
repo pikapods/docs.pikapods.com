@@ -13,7 +13,7 @@ _[Watch the video tutorial](https://www.youtube.com/watch?v=t4w7vQX75mg) for a v
 
 # How to search for your photos?
 
-![](../assets-photoprism-1/1-search-photos.gif)
+![](1-search-photos.gif)
 
 PhotoPrism has numerous filtering options and easy to use search bar. All your photos are nicely organized in various categories. The app _labels your images_ automatically, setting the date, size, location, and camera settings. Here is how you can search for photos:
 
@@ -25,7 +25,7 @@ PhotoPrism has numerous filtering options and easy to use search bar. All your p
 
 # How to upload and edit photos?
 
-![](../assets-photoprism-1/2-upload-photos.gif)
+![](2-upload-photos.gif)
 
 You can upload all your photos with a few clicks. **PhotoPrism** will add all your new images to the general search category with the title, location, date, and camera settings. Here are the steps to uploading and editing your photos:
 
@@ -41,7 +41,7 @@ You can upload all your photos with a few clicks. **PhotoPrism** will add all yo
 
 # How to create a new album and add photos?
 
-![](../assets-photoprism-1/3-create-album.gif)
+![](3-create-album.gif)
 
 You can create many albums in PhotoPrism and organize your photos accordingly. You just need to add an album name and you can start adding photos to your new album.
 
@@ -69,7 +69,7 @@ With PhotoPrism you can easily share your albums with friends and family. You ca
 
 ## Sharing in PhotoPrism v1
 
-![](../assets-photoprism-1/4-album-sharing-v1.gif)
+![](4-album-sharing-v1.gif)
 
 **If you are already in the album:**
 
@@ -81,7 +81,7 @@ With PhotoPrism you can easily share your albums with friends and family. You ca
 
 ## Sharing in PhotoPrism v2
 
-![](../assets-photoprism-1/4-album-sharing-v2.gif)
+![](4-album-sharing-v2.gif)
 
 **If you are in the ‘albums’ category:**
 
