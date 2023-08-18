@@ -7,26 +7,31 @@ grand_parent: Tutorials
 
 # How to Use PhotoPrism Basic Features?
 
-In this guide, we will show you how you can search for your photos, how you can upload and edit your photos, and how you can share your albums. 
+In this guide, we will show you how you can search for your photos, how you can upload and edit your photos, and how you can share your albums.
 
+_[Watch the video tutorial](https://www.youtube.com/watch?v=t4w7vQX75mg) for a visual demonstration._
 
 # How to search for your photos?
 
-PhotoPrism has numerous filtering options and easy to use search bar. All your photos are nicely organized in various categories. The app *labels your images* automatically, setting the date, size, location, and camera settings. Here is how you can search for photos:
+![](../assets-photoprism-1/1-search-photos.gif)
+
+PhotoPrism has numerous filtering options and easy to use search bar. All your photos are nicely organized in various categories. The app _labels your images_ automatically, setting the date, size, location, and camera settings. Here is how you can search for photos:
 
 - Use the **search bar** at the top to find photos of people, certain cities, etc. Type ‘people’ to find photos with people on them. Type ‘New York’ to find photos of New York City or photos taken in New York City.
 
 - **Utilize the menu** on the left to access different filtering and category options.
 
-- **Employ the filter in the upper menu** and click on the arrow at the far upper right to refine your search. Filter and find photos by criteria such as country, camera and device settings, year, month, and colors. 
+- **Employ the filter in the upper menu** and click on the arrow at the far upper right to refine your search. Filter and find photos by criteria such as country, camera and device settings, year, month, and colors.
 
 # How to upload and edit photos?
+
+![](../assets-photoprism-1/2-upload-photos.gif)
 
 You can upload all your photos with a few clicks. **PhotoPrism** will add all your new images to the general search category with the title, location, date, and camera settings. Here are the steps to uploading and editing your photos:
 
 - In the upper menu, at the far right, click on a ‘**cloud icon**’, and start uploading your photos.
 
-- Find all your photos uploaded in the **general library, search category** on the left. 
+- Find all your photos uploaded in the **general library, search category** on the left.
 
 - **Click on the photo** if you want to edit it.
 
@@ -36,7 +41,9 @@ You can upload all your photos with a few clicks. **PhotoPrism** will add all yo
 
 # How to create a new album and add photos?
 
-You can create many albums in PhotoPrism and organize your photos accordingly. You just need to add an album name and you can start adding photos to your new album. 
+![](../assets-photoprism-1/3-create-album.gif)
+
+You can create many albums in PhotoPrism and organize your photos accordingly. You just need to add an album name and you can start adding photos to your new album.
 
 Here is how you can create a new album:
 
@@ -58,9 +65,11 @@ Here is how you can create a new album:
 
 # How to share your albums in PhotoPrism app?
 
-With PhotoPrism you can easily share your albums with friends and family. You can even set your link expiration date. There are two ways how you can share your albums. 
+With PhotoPrism you can easily share your albums with friends and family. You can even set your link expiration date. There are two ways how you can share your albums.
 
 ## Sharing in PhotoPrism v1
+
+![](../assets-photoprism-1/4-album-sharing-v1.gif)
 
 **If you are already in the album:**
 
@@ -71,6 +80,8 @@ With PhotoPrism you can easily share your albums with friends and family. You ca
 - Click on the **shareable link** to copy it to the clipboard.
 
 ## Sharing in PhotoPrism v2
+
+![](../assets-photoprism-1/4-album-sharing-v2.gif)
 
 **If you are in the ‘albums’ category:**
 
