@@ -5,7 +5,7 @@ url: "https://docs.pikapods.com"
 
 permalink: pretty
 include: ["_redirects"]
-exclude: ["README.md", "Rakefile"]
+exclude: ["README.md", "Rakefile", "vendor"]
 
 search_enabled: true
 heading_anchors: true
