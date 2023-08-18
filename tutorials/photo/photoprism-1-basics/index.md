@@ -56,21 +56,17 @@ Here is how you can create a new album:
 
 With PhotoPrism you can easily share your albums with friends and family. You can even set your link expiration date. There are two ways how you can share your albums.
 
-## Sharing in PhotoPrism v1
+## If you are already in the album:
 
 ![](4-album-sharing-v1.gif)
-
-**If you are already in the album:**
 
 - Click on ‘**share icon**’ at the top right, next to the album name.
 - In a **new pop-up**, edit the link shareable options.
 - Click on the **shareable link** to copy it to the clipboard.
 
-## Sharing in PhotoPrism v2
+## If you are in the ‘albums’ category:
 
 ![](4-album-sharing-v2.gif)
-
-**If you are in the ‘albums’ category:**
 
 - **Select the album** that you want to share.
 - Click on the ‘**circle**’ at the bottom of the on the right.
