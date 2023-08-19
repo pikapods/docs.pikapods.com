@@ -19,6 +19,8 @@ ListMonk provides a self-hosted solution for managing email lists and campaigns.
 
 ## Creating Your First Campaign
 
+![](1-create-campaign.gif)
+
 With ListMonk, you can easily create and send email campaigns to your subscribers. Here's how to create your first campaign:
 
 1. Navigate to the "Campaigns" section in the ListMonk admin interface.
@@ -30,6 +32,8 @@ With ListMonk, you can easily create and send email campaigns to your subscriber
 7. Start the campaign and track its performance.
 
 ## Managing Subscriber Lists
+
+![](2-create-lists.gif)
 
 ListMonk allows you to organize your subscribers into different lists. Here's how to manage your subscriber lists:
 
