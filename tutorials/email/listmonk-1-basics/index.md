@@ -7,7 +7,7 @@ grand_parent: Tutorials
 
 # Listmonk Basics
 
-Learn the fundamental aspects of using Listmonk to manage email campaigns, subscribers, and more.
+Listmonk is a self-hosted platform designed for newsletter and mailing list management. It's an ideal solution for individuals looking to curate a subscriber list and efficiently send out email campaigns.
 
 _[Watch the video tutorial](https://www.youtube.com/watch?v=Myq8MqT9xfM) for a visual demonstration._
 
@@ -25,27 +25,38 @@ Listmonk provides a self-hosted solution for managing email lists and campaigns.
 
 ![](1-create-campaign.gif)
 
-With Listmonk, you can easily create and send email campaigns to your subscribers. Here's how to create your first campaign:
+When you're ready to reach out to your subscribers via email, it's time to kick off a campaign. This step includes fine-tuning the essential email details to ensure effective communication.
 
-1. Navigate to the "Campaigns" section in the Listmonk admin interface.
-2. Click on the "Create New" button.
-3. Fill in the campaign details, including the name, subject line, and sender information.
-4. Select the email list you want to send the campaign to.
-5. Choose a template for your email.
-6. Write the email content and preview it before sending.
-7. Start the campaign and track its performance.
+Here are the steps:
+
+- On the left side menu, click on ‘**Campaigns**’
+- Click on ‘**+ Create new**’
+- Add the **name**.
+- Add the **subject line**.
+- **Change the ‘from’ email address**. This can be different for each campaign.
+- **Pick a ‘list’ of subscribers** from the dropdown menu. If you don’t have any lists yet, create a new list first.
+- **Pick a template** that you want to use for your email from the dropdown menu.
+- **Add tags** (optional).
+- Click on **continue**.
+- **Write the emai**l that you want to send. It’s similar to editing a file in Word doc.
+- Click on ‘**preview**’ in the upper right to see how your email will look like.
+- Click on ‘**save changes**’ in the upper right.
+- Click on ‘**start campaign**’ if you want to send the campaign to your email subscribers.
 
 ## Managing Subscriber Lists
 
 ![](2-create-lists.gif)
 
-Listmonk allows you to organize your subscribers into different lists. Here's how to manage your subscriber lists:
+You can have multiple subscribers lists in your Listmonk account. You can separate your email subscribers based on the campaign you are running.
 
-1. Access the "Lists" section in the admin interface.
-2. Create a new list and define its name and properties.
-3. Choose between single and double opt-in options.
-4. Set tags and descriptions to categorize your lists.
+Here are the steps:
 
-Start mastering Listmonk's basics to elevate your email marketing strategies and effectively engage with your subscribers.
-
-Continue your exploration of Listmonk's features to unlock even more advanced capabilities for your email campaigns.
+- Click ‘**Lists**’ in the left side menu.
+- Click on ‘**all lists**’.
+- Click on ‘**+ New**’ in the upper right corner.
+- **Add a name** for your list.
+- Choose between **private and public**. Public lists are open to the world to subscribe and their names might appear on public pages.
+- Choose between **single opt-in and double opt-in**.
+- **Set tags** for your list (optional).
+- **Add a description** for your list (optional).
+- Click on ‘**save**’.
