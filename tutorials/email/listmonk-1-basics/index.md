@@ -31,32 +31,31 @@ Here are the steps:
 
 - On the left side menu, click on ‘**Campaigns**’
 - Click on ‘**+ Create new**’
-- Add the **name**.
-- Add the **subject line**.
-- **Change the ‘from’ email address**. This can be different for each campaign.
-- **Pick a ‘list’ of subscribers** from the dropdown menu. If you don’t have any lists yet, create a new list first.
-- **Pick a template** that you want to use for your email from the dropdown menu.
-- **Add tags** (optional).
-- Click on **continue**.
-- **Write the emai**l that you want to send. It’s similar to editing a file in Word doc.
-- Click on ‘**preview**’ in the upper right to see how your email will look like.
-- Click on ‘**save changes**’ in the upper right.
-- Click on ‘**start campaign**’ if you want to send the campaign to your email subscribers.
+- Add the **name** and **subject line**.
+- **Change the ‘from’ email address** as needed.
+- **Select a ‘list’ of subscribers** from the dropdown menu. If you don't have any lists yet, create one first.
+- **Choose a template** from the dropdown menu.
+- Optionally, add **tags**.
+- Click **continue**.
+- Craft the **email content**, similar to composing a message.
+- Click ‘**preview**’ in the upper right to see how your email will look.
+- Click ‘**save changes**’ in the upper right.
+- Click ‘**start campaign**’ to send the campaign to your subscribers.
 
-## Managing Subscriber Lists
+## Creating a New List
 
 ![](2-create-lists.gif)
 
-You can have multiple subscribers lists in your Listmonk account. You can separate your email subscribers based on the campaign you are running.
+In your Listmonk account, you can maintain multiple subscriber lists, organizing them based on the campaigns you're running.
 
 Here are the steps:
 
 - Click ‘**Lists**’ in the left side menu.
-- Click on ‘**all lists**’.
-- Click on ‘**+ New**’ in the upper right corner.
-- **Add a name** for your list.
-- Choose between **private and public**. Public lists are open to the world to subscribe and their names might appear on public pages.
-- Choose between **single opt-in and double opt-in**.
-- **Set tags** for your list (optional).
-- **Add a description** for your list (optional).
-- Click on ‘**save**’.
+- Choose ‘**all lists**’.
+- Click ‘**+ New**’ in the upper right corner.
+- Assign a **name** to your list.
+- Specify **private or public** status. Public lists are open for subscription and may appear on public pages.
+- Select **single opt-in or double opt-in**.
+- Optionally, add **tags** for categorization.
+- Optionally, provide a **description** for the list.
+- Click ‘**save**’.
