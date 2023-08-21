@@ -11,6 +11,8 @@ Learn the fundamental aspects of using Listmonk to manage email campaigns, subsc
 
 _[Watch the video tutorial](https://www.youtube.com/watch?v=Myq8MqT9xfM) for a visual demonstration._
 
+Explore the [official Listmonk documentation](https://listmonk.app/docs/) for detailed information.
+
 ## Setting Up Listmonk
 
 Listmonk provides a self-hosted solution for managing email lists and campaigns. Follow these steps to set up your Listmonk environment:
