@@ -16,3 +16,7 @@ Tutorials are organized by category. This helps you first find a suitable app an
 ## Photo
 
 The photo category includes all apps used to organize, edit or share photos. [More…](photo)
+
+## Email
+
+The email category covers various email-related apps that can help you streamline your communication and marketing efforts. [More…](email)
