@@ -13,13 +13,19 @@ _[Watch the video tutorial](https://www.youtube.com/watch?v=Myq8MqT9xfM) for a v
 
 Explore the [official Listmonk documentation](https://listmonk.app/docs/) for detailed information.
 
-## Setting Up Listmonk
+## Setting Up SMTP for Listmonk
 
-Listmonk provides a self-hosted solution for managing email lists and campaigns. Follow these steps to set up your Listmonk environment:
+SMTP (Simple Mail Transfer Protocol) enables Listmonk to send out your email campaigns effectively. To set up SMTP for Listmonk, follow these steps:
 
-1. Install Listmonk on your server.
-2. Configure the necessary settings, such as database connections and SMTP configurations.
-3. Access the Listmonk admin interface.
+1. **Navigate to SMTP Configuration**: Access the "Settings" section from the left side menu. Then, on the top tabs, select the "SMTP" tab.
+2. **Configure SMTP Host**: Enter the SMTP server's address. This could be your own domain's server or a service like Gmail.
+3. **Set SMTP Port**: Specify the SMTP port number for outgoing mail. Common SMTP ports include 465 (for SSL), and 587 (for TLS). Check with your SMTP provider for the correct port to use.
+4. **Choose Authentication Protocol**: Choose the appropriate authentication method based on your SMTP provider. "Login" is a common method.
+5. **Enter Username and Password**: Input your SMTP username and password. This is typically the login information for the SMTP server you're using. If you're using Gmail, this would be your Gmail credentials.
+6. **Test Connection**: Verify the connection by using Listmonk's "Test Connection" feature.
+7. **Save Changes**: Once the connection is successful, click the "Save" button located at the top right corner of the page.
+
+With your SMTP settings properly configured, Listmonk will be able to send out your email campaigns using the specified SMTP server. This step is crucial for ensuring that your emails reach your subscribers' inboxes reliably.
 
 ## Creating Your First Campaign
 
