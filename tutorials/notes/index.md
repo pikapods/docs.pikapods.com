@@ -16,7 +16,7 @@ Explore tutorials and guides to effectively manage your notes and documentation 
 
 BookStack is a versatile documentation platform designed to help you create, organize, and collaborate on documentation and knowledge-sharing. Discover how to leverage its features for seamless documentation management.
 
-- [Part 1: Getting Started](bookstack-1-getting-started): Begin your journey with BookStack by setting up your documentation environment, creating and organizing books, and inviting collaborators.
+- [Part 1: Basics](bookstack-1-basics): Learn the fundamental aspects of BookStack, including creating books, chapters, pages, and shelves.
 
 ## Other Note-Taking Apps
 
