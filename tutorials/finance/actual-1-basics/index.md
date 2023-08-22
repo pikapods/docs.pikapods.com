@@ -27,9 +27,9 @@ For more comprehensive details, refer to the [official documentation](https://ac
 
 To create a local account:
 
-1. Click on **'all accounts'** in the left sidebar.
-2. Choose **'+ sign'** or click on **'add account'** on the main dashboard.
-3. Select **'create local account'**.
+1. Click on **all accounts** in the left sidebar.
+2. Choose **+ sign** or click on **add account** on the main dashboard.
+3. Select **create local account**.
 4. Optionally, toggle **off-budget**.
 5. Provide a **name** for the account.
 6. Set a **budget amount**.
@@ -67,14 +67,14 @@ Importing bank files into Actual is simple, and the app will automatically categ
 For importing transactions from a CSV file:
 
 1. **Select** the target account for importing transactions.
-2. Click on **'import'** in the top menu, below your account name.
+2. Click on **import** in the top menu, below your account name.
 3. **Choose** the file on your computer for import.
 4. Optionally, toggle on **"Split amount into separate inflow/outflow columns"** if your CSV file has separate columns for inflow and outflow amounts.
 5. Adjust the date format if needed.
 6. Optionally, toggle on **"Flip amount"** to negate amounts in the CSV file.
 7. Toggle on **"Add Multiplier"** to apply a multiplier to CSV file amounts.
-8. Click **'import'**.
-9. Edit the **'payee'** name by double-clicking.
+8. Click **import**.
+9. Edit the **payee** name by double-clicking.
 10. Select the appropriate **category** from the dropdown menu.
 
 ## Adding Transactions Manually
@@ -83,7 +83,7 @@ For importing transactions from a CSV file:
 
 You can also manually add transactions, specifying the date for each transaction:
 
-1. Click on **'add transaction'** in the top menu.
+1. Click on **add transaction** in the top menu.
 2. **Select** the transaction date from the calendar.
 3. Enter the **payee** name.
 4. Depending on inflow/outflow, choose the appropriate **debit/credit column**.
