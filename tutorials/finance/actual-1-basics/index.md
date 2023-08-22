@@ -5,84 +5,86 @@ parent: Finance
 grand_parent: Tutorials
 ---
 
-# How to Use Actual App?
+# Getting Started with Actual App
 
-**Actual** is a super fast and privacy-focused app for managing your finances. A beautifully designed interface is fine-tuned to get out of your way and make it as fast as possible to explore your finances.
+**Actual** is a user-friendly and privacy-focused app designed for efficient financial management. Its sleek interface is optimized to ensure a speedy and seamless experience when exploring your finances.
 
-In this guide, we will show you how you can create an account, how you can import files and transactions, and how you can edit transactions.
+This guide will walk you through creating an account, importing files and transactions, as well as editing transactions using **Actual**.
 
 _[Watch the video tutorial](https://www.youtube.com/watch?v=mdvqzI_SfpQ) for a visual demonstration._
 
-Explore the [official documentation](https://actualbudget.org/docs/) for detailed information.
+For more comprehensive details, refer to the [official documentation](https://actualbudget.org/docs/).
 
-# How to create an account?
+## Creating an Account
 
-![](1-create-account.gif)
+![Create Account](1-create-account.gif)
 
-You can create multiple accounts in **Actual**. It can be either off-budget or on-budget. **_Off budget_** accounts don't effect the budget and are meant to track stuff like investments and mortgages. Transactions in off budget accounts can't be categorized; they simply track balances over time.
+**Actual** allows you to set up multiple accounts, both on-budget and off-budget. Here's a breakdown of these account types:
 
-**_For budget_** accounts affect the budget, and transactions can be categorized. These are accounts where you want to track cash flow and use the budget, like checking accounts and credit cards.
+- **Off-budget accounts:** These accounts don't affect your budget and are suitable for tracking investments and mortgages. Transactions within these accounts can't be categorized and solely monitor balances over time.
 
-Here is how you can create a local account:
+- **On-budget accounts:** Transactions within these accounts affect your budget and can be categorized. They are ideal for tracking cash flow and utilizing the budget, such as checking accounts and credit cards.
 
-- Click on ‘**all accounts**’ on the left side menu.
-- Click on ‘**+ sign**’ or click on ‘**add account**’ on the main dashboard.
-- Click on ‘**create local account**’.
-- Optional: **toggle off-budget**
-- **Give a name** to your account.
-- Set a **budget amount**.
+To create a local account:
 
-# How to change account name?
+1. Click on **'all accounts'** in the left sidebar.
+2. Choose **'+ sign'** or click on **'add account'** on the main dashboard.
+3. Select **'create local account'**.
+4. Optionally, toggle **off-budget**.
+5. Provide a **name** for the account.
+6. Set a **budget amount**.
 
-![](2-rename-account.gif)
+## Changing Account Name
 
-If you don’t like the name of your account, you can always rename it. Here are the steps:
+![Rename Account](2-rename-account.gif)
 
-- Click the **account name** on the sidebar menu.
-- **Hover your cursor** close to the account name at the top.
-- Click on **pencil icon**.
-- **Rename** the account.
-- Click on **Enter** to save your changes.
+If you wish to rename an account, follow these steps:
 
-# How to close or delete an account in Actual?
+1. Click on the **account name** in the sidebar menu.
+2. **Hover** your cursor near the top of the account name.
+3. Click on the **pencil icon**.
+4. **Rename** the account.
+5. Press **Enter** to save your changes.
 
-![](3-close-delete-account.gif)
+## Closing or Deleting an Account in Actual
 
-You can also close or delete an account in Actual. However, you would need to have some other account open in order to transfer your remaining balance.
+![Close/Delete Account](3-close-delete-account.gif)
 
-- **Navigate to your account** by clicking on it in the sidebar.
-- Click on the **3 dots** (top right of the transactions list) to show the actions menu.
-- Select **Close Account**.
-- You need to s**elect another account** to transfer the existing balance to. Choose the account that you want your funds moved to.
-- Press **Close Account**.
+To close or delete an account, ensure you have another account open to transfer the remaining balance:
 
-# How to import files?
+1. **Navigate** to the account by clicking on it in the sidebar.
+2. Click on the **3 dots** (top right of the transactions list) to access the actions menu.
+3. Choose **Close Account**.
+4. **Select** another account for transferring the balance.
+5. Press **Close Account**.
 
-![](4-import-files.gif)
+## Importing Files
 
-You can easily import all your bank files into Actual. The app will immediately classify your transactions. Actual app supports importing **_QIF, QFX files, and CSV files_**.
+![Import Files](4-import-files.gif)
 
-Here is how to import transactions from CSV file:
+Importing bank files into Actual is simple, and the app will automatically categorize your transactions. Supported file formats include **QIF, QFX files, and CSV files**.
 
-- **Select the account** where you want to import your transactions.
-- Click on **‘import**’ button at the top menu, below your account name.
-- **Select the file** on your computer that you want to import.
-- You can optionally toggle on “**Split amount into separate inflow/outflow columns**” if your CSV file has separate columns for inflow and outflow amounts (also known as debit and credit).
-- If the date is not being imported correctly (the green date is how Actual interprets the date), you can **change the date format** to match your CSV file.
-- You can optionally toggle on “**Flip amount**” if you want to negate all of the amounts in the CSV file.
-- You can toggle on “Add Multiplier” to add a multiplier to all of the amounts in the CSV file.
-- Click on ‘**import’**.
-- Change the ‘**payee**’ name by double-clicking on the name.
-- **Pick the category** from the dropdown menu.
+For importing transactions from a CSV file:
 
-# How to add transactions manually?
+1. **Select** the target account for importing transactions.
+2. Click on **'import'** in the top menu, below your account name.
+3. **Choose** the file on your computer for import.
+4. Optionally, toggle on **"Split amount into separate inflow/outflow columns"** if your CSV file has separate columns for inflow and outflow amounts.
+5. Adjust the date format if needed.
+6. Optionally, toggle on **"Flip amount"** to negate amounts in the CSV file.
+7. Toggle on **"Add Multiplier"** to apply a multiplier to CSV file amounts.
+8. Click **'import'**.
+9. Edit the **'payee'** name by double-clicking.
+10. Select the appropriate **category** from the dropdown menu.
 
-![](5-add-transactions-manually.gif)
+## Adding Transactions Manually
 
-Transactions can be added manually, and you can choose specific date for each transaction. Here are the steps:
+![Add Transactions Manually](5-add-transactions-manually.gif)
 
-- Click on ‘**add transaction**’ at the top menu to add more transaction.
-- **Select the date** by clicking on the calendar.
-- Write the name in the ‘**payee**’ section.
-- Depending on if the transaction is inflow or outflow, **choose debit/credit column** accordingly.
-- **Write the amount** for the transaction.
+You can also manually add transactions, specifying the date for each transaction:
+
+1. Click on **'add transaction'** in the top menu.
+2. **Select** the transaction date from the calendar.
+3. Enter the **payee** name.
+4. Depending on inflow/outflow, choose the appropriate **debit/credit column**.
+5. Specify the transaction **amount**.
