@@ -20,3 +20,11 @@ The photo category includes all apps used to organize, edit or share photos. [Mo
 ## Email
 
 The email category covers various email-related apps that can help you streamline your communication and marketing efforts. [More…](email)
+
+## Finance
+
+The finance category features apps designed to assist you in managing your finances effectively. [More…](finance)
+
+## Notes
+
+The notes category offers tutorials on note-taking apps and documentation platforms for efficient organization and knowledge sharing. [More…](notes)
