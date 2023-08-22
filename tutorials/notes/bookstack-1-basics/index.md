@@ -5,47 +5,59 @@ parent: Notes
 grand_parent: Tutorials
 ---
 
-# How to Use BookStack App?
+# Getting Started with BookStack App
 
-**BookStack** is a simple, self-hosted, easy-to-use platform for _organizing and storing information_. The content in BookStack is fully searchable. You can search at the book level or across all books, chapters & pages. The ability to link directly to any paragraph allows you to keep your documentation connected. In this tutorial, you will learn how to add books and create shelves.
+**BookStack** is a user-friendly, self-hosted platform designed for efficient organization and storage of information. The platform's content is fully searchable, allowing you to search at various levels, from books to chapters and pages. Linking directly to specific paragraphs keeps your documentation connected. This tutorial will guide you through the process of creating books and shelves.
 
-# How to create a book in BookStack?
+Watch the [YouTube video tutorial](https://www.youtube.com/watch?v=zrSB8moqRFs) for a visual demonstration.
 
-Creating and editing books in BookStack is simple. You can easily add content, tables, images, and link to your content. Here are the steps to creating books:
+Explore the [official BookStack documentation](https://bookstackapp.com/docs/) for comprehensive details.
 
-- In the upper right corner, click on ‘**books**’.
-- Click ‘**create a new book**’ under actions on the right side of your screen.
-- Give a **name and description** of your new book.
-- Add a **cover image** (size: 440x250 px) by clicking on ‘select image’.
-- **Add tags** (optional) for better categorization.
-- Click on ‘**save book**’.
+## Creating a Book
 
-# How to create a chapter in BookStack?
+![](1-create-book.gif)
 
-Your books can have multiple chapters. These can always be added and edited later. Here are the steps:
+Adding and editing books in BookStack is straightforward. You can include content, tables, images, and links. Here's how to create a book:
 
-- Click on ‘**new chapter**’ on the right side of your screen.
-- Write a **title and description** for your chapter.
-- **Add tags** (optional).
-- Click on ‘**save chapter**’.
+1. In the upper right corner, click on **'books'**.
+2. Click **'create a new book'** under the actions on the right side of your screen.
+3. Provide a **name and description** for the new book.
+4. Add a **cover image** (size: 440x250 px) by clicking **'select image'**.
+5. Optionally, include **tags** for improved categorization.
+6. Click **'save book'**.
 
-# How to create a page in BookStack?
+## Creating a Chapter
 
-Pages can be part of the book or chapters. You can have multiple pages, and these can be short or long. Here are the steps:
+![](2-create-chapter.gif)
 
-- Click on ‘**new page**’ on the right side of your screen.
-- Add a **page title** above the editing ribbon on your dashboard.
-- **Write content** and edit it with tools offered on the editing ribbon.
-- Click ‘**save page**’ at the top right above your editing ribbon.
+Books can contain multiple chapters, which can be added and edited as needed. Here's how to create a chapter:
 
-# How to create a shelf in BookStack?
+1. Click on **'new chapter'** on the right side of your screen.
+2. Write a **title and description** for the chapter.
+3. Optionally, include **tags**.
+4. Click **'save chapter'**.
 
-Shelves are helpful because you can organize and categorize your books or docs. If you have multiple books and docs, you can manage them by department, category, industry, or discipline. Here are the steps:
+## Creating a Page
 
-- Click on the ‘**shelves**’ button in the upper menu.
-- Under ‘**actions**’ on the right, click ‘**new shelf**.’
-- Give a **name and description**.
-- **Select** which books you want to have on this shelf. Click on the ‘**plus**’ sign next to your book name.
-- Add a **cover image** (optional) that represents your shelf the best.
-- **Add tags** for easy navigation (optional).
-- Click on ‘**save shelf**’ at the bottom of the screen.
+![](3-create-page.gif)
+
+Pages can belong to books or chapters and accommodate varying lengths of content. Here's how to create a page:
+
+1. Click on **'new page'** on the right side of your screen.
+2. Add a **page title** above the editing ribbon on your dashboard.
+3. Compose your **content** using the editing tools on the ribbon.
+4. Click **'save page'** at the top right above the editing ribbon.
+
+## Creating a Shelf
+
+![](4-create-shelf.gif)
+
+Shelves help you organize and categorize your books or documents. They are useful for managing content by departments, categories, industries, or disciplines. Here's how to create a shelf:
+
+1. Click on the **'shelves'** button in the upper menu.
+2. Under **'actions'** on the right, click **'new shelf'**.
+3. Provide a **name and description** for the shelf.
+4. **Select** the books you want on this shelf by clicking the **'plus'** sign next to their names.
+5. Optionally, add a **cover image** that represents the shelf.
+6. Include **tags** for easy navigation (optional).
+7. Click **'save shelf'** at the bottom of the screen.
