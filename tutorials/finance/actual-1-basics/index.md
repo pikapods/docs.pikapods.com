@@ -17,6 +17,8 @@ Explore the [official documentation](https://actualbudget.org/docs/) for detaile
 
 # How to create an account?
 
+![](1-create-account.gif)
+
 You can create multiple accounts in **Actual**. It can be either off-budget or on-budget. **_Off budget_** accounts don't effect the budget and are meant to track stuff like investments and mortgages. Transactions in off budget accounts can't be categorized; they simply track balances over time.
 
 **_For budget_** accounts affect the budget, and transactions can be categorized. These are accounts where you want to track cash flow and use the budget, like checking accounts and credit cards.
@@ -32,6 +34,8 @@ Here is how you can create a local account:
 
 # How to change account name?
 
+![](2-rename-account.gif)
+
 If you don’t like the name of your account, you can always rename it. Here are the steps:
 
 - Click the **account name** on the sidebar menu.
@@ -42,6 +46,8 @@ If you don’t like the name of your account, you can always rename it. Here are
 
 # How to close or delete an account in Actual?
 
+![](3-close-delete-account.gif)
+
 You can also close or delete an account in Actual. However, you would need to have some other account open in order to transfer your remaining balance.
 
 - **Navigate to your account** by clicking on it in the sidebar.
@@ -51,6 +57,8 @@ You can also close or delete an account in Actual. However, you would need to ha
 - Press **Close Account**.
 
 # How to import files?
+
+![](4-import-files.gif)
 
 You can easily import all your bank files into Actual. The app will immediately classify your transactions. Actual app supports importing **_QIF, QFX files, and CSV files_**.
 
@@ -68,6 +76,8 @@ Here is how to import transactions from CSV file:
 - **Pick the category** from the dropdown menu.
 
 # How to add transactions manually?
+
+![](5-add-transactions-manually.gif)
 
 Transactions can be added manually, and you can choose specific date for each transaction. Here are the steps:
 
