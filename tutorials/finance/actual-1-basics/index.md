@@ -46,7 +46,7 @@ If you wish to rename an account, follow these steps:
 4. **Rename** the account.
 5. Press **Enter** to save your changes.
 
-## Closing or Deleting an Account in Actual
+## Closing or Deleting an Account
 
 ![Close/Delete Account](3-close-delete-account.gif)
 
