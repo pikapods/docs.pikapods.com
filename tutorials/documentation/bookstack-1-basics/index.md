@@ -1,7 +1,7 @@
 ---
 title: Bookstack Basics
 layout: page
-parent: Notes
+parent: Documentation
 grand_parent: Tutorials
 ---
 
