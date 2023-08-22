@@ -9,7 +9,7 @@ grand_parent: Tutorials
 
 **BookStack** is a user-friendly, self-hosted platform designed for efficient organization and storage of information. The platform's content is fully searchable, allowing you to search at various levels, from books to chapters and pages. Linking directly to specific paragraphs keeps your documentation connected. This tutorial will guide you through the process of creating books and shelves.
 
-Watch the [YouTube video tutorial](https://www.youtube.com/watch?v=zrSB8moqRFs) for a visual demonstration.
+_[Watch the video tutorial](https://www.youtube.com/watch?v=zrSB8moqRFs) for a visual demonstration._
 
 Explore the [official BookStack documentation](https://bookstackapp.com/docs/) for comprehensive details.
 
