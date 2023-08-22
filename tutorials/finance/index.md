@@ -16,4 +16,4 @@ Explore tutorials and guides on how to efficiently manage your finances using Pi
 
 Actual Budget is a comprehensive budgeting and expense tracking app that helps you take control of your financial health. Learn how to utilize its features for better financial planning and management.
 
-- [Part 1: Getting Started](actual-budget-1-getting-started): Begin your journey with Actual Budget by setting up your accounts, creating budgets, and tracking your expenses effectively.
+- [Part 1: Basics](actual-1-basics): Begin your journey with Actual Budget by setting up your accounts, creating budgets, and tracking your expenses effectively.
