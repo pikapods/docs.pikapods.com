@@ -25,6 +25,6 @@ The email category covers various email-related apps that can help you streamlin
 
 The finance category features apps designed to assist you in managing your finances effectively. [More…](finance)
 
-## Notes
+## Documentation
 
-The notes category offers tutorials on note-taking apps and documentation platforms for efficient organization and knowledge sharing. [More…](notes)
+Explore tutorials on using documentation apps to create, organize, and manage information seamlessly. [More…](documentation)
