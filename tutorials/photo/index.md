@@ -20,4 +20,4 @@ Discover PhotoPrism, an AI-powered photo app designed for the decentralized web.
 
 ## Other Photo-Related Apps
 
-Explore a range of other photo-related apps offered by PikaPods that can further enhance your photo management and editing tasks. Stay tuned for upcoming tutorials and guides on these apps.
+Explore a range of other [photo-related apps](https://www.pikapods.com/apps#photo) offered by PikaPods that can further enhance your photo management and editing tasks. Stay tuned for upcoming tutorials and guides on these apps.

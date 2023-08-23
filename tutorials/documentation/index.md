@@ -20,4 +20,4 @@ BookStack is a versatile documentation platform designed to help you create, org
 
 ## Explore More Documentation Apps
 
-PikaPods offers a range of other documentation apps that cater to various documentation management needs. Stay tuned for upcoming tutorials and guides on these apps to further enhance your documentation management experience.
+PikaPods offers a range of [other documentation](https://www.pikapods.com/apps#documentation) apps that cater to various documentation management needs. Stay tuned for upcoming tutorials and guides on these apps to further enhance your documentation management experience.
