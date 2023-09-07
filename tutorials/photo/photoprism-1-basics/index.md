@@ -1,5 +1,5 @@
 ---
-title: PhotoPrism Basics
+title: PhotoPrism Basics - v2
 layout: page
 parent: Photo
 grand_parent: Tutorials
