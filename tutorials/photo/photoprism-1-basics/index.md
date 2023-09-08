@@ -13,7 +13,7 @@ _[Watch the video tutorial](https://www.youtube.com/watch?v=t4w7vQX75mg) for a v
 
 # How to search for your photos?
 
-![](1-search-photos.gif)
+<video controls loop muted src="1-search-photos.mp4"></video>
 
 PhotoPrism has numerous filtering options and easy to use search bar. All your photos are nicely organized in various categories. The app _labels your images_ automatically, setting the date, size, location, and camera settings. Here is how you can search for photos:
 
