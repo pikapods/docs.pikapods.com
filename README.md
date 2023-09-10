@@ -18,8 +18,11 @@ Embed tutorial videos muted with a normal video tag:
 
 To create the preview poster (webp format), use ffmpeg:
 ```
-$ ffmpeg -i 1-search-photos.mp4 -ss 00:00:01.000 -vframes 1 1-search-photos.webp
+$ ffmpeg -i 1-search-photos.mp4 -ss 00:00:00.001 -vframes 1 1-search-photos.webp
 ```
+
+## SEO Tags
+This theme uses the *Jekyll SEO Plugin*. See their docs for [supported fields](https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md).
 
 ## Build/Deploy
 Workaround for Netlify Ruby issue. In `Gemfile.lock`:

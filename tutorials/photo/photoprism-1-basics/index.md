@@ -1,5 +1,7 @@
 ---
 title: PhotoPrism Basics
+description: Learn the basic features of PhotoPrism, including browsing and searching for photos, uploading photos and sharing albums.
+image: /tutorials/photo/photoprism-1-basics/1-search-photos.webp
 layout: page
 parent: Photo
 grand_parent: Tutorials
@@ -25,7 +27,7 @@ PhotoPrism offers various filtering options and a user-friendly search bar to he
 
 ## Uploading and Editing Photos
 
-![](2-upload-photos.gif)
+<video controls loop muted preload="none" src="2-upload-photos.mp4" poster="2-upload-photos.webp"></video>
 
 Uploading and editing photos in PhotoPrism is a breeze. The app automatically categorizes new images into the general search category, complete with titles, locations, dates, and camera settings. Follow these steps for uploading and editing photos:
 
@@ -37,7 +39,7 @@ Uploading and editing photos in PhotoPrism is a breeze. The app automatically ca
 
 ## Creating and Managing Albums
 
-![](3-create-album.gif)
+<video controls loop muted preload="none" src="3-create-album.mp4" poster="3-create-album.webp"></video>
 
 Organize your photos with ease by creating multiple albums in PhotoPrism. Follow these steps to create a new album and add photos:
 
@@ -55,7 +57,7 @@ Learn how to share your albums with ease using PhotoPrism. You can even set expi
 
 ### Share from Within an Album:
 
-![](4-album-sharing-v1.gif)
+<video controls loop muted preload="none" src="4-album-sharing-v1.mp4" poster="4-album-sharing-v1.webp"></video>
 
 1. Click the **share icon** at the top right next to the album name.
 2. Edit the **shareable link** options in the pop-up.
@@ -63,7 +65,7 @@ Learn how to share your albums with ease using PhotoPrism. You can even set expi
 
 ### Share from the 'Albums' Category:
 
-![](4-album-sharing-v2.gif)
+<video controls loop muted preload="none" src="4-album-sharing-v2.mp4" poster="4-album-sharing-v2.webp"></video>
 
 1. **Select the album** you want to share.
 2. Click the **circle** at the bottom right.

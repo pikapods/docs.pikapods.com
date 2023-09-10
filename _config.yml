@@ -2,6 +2,8 @@ title: PikaPods Docs
 description: Notes on selected apps and PikaPods controls
 baseurl: ""
 url: "https://docs.pikapods.com"
+logo: favicon.png
+favicon_ico: favicon.ico
 
 permalink: pretty
 include: ["_redirects"]
