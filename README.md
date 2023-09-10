@@ -9,6 +9,18 @@ Has the content of [docs.pikapods.com](https://docs.pikapods.com). Feel free to 
 ## Run
 - `bundle exec jekyll serve`
 
+## Embed videos
+
+Embed tutorial videos muted with a normal video tag:
+```
+<video controls loop muted preload="none" src="1-search-photos.mp4" poster="1-search-photos.webp"></video>
+```
+
+To create the preview poster (webp format), use ffmpeg:
+```
+$ ffmpeg -i 1-search-photos.mp4 -ss 00:00:01.000 -vframes 1 1-search-photos.webp
+```
+
 ## Build/Deploy
 Workaround for Netlify Ruby issue. In `Gemfile.lock`:
 
