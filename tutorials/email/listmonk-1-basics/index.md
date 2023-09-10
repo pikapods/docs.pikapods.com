@@ -29,7 +29,8 @@ With your SMTP settings properly configured, Listmonk will be able to send out y
 
 ## Creating Your First Campaign
 
-<video controls loop muted preload="none" src="1-create-campaign.mp4" poster="1-create-campaign.webp" />
+<video controls loop muted preload="none" src="1-create-campaign.mp4" poster="1-create-campaign.webp">
+</video>
 
 When you're ready to reach out to your subscribers via email, it's time to kick off a campaign. This step includes fine-tuning the essential email details to ensure effective communication.
 
@@ -50,7 +51,8 @@ Here are the steps:
 
 ## Creating a New List
 
-<video controls loop muted preload="none" src="2-create-lists.mp4" poster="2-create-lists.webp" />
+<video controls loop muted preload="none" src="2-create-lists.mp4" poster="2-create-lists.webp">
+</video>
 
 In your Listmonk account, you can maintain multiple subscriber lists, organizing them based on the campaigns you're running.
 
