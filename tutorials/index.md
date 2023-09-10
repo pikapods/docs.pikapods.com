@@ -11,11 +11,11 @@ has_toc: false
 
 The open source apps PikaPods offers can be used in a large variety of business and personal settings. Our tutorials section makes it easy to find the right app for a task.
 
-Tutorials are organized by category. This helps you first find a suitable app and then learn how to use it for common tasks.
+Tutorials are organized by category, helping you discover suitable apps and learn how to use them effectively for common tasks.
 
-## Photo
+## Documentation
 
-The photo category includes all apps used to organize, edit or share photos. [More…](photo)
+Explore tutorials on using documentation apps to create, organize, and manage information seamlessly. [More…](documentation)
 
 ## Email
 
@@ -25,6 +25,6 @@ The email category covers various email-related apps that can help you streamlin
 
 The finance category features apps designed to assist you in managing your finances effectively. [More…](finance)
 
-## Documentation
+## Photo
 
-Explore tutorials on using documentation apps to create, organize, and manage information seamlessly. [More…](documentation)
+The photo category includes all apps used to organize, edit, or share photos. [More…](photo)

@@ -5,71 +5,68 @@ parent: Photo
 grand_parent: Tutorials
 ---
 
-# How to Use PhotoPrism Basic Features?
+# Using Basic Features of PhotoPrism
 
-In this guide, we will show you how you can search for your photos, how you can upload and edit your photos, and how you can share your albums.
+Discover how to effectively use the basic features of PhotoPrism to enhance your photo management experience. This guide will walk you through searching for photos, uploading and editing images, creating albums, and sharing your content.
 
 _[Watch the video tutorial](https://www.youtube.com/watch?v=t4w7vQX75mg) for a visual demonstration._
 
-# How to search for your photos?
+Explore the [official PhotoPrism documentation](https://docs.photoprism.app/) for comprehensive details.
+
+## Searching for Photos
 
 <video controls loop muted src="1-search-photos.mp4"></video>
 
-PhotoPrism has numerous filtering options and easy to use search bar. All your photos are nicely organized in various categories. The app _labels your images_ automatically, setting the date, size, location, and camera settings. Here is how you can search for photos:
+PhotoPrism offers various filtering options and a user-friendly search bar to help you locate your photos effortlessly. Your images are automatically labeled with details such as date, size, location, and camera settings. Here's how to search for photos:
 
-- Use the **search bar** at the top to find photos of people, certain cities, etc. Type ‘people’ to find photos with people on them. Type ‘New York’ to find photos of New York City or photos taken in New York City.
+1. Use the **search bar** to find images based on criteria like people or locations.
+2. Explore the **menu** on the left to access different filtering and category options.
+3. Employ the **filter in the upper menu** to refine your search by attributes like country, camera settings, year, month, and colors.
 
-- **Utilize the menu** on the left to access different filtering and category options.
-
-- **Employ the filter in the upper menu** and click on the arrow at the far upper right to refine your search. Filter and find photos by criteria such as country, camera and device settings, year, month, and colors.
-
-# How to upload and edit photos?
+## Uploading and Editing Photos
 
 ![](2-upload-photos.gif)
 
-You can upload all your photos with a few clicks. **PhotoPrism** will add all your new images to the general search category with the title, location, date, and camera settings. Here are the steps to uploading and editing your photos:
+Uploading and editing photos in PhotoPrism is a breeze. The app automatically categorizes new images into the general search category, complete with titles, locations, dates, and camera settings. Follow these steps for uploading and editing photos:
 
-- In the upper menu, at the far right, click on a ‘**cloud icon**’, and start uploading your photos.
-- Find all your photos uploaded in the **general library, search category** on the left.
-- **Click on the photo** if you want to edit it.
-- Click on the ‘**pen icon**’ in the upper menu, and then edit your title and description.
-- After you are done, click ‘**Apply**’ or ‘**Done**’ at the bottom of the screen.
+1. Click the **cloud icon** in the upper menu on the far right to begin uploading.
+2. Find your uploaded photos in the **general library search category** on the left.
+3. Click on a photo to access editing options.
+4. Use the **pen icon** in the upper menu to edit the title and description.
+5. Once editing is complete, click **Apply** or **Done** at the bottom of the screen.
 
-# How to create a new album and add photos?
+## Creating and Managing Albums
 
 ![](3-create-album.gif)
 
-You can create many albums in PhotoPrism and organize your photos accordingly. You just need to add an album name and you can start adding photos to your new album.
+Organize your photos with ease by creating multiple albums in PhotoPrism. Follow these steps to create a new album and add photos:
 
-Here is how you can create a new album:
+1. Access the **albums** section from the left menu.
+2. Click the **plus sign** in the upper right corner to create a new album.
+3. Edit album details like name, location, description, category, and sorting settings.
+4. In the unsorted library, **select photos** for your album.
+5. Click the **circle** at the bottom right of the screen.
+6. Use the **yellow icon** to add selected photos to your album.
+7. In the pop-up, choose your album and click **add to album**.
 
-- Use the menu on the left and click on ‘**albums**’.
-- Click on ‘**plus sign**’ in the upper right corner.
-- **Click on your newly created album** to edit the name, location, description, category, and sorting settings.
-- In your general, unsorted library, **select all photos** that you want to add to your album.
-- Click on the ‘**circle**’ at the bottom of the screen on the right.
-- Click on the ‘**yellow icon**’ which represents ‘adding to album’ icon.
-- In the **new pop-up**, select your album where you want to place your images,
-- Click on ‘**add to album**’ to finish.
+## Sharing Your Albums
 
-# How to share your albums in PhotoPrism app?
+Learn how to share your albums with ease using PhotoPrism. You can even set expiration dates for your shared links. There are two methods to share albums:
 
-With PhotoPrism you can easily share your albums with friends and family. You can even set your link expiration date. There are two ways how you can share your albums.
-
-## If you are already in the album:
+### Share from Within an Album:
 
 ![](4-album-sharing-v1.gif)
 
-- Click on ‘**share icon**’ at the top right, next to the album name.
-- In a **new pop-up**, edit the link shareable options.
-- Click on the **shareable link** to copy it to the clipboard.
+1. Click the **share icon** at the top right next to the album name.
+2. Edit the **shareable link** options in the pop-up.
+3. Copy the **shareable link** to the clipboard.
 
-## If you are in the ‘albums’ category:
+### Share from the 'Albums' Category:
 
 ![](4-album-sharing-v2.gif)
 
-- **Select the album** that you want to share.
-- Click on the ‘**circle**’ at the bottom of the on the right.
-- In the new selection of options, click on the ‘**purple icon**’.
-- In a **new pop-up**, edit the link shareable options.
-- Click on the **shareable link** to copy it to the clipboard.
+1. **Select the album** you want to share.
+2. Click the **circle** at the bottom right.
+3. Use the **purple icon** from the options.
+4. Edit the **shareable link** options in the pop-up.
+5. Copy the **shareable link** to the clipboard.
