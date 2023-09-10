@@ -15,7 +15,8 @@ Explore the [official BookStack documentation](https://bookstackapp.com/docs/) f
 
 ## Creating a Book
 
-![](1-create-book.gif)
+<video controls loop muted preload="none" src="1-create-book.mp4" poster="1-create-book.webp">
+</video>
 
 Adding and editing books in BookStack is straightforward. You can include content, tables, images, and links. Here's how to create a book:
 
@@ -28,7 +29,8 @@ Adding and editing books in BookStack is straightforward. You can include conten
 
 ## Creating a Chapter
 
-![](2-create-chapter.gif)
+<video controls loop muted preload="none" src="2-create-chapter.mp4" poster="2-create-chapter.webp">
+</video>
 
 Books can contain multiple chapters, which can be added and edited as needed. Here's how to create a chapter:
 
@@ -39,7 +41,8 @@ Books can contain multiple chapters, which can be added and edited as needed. He
 
 ## Creating a Page
 
-![](3-create-page.gif)
+<video controls loop muted preload="none" src="3-create-page.mp4" poster="3-create-page.webp">
+</video>
 
 Pages can belong to books or chapters and accommodate varying lengths of content. Here's how to create a page:
 
@@ -50,7 +53,8 @@ Pages can belong to books or chapters and accommodate varying lengths of content
 
 ## Creating a Shelf
 
-![](4-create-shelf.gif)
+<video controls loop muted preload="none" src="4-create-shelf.mp4" poster="4-create-shelf.webp">
+</video>
 
 Shelves help you organize and categorize your books or documents. They are useful for managing content by departments, categories, industries, or disciplines. Here's how to create a shelf:
 

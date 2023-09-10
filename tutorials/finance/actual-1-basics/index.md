@@ -17,7 +17,8 @@ For more comprehensive details, refer to the [official documentation](https://ac
 
 ## Creating an Account
 
-![Create Account](1-create-account.gif)
+<video controls loop muted preload="none" src="1-create-account.mp4" poster="1-create-account.webp">
+</video>
 
 **Actual** allows you to set up multiple accounts, both on-budget and off-budget. Here's a breakdown of these account types:
 
@@ -36,7 +37,8 @@ To create a local account:
 
 ## Changing Account Name
 
-![Rename Account](2-rename-account.gif)
+<video controls loop muted preload="none" src="2-rename-account.mp4" poster="2-rename-account.webp">
+</video>
 
 If you wish to rename an account, follow these steps:
 
@@ -48,7 +50,8 @@ If you wish to rename an account, follow these steps:
 
 ## Closing or Deleting an Account
 
-![Close/Delete Account](3-close-delete-account.gif)
+<video controls loop muted preload="none" src="3-close-delete-account.mp4" poster="3-close-delete-account.webp">
+</video>
 
 To close or delete an account, ensure you have another account open to transfer the remaining balance:
 
@@ -60,7 +63,8 @@ To close or delete an account, ensure you have another account open to transfer 
 
 ## Importing Files
 
-![Import Files](4-import-files.gif)
+<video controls loop muted preload="none" src="4-import-files.mp4" poster="4-import-files.webp">
+</video>
 
 Importing bank files into Actual is simple, and the app will automatically categorize your transactions. Supported file formats include **QIF, QFX files, and CSV files**.
 
@@ -79,7 +83,8 @@ For importing transactions from a CSV file:
 
 ## Adding Transactions Manually
 
-![Add Transactions Manually](5-add-transactions-manually.gif)
+<video controls loop muted preload="none" src="5-add-transactions-manually.mp4" poster="5-add-transactions-manually.webp">
+</video>
 
 You can also manually add transactions, specifying the date for each transaction:
 
