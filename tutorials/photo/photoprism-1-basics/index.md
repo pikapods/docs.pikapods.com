@@ -15,7 +15,7 @@ Explore the [official PhotoPrism documentation](https://docs.photoprism.app/) fo
 
 ## Searching for Photos
 
-<video controls loop muted src="1-search-photos.mp4"></video>
+<video controls loop muted preload="none" src="1-search-photos.mp4" poster="1-search-photos.jpg"></video>
 
 PhotoPrism offers various filtering options and a user-friendly search bar to help you locate your photos effortlessly. Your images are automatically labeled with details such as date, size, location, and camera settings. Here's how to search for photos:
 
