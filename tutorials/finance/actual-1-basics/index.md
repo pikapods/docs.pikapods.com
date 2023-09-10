@@ -17,7 +17,7 @@ For more comprehensive details, refer to the [official documentation](https://ac
 
 ## Creating an Account
 
-<video controls loop muted preload="none" src="1-create-account.mp4" poster="1-create-account.webp"></video>
+<video controls loop muted preload="none" src="1-create-account.mp4" poster="1-create-account.webp" />
 
 **Actual** allows you to set up multiple accounts, both on-budget and off-budget. Here's a breakdown of these account types:
 
@@ -36,7 +36,7 @@ To create a local account:
 
 ## Changing Account Name
 
-<video controls loop muted preload="none" src="2-rename-account.mp4" poster="2-rename-account.webp"></video>
+<video controls loop muted preload="none" src="2-rename-account.mp4" poster="2-rename-account.webp" />
 
 If you wish to rename an account, follow these steps:
 
@@ -48,7 +48,7 @@ If you wish to rename an account, follow these steps:
 
 ## Closing or Deleting an Account
 
-<video controls loop muted preload="none" src="3-close-delete-account.mp4" poster="3-close-delete-account.webp"></video>
+<video controls loop muted preload="none" src="3-close-delete-account.mp4" poster="3-close-delete-account.webp" />
 
 To close or delete an account, ensure you have another account open to transfer the remaining balance:
 
@@ -60,7 +60,7 @@ To close or delete an account, ensure you have another account open to transfer 
 
 ## Importing Files
 
-<video controls loop muted preload="none" src="4-import-files.mp4" poster="4-import-files.webp"></video>
+<video controls loop muted preload="none" src="4-import-files.mp4" poster="4-import-files.webp" />
 
 Importing bank files into Actual is simple, and the app will automatically categorize your transactions. Supported file formats include **QIF, QFX files, and CSV files**.
 
@@ -79,7 +79,7 @@ For importing transactions from a CSV file:
 
 ## Adding Transactions Manually
 
-<video controls loop muted preload="none" src="5-add-transactions-manually.mp4" poster="5-add-transactions-manually.webp"></video>
+<video controls loop muted preload="none" src="5-add-transactions-manually.mp4" poster="5-add-transactions-manually.webp" />
 
 You can also manually add transactions, specifying the date for each transaction:
 
