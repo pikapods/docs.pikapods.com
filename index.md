@@ -9,14 +9,16 @@ permalink: /
 # PikaPods Documentation
 {: .fs-9 }
 
-Get the most out of your apps.
+Everything you need to get started with running the best open source apps in an instant.
 {: .fs-6 .fw-300 }
 
 ---
 
 ## Introduction
 
-PikaPods provides container-based hosting for selected open source web apps. This page contains common questions about our service, tutorials on how to achive specific tasks with our apps and notes on common issues our users have with apps.
+*PikaPods* helps you run the best open source apps with just a few clicks. Compared to commercial online services, open source apps are developed by a community of users for users. This gives you more control and privacy over your data. And you only pay for the resource you use, not specific features. For more on the benefits of open source, see our [video](https://www.youtube.com/watch?v=gy5AbLU5LPw) on the topic.
+
+Our documenation shows you how to get the most of the features *PikaPods* provides. Like using your own domain or accessing your pod's files and database.
 
 ### Tutorials
 
@@ -24,8 +26,8 @@ Find the right app for a job and learn how to use it for specific tasks: [More..
 
 ### App Notes
 
-Notes on app setup and configuration: [More...](apps)
+Additional notes on app setup and configuration: [More...](apps)
 
 ### FAQ
 
-Frequently asked questions about pods in general: [More...](faq)
+Frequently asked questions about our service: [More...](faq)
