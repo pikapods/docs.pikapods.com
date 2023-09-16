@@ -22,6 +22,8 @@ If you already pay for your own domain, you can map a sub- or root domain to you
 5. Use a tool like [DNS Checker](https://dnschecker.org/) to ensure the record on your domains shows your `pikapod.net` domain or the same IP.
 6. Finally, add the new domain on PikaPod's control panel. If the setup is correct, it will be verified and saved.
 
+> If you are using Cloudflare, please ensure that you activate full SSL encryption (by default, Cloudflare is set to Flexible SSL, which can cause an infinite loop) or disable the proxy and switch to DNS-only mode.
+
 After adding a domain, we will periodically check if DNS is still set up correctly. If there is any issue you will receive a notification.
 
 Only **one custom domain** can be mapped per pod. If you need additional alias domains, you will need to set up redirects with your DNS provider or a service like [Freedirector](https://freedirector.io/lite) (free, no signup needed) or [redirect.pizza](https://redirect.pizza/) (free tier).
