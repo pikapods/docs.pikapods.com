@@ -21,7 +21,7 @@ Our documenation shows you how to get the most of the features _PikaPods_ provid
 
 ### Pod Management
 
-Efficiently manage your pods with topics covering various aspects of administration and optimization. [More...](pod-management)
+Control and manage your pods effectively: [More...](pod-management)
 
 ### Tutorials
 
