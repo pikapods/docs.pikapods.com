@@ -2,7 +2,7 @@
 title: Files
 nav_order: 2
 layout: page
-parent: Files & Database
+parent: Pod Management
 description: Learn how to access pod files using SFTP.
 ---
 
