@@ -5,6 +5,10 @@ layout: page
 description: Learn about using custom domains, common errors, and frequently asked questions.
 ---
 
+# Custom Domains
+
+Discover how to use custom domains, address common errors, and find answers to frequently asked questions.
+
 ## Using custom domains
 
 If you already pay for your own domain, you can map a sub- or root domain to your pod. So your pod will be reachable as e.g. `status.my-domain.com` or `my-domain.com`. This is done by adding a `CNAME` or `ALIAS` record and setting your pod's pikapod.net domain as target. We will also apply for a SSL certificate for this domain. So it can take a few minutes before the pod is reachable from the new domain. Steps to use a custom domain:
