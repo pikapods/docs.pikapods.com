@@ -29,11 +29,21 @@ Also note that you can only _write_ to subfolders, like `data` or `music` that y
 
 Files starting with a dot (like `.config`) may be hidden in your SFTP client. If you don't see any files, try changing the setting to show hidden files.
 
-## Accessing the pod's database
+## Accessing the Pod's Database
 
-Advanced users can directly access the database to make small edits or import/export data. To access the database, first _Enable Database Access_ in the pod's settings. This will display a login link and password.
+Advanced users can directly access the database of certain apps to make small edits or import/export data.
 
-**For improved security, please be sure to keep this feature disabled when not using it.**
+**Enabling Database Access**
+
+1. Navigate to **Pod Settings > Database**.
+2. You will find an "Enable Database Access" switch. Toggle it to enable or disable database access, depending on your needs.
+3. Enabling it will display a login link and a password.
+
+> This feature may not be available for all apps. Some apps use SQLite databases, which can be accessed using SFTP to retrieve the database file.
+
+**Security Considerations**
+
+For improved security, it's essential to keep the database access feature disabled when you're not actively using it. This helps protect your data and minimize potential security risks.
 
 ## Backup of pod data
 
