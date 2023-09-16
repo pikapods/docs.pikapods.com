@@ -23,6 +23,10 @@ Access pod files using SFTP and perform backups. [More…](files)
 
 Manage the pod's database. [More…](database)
 
+## Backup
+
+Learn how to perform backups of pod data. [More…](backup)
+
 ## Debugging
 
 Troubleshoot and debug your pod using helpful tips and resources. [More…](debugging)
