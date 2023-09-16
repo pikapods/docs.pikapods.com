@@ -17,13 +17,13 @@ No matter which provider you use for emails, be sure to use a *submission port*,
 
 
 ## Using custom domains
-Moved to [Custom Domains](/pod-management/custom-domains).
+Moved to [Pod Management > Custom Domains](/pod-management/custom-domains).
 
 ## Accessing pod files using SFTP
-Moved to [Files](/pod-management/files).
+Moved to [Pod Management > Files](/pod-management/files).
 
 ## Accessing the pod's database
-Moved to [Database](/pod-management/database).
+Moved to [Pod Management > Database](/pod-management/database).
 
 
 ## Adding new apps
@@ -49,10 +49,10 @@ When adding new apps, we will add the most common and useful env vars from the s
 
 
 ## Backup of pod data
-Moved to [Backup](/pod-management/backup).
+Moved to [Pod Management > Backup](/pod-management/backup).
 
 ## Debugging a Pod
-Moved to [Debugging](/pod-management/debugging).
+Moved to [Pod Management > Debugging](/pod-management/debugging).
 
 
 ## IPv6 Support
