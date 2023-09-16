@@ -27,6 +27,6 @@ Manage the pod's database. [More…](database)
 
 Learn how to perform backups of pod data. [More…](backup)
 
-## Debugging
+## Debug
 
-Troubleshoot and debug your pod using helpful tips and resources. [More…](debugging)
+Troubleshoot and debug your pod using helpful tips and resources. [More…](debug)

@@ -1,5 +1,5 @@
 ---
-title: Debugging
+title: Debug
 nav_order: 5
 layout: page
 parent: Pod Management

@@ -52,7 +52,7 @@ When adding new apps, we will add the most common and useful env vars from the s
 Moved to [Pod Management > Backup](/pod-management/backup).
 
 ## Debugging a Pod
-Moved to [Pod Management > Debugging](/pod-management/debugging).
+Moved to [Pod Management > Debugging](/pod-management/debug).
 
 
 ## IPv6 Support
