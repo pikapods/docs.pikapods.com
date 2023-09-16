@@ -22,7 +22,7 @@ If you already pay for your own domain, you can map a sub- or root domain to you
 5. Use a tool like [DNS Checker](https://dnschecker.org/) to ensure the record on your domains shows your `pikapod.net` domain or the same IP.
 6. Finally, add the new domain on PikaPod's control panel. If the setup is correct, it will be verified and saved.
 
-> If you are using **Cloudflare**, please ensure that you activate **Full SSL encryption** (by default, it is set to Flexible SSL, which will cause an infinite loop) or disable the proxy and switch to DNS-only mode.
+> If you are using **Cloudflare**, please ensure that you activate [**Full SSL encryption**](https://developers.cloudflare.com/ssl/origin-configuration/ssl-modes/#available-encryption-modes) (by default, it is set to Flexible SSL, which will cause an infinite loop) or disable the proxy and switch to DNS-only mode.
 
 After adding a domain, we will periodically check if DNS is still set up correctly. If there is any issue you will receive a notification.
 
