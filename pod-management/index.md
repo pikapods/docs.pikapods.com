@@ -9,7 +9,7 @@ has_toc: false
 
 # Pod Management
 
-Efficiently manage your pods with topics covering custom domains, file access, database management, and debugging.
+Discover essential guides and resources for effective management of your pods.
 
 ## Custom Domains
 
