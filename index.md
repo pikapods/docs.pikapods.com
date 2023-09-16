@@ -7,9 +7,7 @@ permalink: /
 ---
 
 # PikaPods Documentation
-
 {: .fs-9 }
-
 Everything you need to get started with running the best open source apps in an instant.
 {: .fs-6 .fw-300 }
 
