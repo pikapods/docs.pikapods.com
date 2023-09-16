@@ -19,13 +19,9 @@ _PikaPods_ helps you run the best open source apps with just a few clicks. Compa
 
 Our documenation shows you how to get the most of the features _PikaPods_ provides. Like using your own domain or accessing your pod's files and database.
 
-### Files & Database
+### Pod Management
 
-Explore guidance on accessing your pod's files and managing its database: [More...](files-database)
-
-### Custom Domains
-
-Learn about using custom domains with PikaPods: [More...](custom-domains)
+Efficiently manage your pods with topics covering various aspects of administration and optimization. [More...](pod-management)
 
 ### Tutorials
 
