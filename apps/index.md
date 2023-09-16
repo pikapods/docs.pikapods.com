@@ -1,6 +1,6 @@
 ---
 title: App Notes
-nav_order: 5
+nav_order: 4
 layout: page
 description: "Common errors and frequently asked questions"
 has_children: true
