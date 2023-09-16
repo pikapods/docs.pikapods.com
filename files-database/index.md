@@ -1,6 +1,6 @@
 ---
 title: Files & Database
-nav_order: 9
+nav_order: 2
 layout: page
 description: Learn how to access pod files using SFTP, manage the pod's database, and perform backups.
 ---

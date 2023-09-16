@@ -1,6 +1,6 @@
 ---
 title: Custom Domains
-nav_order: 9
+nav_order: 3
 layout: page
 description: Learn about using custom domains, common errors, and frequently asked questions.
 ---

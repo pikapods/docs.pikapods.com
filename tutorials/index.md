@@ -1,6 +1,6 @@
 ---
 title: Tutorials
-nav_order: 2
+nav_order: 4
 layout: page
 description: "How to achieve specific tasks with the apps we offer."
 has_children: true
