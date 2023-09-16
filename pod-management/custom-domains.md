@@ -1,7 +1,8 @@
 ---
 title: Custom Domains
-nav_order: 3
+nav_order: 1
 layout: page
+parent: Pod Management
 description: Learn about using custom domains, common errors, and frequently asked questions.
 ---
 
