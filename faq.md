@@ -17,50 +17,13 @@ No matter which provider you use for emails, be sure to use a *submission port*,
 
 
 ## Using custom domains
-If you already pay for your own domain, you can map a sub- or root domain to your pod. So your pod will be reachable as e.g. `status.my-domain.com` or `my-domain.com`. This is done by adding a `CNAME` or `ALIAS` record and setting your pod's pikapod.net domain as target. We will also apply for a SSL certificate for this domain. So it can take a few minutes before the pod is reachable from the new domain. Steps to use a custom domain:
-
-1. Open *Pod Settings* and then the *Domain* tab.
-2. Enable *Custom Domain*. Take note of your pod's `xxx-yyy.pikapod.net` subdomain
-3. Ensure no CAA records are set that may prevent us from applying for a SSL certificate. If you already use CAA, please also add `sectigo.com`, as mentioned [here](https://zerossl.com/help/troubleshoot/caa-records/) **and** `letsencrypt.org` as mentioned [here](https://letsencrypt.org/docs/caa/).
-4. Then, depending on if you want to map a subdomain (e.g. `status.my-domain.com`) or root (apex) domain (e.g. `my-domain.com`):
-   
-   `CNAME` record for subdomains: `status.my-domain.com. 3600 IN CNAME xxx-yyy.pikapod.net`
-
-   `ALIAS` record for root domains: `@ 3600 IN ALIAS xxx-yyy.pikapod.net`
-5. Use a tool like [DNS Checker](https://dnschecker.org/) to ensure the record on your domains shows your `pikapod.net` domain or the same IP.
-6. Finally, add the new domain on PikaPod's control panel. If the setup is correct, it will be verified and saved.
-
-After adding a domain, we will periodically check if DNS is still set up correctly. If there is any issue you will receive a notification.
-
-Only **one custom domain** can be mapped per pod. If you need additional alias domains, you will need to set up redirects with your DNS provider or a service like [Freedirector](https://freedirector.io/lite) (free, no signup needed) or [redirect.pizza](https://redirect.pizza/) (free tier).
+Moved to [Pod Management > Custom Domains](/pod-management/custom-domains).
 
 ## Accessing pod files using SFTP
-SFTP is a way to securely access remote files. It's similar to FTP, but uses encryption. To access your pod's files, first enable SFTP in the pod's settings on the **Pod Settings > SFTP** tab. This will display the hostname, username and password to use.
-
-Then use any SFTP client to connect to the displayed hostname. Some popular SFTP clients:
-
-- [WinSCP](https://winscp.net/eng/index.php): free, Windows
-- [Cyberduck](https://cyberduck.io/): free, macOS
-- [Rclone](https://rclone.org/sftp/): free, Unix command line, good for larger transfers
-- [OpenSSH SFTP](https://man.openbsd.org/sftp): free, Unix command line, included with OpenSSH
-
-To connect to a pod, you need the following details, which will be displayed in the *SFTP* tab of your pod:
-
-- Hostname: This is the `.pikapod.net` domain of your pod. E.g. `eager-beaver.pikapod.net`
-- Port: This is always 22, which is the default port for SFTP
-- Username: Usually something like `p9999`
-- Password: A randomly generated password
-
-The first time you may be prompted to verify the server signature. So you can be certain to connect to the correct server in the future.
-
-Also note that you can only *write* to subfolders, like `data` or `music` that you may see. You can **not** add files in the top folder, since those wouldn't be accessible in your pod.
-
-Files starting with a dot (like `.config`) may be hidden in your SFTP client. If you don't see any files, try changing the setting to show hidden files.
+Moved to [Pod Management > Files](/pod-management/files).
 
 ## Accessing the pod's database
-Advanced users can directly access the database to make small edits or import/export data. To access the database, first *Enable Database Access* in the pod's settings. This will display a login link and password.
-
-**For improved security, please be sure to keep this feature disabled when not using it.**
+Moved to [Pod Management > Database](/pod-management/database).
 
 
 ## Adding new apps
@@ -86,26 +49,10 @@ When adding new apps, we will add the most common and useful env vars from the s
 
 
 ## Backup of pod data
-Keeping your data safe is very important to us. In addition to redundant drives, there are also daily backups of all databases and mounted files (everything you see over SFTP) pods use. These backups are meant to recover from server-wide failures. While it's also possible to restore individual pod files in emergencies, we currently can't offer this service regularly.
-
-All persistent pod data is available over [SFTP](#accessing-pod-files-using-sftp). Some pods also use an external database, usually Postgresql or MySQL/MariaDB.
-
-You can make a full pod backup by following the steps:
-
-1. Stop the pod to make sure all data from memory is written to disk (e.g. for SQLite or Mongo databases)
-2. Enable [SFTP](#accessing-pod-files-using-sftp) in the pod's settings.
-3. Log into the pod via SFTP and copy all files.
-4. Enable [Database access](#accessing-the-pods-database) in the pod's settings.
-5. Log into the pod's database and *Export* the whole database.
-6. Start your pod again
-
-We plan on adding more granular backup- and restore options in the future. See [here](https://feedback.pikapods.com/posts/14/offer-backup-option) for the latest progress.
-
+Moved to [Pod Management > Backup](/pod-management/backup).
 
 ## Debugging a Pod
-If a pod shows "Pod is loading..." for more than a few minutes, there is usually an issue with starting it. This could be an issue with settings or permissions. In most cases the detailed error can be found in the pod logs. To view them, just click the *Show Logs* button and look for obvious errors. If the error is unclear or log is empty, you can also use *Report Issue*, include the logs you got and we'll investigate further.
-
-<img src="/img/pod-show-logs.jpg" width="60%" />
+Moved to [Pod Management > Debug](/pod-management/debug).
 
 
 ## IPv6 Support
