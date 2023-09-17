@@ -6,7 +6,11 @@ parent: Pod Management
 description: Learn how to manage the pod's database.
 ---
 
-## Accessing the Pod's Database
+# Managing Databases
+
+Many apps we offer need a database to keep settings and user data. *PikaPods* provides a local database to each pod that needs it. This gives the best speed, while still allowing us to take daily backups for you.
+
+## Edit the Pod's Database
 
 Advanced users can directly access the database of certain apps to make small edits or import/export data.
 
@@ -21,3 +25,7 @@ Advanced users can directly access the database of certain apps to make small ed
 **Security Considerations**
 
 For improved security, it's essential to keep the database access feature disabled when you're not actively using it. This helps protect your data and minimize potential security risks.
+
+## Import and Export the Pod's Database
+
+After enabling database access, you can use Adminer's import and export features to replace the whole database, if needed. Be sure the pod is stopped when doing this.

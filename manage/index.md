@@ -9,11 +9,12 @@ has_toc: false
 
 # Pod Management
 
-Discover essential guides and resources for effective management of your pods.
+It's easy to get started with our pods, but advanced features are there if you need them:
 
-## Custom Domains
 
-Learn about using custom domains, addressing common errors, and frequently asked questions. [More…](custom-domains)
+## Custom Domain
+
+Attach your own domain to a pod. [More…](custom-domains)
 
 ## Files
 

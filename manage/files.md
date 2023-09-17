@@ -6,7 +6,12 @@ parent: Pod Management
 description: Learn how to access pod files using SFTP.
 ---
 
-## Accessing pod files using SFTP
+# Manage Pod Files
+
+Pods can also use permanent file stores, called *volumes*. Volumes live outside your pod and persist across updates and configuration changes. E.g. a photo app will usually keep the pictures you upload in such a volume. This has the benefit that you can easily upload or download those files.
+
+
+## Accessing Pod Files Using SFTP
 
 SFTP is a way to securely access remote files. It's similar to FTP, but uses encryption. To access your pod's files, first enable SFTP in the pod's settings on the **Pod Settings > SFTP** tab. This will display the hostname, username and password to use.
 

@@ -6,7 +6,7 @@ parent: Pod Management
 description: Learn how to perform backups of pod data.
 ---
 
-## Backup of pod data
+# Backup of Pod Data
 
 Keeping your data safe is very important to us. In addition to redundant drives, there are also daily backups of all databases and mounted files (everything you see over SFTP) pods use. These backups are meant to recover from server-wide failures. While it's also possible to restore individual pod files in emergencies, we currently can't offer this service regularly.
 

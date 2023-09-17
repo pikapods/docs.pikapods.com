@@ -6,9 +6,20 @@ parent: Pod Management
 description: Learn about using custom domains, common errors, and frequently asked questions.
 ---
 
-## Using custom domains
+# Custom Domains
 
-If you already pay for your own domain, you can map a sub- or root domain to your pod. So your pod will be reachable as e.g. `status.my-domain.com` or `my-domain.com`. This is done by adding a `CNAME` or `ALIAS` record and setting your pod's pikapod.net domain as target. We will also apply for a SSL certificate for this domain. So it can take a few minutes before the pod is reachable from the new domain. Steps to use a custom domain:
+If you already own a domain, you can use it with your pod in an instant. So it will be reachable as e.g. `status.my-domain.com` or `my-domain.com`.
+
+If you don't have a domain yet, it's also easy to register one. [Domaintyper](https://domaintyper.com/) is a good starting point to find available domains. To compare prices, we like [TLDes](https://tldes.com/cheapest-domains). (no affiliation)
+
+
+## Using Custom Domains
+
+To use your own domain, you need to add a `CNAME` or `ALIAS` record and set your pod's `pikapod.net` domain as target.
+
+> We will also apply for a free SSL certificate for each mapped domain. This ensures all data going to your pod is encrypted. It can take a few minutes before the pod is reachable from the new domain. You may see an error before this.
+
+Steps to use a custom domain:
 
 1. Open _Pod Settings_ and then the _Domain_ tab.
 2. Enable _Custom Domain_. Take note of your pod's `xxx-yyy.pikapod.net` subdomain
@@ -22,8 +33,14 @@ If you already pay for your own domain, you can map a sub- or root domain to you
 5. Use a tool like [DNS Checker](https://dnschecker.org/) to ensure the record on your domains shows your `pikapod.net` domain or the same IP.
 6. Finally, add the new domain on PikaPod's control panel. If the setup is correct, it will be verified and saved.
 
-> If you are using **Cloudflare**, please ensure that you activate [**Full SSL encryption**](https://developers.cloudflare.com/ssl/origin-configuration/ssl-modes/#available-encryption-modes) (by default, it is set to Flexible SSL, which will cause an infinite loop) or disable the proxy and switch to DNS-only mode.
-
 After adding a domain, we will periodically check if DNS is still set up correctly. If there is any issue you will receive a notification.
 
 Only **one custom domain** can be mapped per pod. If you need additional alias domains, you will need to set up redirects with your DNS provider or a service like [Freedirector](https://freedirector.io/lite) (free, no signup needed) or [redirect.pizza](https://redirect.pizza/) (free tier).
+
+
+## Cloudflare
+
+It's possible to run a pod behind Cloudflare's proxy after it's set up. This will send all user requests to Cloudflare first and then to *PikaPods*. The setup can be useful for pods that get many outside visitors, but will make your experience slower for private pods that are only used after the user logged in.
+
+When using **Cloudflare**, please ensure that you activate [**Full SSL encryption**](https://developers.cloudflare.com/ssl/origin-configuration/ssl-modes/#available-encryption-modes) (by default, it is set to Flexible SSL, which will cause an infinite loop) or disable the proxy and switch to DNS-only mode.
+
