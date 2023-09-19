@@ -20,3 +20,15 @@ This error means that a DNS lookup for your monitored site time out for some rea
 To avoid getting an alert in such cases, be sure to set **Retry** to at least 2 or 3. That way you can be really sure a site is really down before triggering an alert.
 
 PikaPods itself doesn't implement a local DNS cache, but provides popular public resolvers to each pod.
+
+
+## Reset Password
+To reset any user's password:
+
+1. Stop the pod
+2. Enable SFTP in *Edit Pod > Files*.
+3. Download the current version of the SQLite database. Usually named `kuma.db`. Keep a copy as backup
+4. Open the database with any SQLite tool and find the `user` table.
+5. Add any bcrypt-hashed password. E.g. this is for just "password": `$2y$10$IWoZl5q9Tvvp1wxROvi4hOul7XP.rfyrvm4xbm7ufVANke1nfvLIu`. (Please change this later in the GUI when using it.)
+6. Put your edited database copy back in the same place.
+7. Start your pod back up and log in using the new password
