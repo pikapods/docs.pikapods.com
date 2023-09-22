@@ -42,5 +42,7 @@ Only **one custom domain** can be mapped per pod. If you need additional alias d
 
 It's possible to run a pod behind Cloudflare's proxy after it's set up. This will send all user requests to Cloudflare first and then to *PikaPods*. The setup can be useful for pods that get many outside visitors, but will make your experience slower for private pods that are only used after the user logged in.
 
-When using **Cloudflare**, please ensure that you activate [**Full SSL encryption**](https://developers.cloudflare.com/ssl/origin-configuration/ssl-modes/#available-encryption-modes) (by default, it is set to Flexible SSL, which will cause an infinite loop) or disable the proxy and switch to DNS-only mode.
+When first adding a custom domain via Cloudflare, ensure the *Proxy* feature is **disabled**. Else we can't verify the DNS settings of your domain. You can enable proxying again after adding the custom domain.
+
+Also ensure that you activate [**Full SSL encryption**](https://developers.cloudflare.com/ssl/origin-configuration/ssl-modes/#available-encryption-modes) (by default, it is set to Flexible SSL, which will cause an infinite loop) or disable the proxy and switch to DNS-only mode.
 
