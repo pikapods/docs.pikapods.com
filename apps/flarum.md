@@ -21,6 +21,8 @@ First login to the Flarum forum as an administrator and then follow these steps:
 
 Once you have completed these steps, Flarum will be able to send its verification emails.
 
+> If you receive an error message when sending the test email, please check your SMTP settings carefully and make sure that they are correct.
+
 ## Changing initial admin user
 
 You MUST setup [email with SMTP](#send-email-with-smtp) before editing the initial admin user.
