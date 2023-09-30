@@ -13,8 +13,8 @@ First login to the Flarum forum as an administrator and then follow these steps:
 3. Fill in the following settings:
     * **Addresses:** The email address from which the emails will be sent.
     * **Host:** The hostname of your SMTP server.
-    * **Port:** The port number of your SMTP server. Typically **465** (for tls) or **587** (for ssl)
-    * **Encryption:** The encryption type. Typically **tls** (for port 465) or **ssl** (for port 587).
+    * **Port:** The port number of your SMTP server. Typically **465** (for ssl) or **587** (for tls)
+    * **Encryption:** The encryption type. Typically **ssl** (for port 465) or **tls** (for port 587).
     * **Username:** The username for your SMTP server.
     * **Password:** The password for your SMTP server.
 4. Click the **Save** button.
