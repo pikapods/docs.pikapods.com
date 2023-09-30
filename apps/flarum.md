@@ -6,7 +6,20 @@ parent: App Notes
 
 ## Send email with SMTP
 
-To change a user's email, you need to add email SMTP sending settings (Mailgun won't work) first. That's under *Administration > Email*. After that Flarum will be able to send its verification emails and you can change username or password of the initial admin account.
+First login to the Flarum forum as an administrator and then follow these steps:
+
+1. Go to **Administration > Email**.
+2. Under **Choose a Driver**, select **SMTP**.
+3. Fill in the following settings:
+    * **Addresses:** The email address from which the emails will be sent.
+    * **Host:** The hostname of your SMTP server.
+    * **Port:** The port number of your SMTP server. Typically **465** (for tls) or **587** (for ssl)
+    * **Encryption:** The encryption type. Typically **tls** (for port 465) or **ssl** (for port 587).
+    * **Username:** The username for your SMTP server.
+    * **Password:** The password for your SMTP server.
+4. Click the **Save** button.
+
+Once you have completed these steps, Flarum will be able to send its verification emails.
 
 ## Changing initial admin user
 
