@@ -12,6 +12,9 @@ Changedetection is an open-source app that lets you monitor website changes. You
 
 # How to add and monitor a website with Changedetection?
 
+<video controls loop muted preload="none" src="1-add-monitor-website.mp4" poster="1-add-monitor-website.webp">
+</video>
+
 You can monitor any website for changes with Changedetection. You can track changes for the entire website, or track only one page. You can also monitor for out of stock items. Here are the steps to adding website that you want to track:
 
 1. **Copy the URL** that you want to monitor for changes.
@@ -23,6 +26,9 @@ You can monitor any website for changes with Changedetection. You can track chan
 
 # How to edit tracking settings?
 
+<video controls loop muted preload="none" src="2-edit-settings.mp4" poster="2-edit-settings.webp">
+</video>
+
 You can adjust tracking settings for each website that you are tracking. You can edit how often do you want for Changedetection to perform check, where do you want to receive your notifications, etc. Here are the steps to editing setting:
 
 1. Click '**Edit**' next to the website URL.
@@ -31,6 +37,9 @@ You can adjust tracking settings for each website that you are tracking. You can
 4. Click '**Save**' to save your preferences.
 
 # How to set notifications in Discord?
+
+<video controls loop muted preload="none" src="3-add-discord-notifications.mp4" poster="3-add-discord-notifications.webp">
+</video>
 
 Changedetection lets you receive website changes notifications in Discord. You can receive notifications for all websites that you are tracking. Here are the steps to receiving notifications in Discord:
 
