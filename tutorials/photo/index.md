@@ -1,6 +1,6 @@
 ---
 title: Photo
-nav_order: 4
+nav_order: 5
 layout: page
 parent: Tutorials
 description: Explore the photo-related apps offered by PikaPods and learn how to effectively use them for various tasks.

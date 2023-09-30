@@ -1,6 +1,6 @@
 ---
 title: Monitoring
-nav_order: 5
+nav_order: 4
 layout: page
 parent: Tutorials
 description: Explore the monitoring-related apps offered by PikaPods and learn how to effectively use them for various tasks.
