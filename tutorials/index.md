@@ -25,6 +25,10 @@ The email category covers various email-related apps that can help you streamlin
 
 The finance category features apps designed to assist you in managing your finances effectively. [More…](finance)
 
+## Monitoring
+
+Variety of apps to help you track and monitor system performance and availability. These apps can be used to monitor websites, servers, applications, and other IT infrastructure. [More…](monitoring)
+
 ## Photo
 
 The photo category includes all apps used to organize, edit, or share photos. [More…](photo)
