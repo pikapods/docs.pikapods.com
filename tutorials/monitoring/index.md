@@ -15,3 +15,5 @@ Track and monitor system performance and availability with PikaPods' monitoring 
 ## Changedetection
 
 Discover Changedetection, an open-source app designed to help you monitor website changes effortlessly. This versatile tool allows you to automate the process of tracking modifications on websites, from simple page changes to deep inspections of content such as PDFs, JSON, XML, and more. Whether you want to keep an eye on price updates, restock notifications, or any other website alterations, Changedetection has you covered.
+
+- [Part 1: Basics](changedetection-1-basics): Learn the basic features of Changedetection, including monitoring websites and receiving notifications.
