@@ -23,7 +23,29 @@ Once you have completed these steps, Flarum will be able to send its verificatio
 
 ## Changing initial admin user
 
-You MUST add SMTP settings before editing the initial admin user.
+You MUST setup [email with SMTP](#send-email-with-smtp) before editing the initial admin user.
+
+**Step 1: Change username**
+
+1. Go to **Administration > Users**.
+2. Click the **Edit** button next to the user `flarum` (default admin user).
+3. In the new popup, change the username to the desired one.
+4. Click **Save Changes**.
+
+**Step 2: Change email**
+
+1. Go to **Profile > Settings**.
+2. Under **Account**, click **Change Email**.
+3. In the popup, change the email in the first field, and enter the account password (default `flarum`) in the second field.
+4. Click **Save Changes**.
+5. You will now receive a confirmation email to the new email address. Click the link in the email to verify the changes.
+
+**Step 2: Change password**
+
+1. Go to **Profile > Settings**.
+2. Under **Account**, click **Change Password**.
+3. In the popup, click **Send Password Reset Email** and check email.
+4. You will now receive a password reset email to your account email. Click the link in the email to reset password.
 
 ## Installing Extensions
 
