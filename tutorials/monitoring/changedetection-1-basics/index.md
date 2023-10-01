@@ -14,7 +14,7 @@ _[Watch the video tutorial](https://www.youtube.com/watch?v=gszKMag4cUc) for a v
 
 For more comprehensive details, refer to the [official tutorials](https://changedetection.io/tutorials).
 
-# How to add and monitor a website?
+## How to add and monitor a website?
 
 <video controls loop muted preload="none" src="1-add-monitor-website.mp4" poster="1-add-monitor-website.webp">
 </video>
@@ -28,7 +28,7 @@ You can monitor any website for changes. You can track changes for the entire we
 5. Click on **Recheck** to force the website check.
 6. Click on **Diff** to see website changes.
 
-# How to edit monitoring settings?
+## How to edit monitoring settings?
 
 <video controls loop muted preload="none" src="2-edit-settings.mp4" poster="2-edit-settings.webp">
 </video>
@@ -40,7 +40,7 @@ You can adjust monitoring settings for each website that you are tracking. You c
 3. Under **Notifications**, you can set up where you want to receive notifications (Discord, Telegram, Email).
 4. Click **Save** to save your preferences.
 
-# How to set notifications in Discord?
+## How to set notifications in Discord?
 
 <video controls loop muted preload="none" src="3-add-discord-notifications.mp4" poster="3-add-discord-notifications.webp">
 </video>
