@@ -11,12 +11,12 @@ First login to the Flarum forum as an administrator and then follow these steps:
 1. Go to **Administration > Email**.
 2. Under **Choose a Driver**, select **SMTP**.
 3. Fill in the following settings:
-    * **Addresses:** The email address from which the emails will be sent.
-    * **Host:** The hostname of your SMTP server.
-    * **Port:** The port number of your SMTP server. Typically **465** (for ssl) or **587** (for tls)
-    * **Encryption:** The encryption type. Typically **ssl** (for port 465) or **tls** (for port 587).
-    * **Username:** The username for your SMTP server.
-    * **Password:** The password for your SMTP server.
+   - **Addresses:** The email address from which the emails will be sent.
+   - **Host:** The hostname of your SMTP server.
+   - **Port:** The port number of your SMTP server. Typically `465` (for SSL) or `587` (for TLS)
+   - **Encryption:** The encryption type. Typically `ssl` (for port 465) or `tls` (for port 587).
+   - **Username:** The username for your SMTP server.
+   - **Password:** The password for your SMTP server.
 4. Click the **Save** button.
 
 Once you have completed these steps, Flarum will be able to send its verification emails.
