@@ -12,7 +12,10 @@ Monica is a personal relationship management app designed to help you effectivel
 
 _[Watch the video tutorial](https://www.youtube.com/watch?v=yYu4YYWXe6k) for a visual demonstration._
 
-## How to add a new contact?
+## Add a new contact
+
+<video controls loop muted preload="none" src="1-add-new-contact.mp4" poster="1-add-new-contact.webp">
+</video>
 
 You can add as many contacts as you like. The more contacts you add, the more useful the app will become. Here are the steps to adding a new contact to your Monica database:
 
@@ -20,7 +23,10 @@ You can add as many contacts as you like. The more contacts you add, the more us
 2. Fill out the fields: First name is mandatory, while other fields are optional.
 3. Click **Add** to finish the process.
 
-## How to add a new relationship?
+## Add a new relationship
+
+<video controls loop muted preload="none" src="2-add-new-relationship.mp4" poster="2-add-new-relationship.webp">
+</video>
 
 Each contact has some type of relationship connection to you or some other person. You can log all connections and thus track all relevant dates and events. Here are the steps to adding relationship connections:
 
@@ -33,7 +39,10 @@ Each contact has some type of relationship connection to you or some other perso
 7. From the dropdown menu, pick a relationship connection.
 8. Click **Add** to finish the process.
 
-## How to log conversations?
+## Log conversations
+
+<video controls loop muted preload="none" src="3-log-conversations.mp4" poster="3-log-conversations.webp">
+</video>
 
 You can log conversations, phone calls, activities, debts, and tasks for each contact. Logging conversations can be useful for business contacts. Here are the steps for logging conversations:
 
@@ -43,7 +52,10 @@ You can log conversations, phone calls, activities, debts, and tasks for each co
 4. Write the details of the conversation.
 5. Click **Add** to finish the process.
 
-## How to log life events?
+## Log life events
+
+<video controls loop muted preload="none" src="4-add-life-events.mp4" poster="4-add-life-events.webp">
+</video>
 
 Life events let you log what happens in the life of your contacts for future reference. Here are the steps to adding life events:
 
