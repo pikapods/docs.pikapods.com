@@ -10,7 +10,7 @@ has_toc: false
 
 # Monitoring
 
-Track and monitor system performance and availability with PikaPods' monitoring apps. Monitor websites, servers, applications, and other IT infrastructure effortlessly. Ensure the uptime and stability of your critical systems with ease.
+Track and monitor system performance and availability with PikaPod's monitoring apps. Monitor websites, servers, applications, and other IT infrastructure effortlessly. Ensure the uptime and stability of your critical systems with ease.
 
 ## Changedetection
 

@@ -28,32 +28,32 @@ You can monitor any website for changes with Changedetection. You can track chan
 5. Click on '**Recheck**' to force the website check.
 6. Click on '**Diff**' to see website changes.
 
-# How to edit tracking settings?
+# How to edit monitoring settings?
 
 <video controls loop muted preload="none" src="2-edit-settings.mp4" poster="2-edit-settings.webp">
 </video>
 
-You can adjust tracking settings for each website that you are tracking. You can edit how often do you want for Changedetection to perform check, where do you want to receive your notifications, etc. Here are the steps to editing setting:
+You can adjust monitoring settings for each website that you are tracking. You can edit how often you want Changedetection to check for changes, where you want to receive notifications, and more. Here are the steps:
 
-1. Click '**Edit**' next to the website URL.
-2. Under '**General**' you can edit the URL, title, group tag, and adjust time between checks.
-3. Under '**Notifications**' you can set up where you want to receive notifications (Discord, Telegram, Email).
-4. Click '**Save**' to save your preferences.
+1. Click **Edit** next to the website URL.
+2. Under **General**, you can edit the URL, title, group tag, and adjust the time between checks.
+3. Under **Notifications**, you can set up where you want to receive notifications (Discord, Telegram, Email).
+4. Click **Save** to save your preferences.
 
 # How to set notifications in Discord?
 
 <video controls loop muted preload="none" src="3-add-discord-notifications.mp4" poster="3-add-discord-notifications.webp">
 </video>
 
-Changedetection lets you receive website changes notifications in Discord. You can receive notifications for all websites that you are tracking. Here are the steps to receiving notifications in Discord:
+Changedetection lets you receive website changes notifications in Discord. You can receive notifications for all websites that you are tracking. Here are the steps:
 
-1. **Open you Discord account** and create a new server (your personal server).
-2. Right click on your server --> **Server Settings** --> **Integrations**.
-3. Click on 'view Webhooks' and '**New Webhook**'.
-4. **Rename the webhook** and pick a channel in your server where you want to receive notifications.
-5. **Copy Webhook URL**.
-6. Go back to Changedetection app and click on '**Settings**' in the upper menu.
-7. Under '**Notifications**' paste the Webhook URL and edit the URL. Start with discord://
-8. Click on '**Send Test Notification**' to check if your connections is working.
-9. Click on '**Save**' at the bottom of your screen.
-10. **Check your Discord** for notifications.
+1. Open your Discord account and create a new server (your personal server).
+2. Right-click on your server and select **Server Settings** > **Integrations**.
+3. Click **View Webhooks** and then **New Webhook**.
+4. Rename the webhook and pick a channel in your server where you want to receive notifications.
+5. Copy the webhook URL.
+6. Go back to the Changedetection app and click **Settings** in the upper menu.
+7. Under **Notifications**, paste the webhook URL and edit the URL. Start with `discord://`.
+8. Click **Send Test Notification** to check if your connection is working.
+9. Click **Save** at the bottom of your screen.
+10. Check your Discord for notifications.
