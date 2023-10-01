@@ -14,26 +14,26 @@ _[Watch the video tutorial](https://www.youtube.com/watch?v=gszKMag4cUc) for a v
 
 For more comprehensive details, refer to the [official tutorials](https://changedetection.io/tutorials).
 
-# How to add and monitor a website with Changedetection?
+# How to add and monitor a website?
 
 <video controls loop muted preload="none" src="1-add-monitor-website.mp4" poster="1-add-monitor-website.webp">
 </video>
 
-You can monitor any website for changes with Changedetection. You can track changes for the entire website, or track only one page. You can also monitor for out of stock items. Here are the steps to adding website that you want to track:
+You can monitor any website for changes. You can track changes for the entire website, or track only one page. You can also monitor for out of stock items. Here are the steps to adding website that you want to track:
 
 1. **Copy the URL** that you want to monitor for changes.
 2. **Paste the URL** in the empty field.
 3. **Add the tag** or label.
-4. Click on '**Watch**'.
-5. Click on '**Recheck**' to force the website check.
-6. Click on '**Diff**' to see website changes.
+4. Click on **Watch**.
+5. Click on **Recheck** to force the website check.
+6. Click on **Diff** to see website changes.
 
 # How to edit monitoring settings?
 
 <video controls loop muted preload="none" src="2-edit-settings.mp4" poster="2-edit-settings.webp">
 </video>
 
-You can adjust monitoring settings for each website that you are tracking. You can edit how often you want Changedetection to check for changes, where you want to receive notifications, and more. Here are the steps:
+You can adjust monitoring settings for each website that you are tracking. You can edit how often you want to check for changes, where you want to receive notifications, and more. Here are the steps:
 
 1. Click **Edit** next to the website URL.
 2. Under **General**, you can edit the URL, title, group tag, and adjust the time between checks.
