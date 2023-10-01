@@ -6,9 +6,13 @@ parent: Monitoring
 grand_parent: Tutorials
 ---
 
-# How to Monitor Website Changes with Changedetection?
+# Getting Started
 
 Changedetection is an open-source app that lets you monitor website changes. You can automate the entire process. From simply monitoring website pages that have a change (such as watching prices, restock notification), to deep inspection such as PDF text support, JSON and XML monitoring and extensive text triggers. Here is our step-by-step guide on how you can set up website monitoring.
+
+_[Watch the video tutorial](https://www.youtube.com/watch?v=gszKMag4cUc) for a visual demonstration._
+
+For more comprehensive details, refer to the [official tutorials](https://changedetection.io/tutorials).
 
 # How to add and monitor a website with Changedetection?
 
