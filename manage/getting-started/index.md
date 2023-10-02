@@ -14,6 +14,9 @@ _[Watch the video tutorial](https://www.youtube.com/watch?v=Y2O_rL4IfW0) for a v
 
 ## Create an Account on PikaPods
 
+<video controls loop muted preload="none" src="1-create-account.mp4" poster="1-create-account.webp">
+</video>
+
 Creating an account on PikaPods is simple and doesn't require credit card information. You will receive **$5 starting credit** upon registration, which you can use to run and test open-source apps from our library. Here's how to create your account:
 
 1. Click the **Sign Up** button located in the upper right corner of your screen.
@@ -22,6 +25,9 @@ Creating an account on PikaPods is simple and doesn't require credit card inform
 4. Click **Sign Up** to complete the process.
 
 ## Deploy an Open-Source App
+
+<video controls loop muted preload="none" src="2-find-deploy-apps.mp4" poster="2-find-deploy-apps.webp">
+</video>
 
 Once your account is set up, you can start exploring the library of available open-source apps. With **over 60 apps** to choose from, you'll find a brief description of each app to help you make your selection. Here's how to deploy an app using PikaPods:
 
@@ -32,6 +38,9 @@ Once your account is set up, you can start exploring the library of available op
 5. Click **Add Pod** to complete the deployment.
 
 ## Change App Settings
+
+<video controls loop muted preload="none" src="3-change-pod-settings.mp4" poster="3-change-pod-settings.webp">
+</video>
 
 You can always customize the settings for each app in your pod's library. Keep in mind that modifying compute resources may affect your monthly cost. Here's how to adjust app settings:
 
