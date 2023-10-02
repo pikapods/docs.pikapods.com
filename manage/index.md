@@ -11,6 +11,9 @@ has_toc: false
 
 It's easy to get started with our pods, but advanced features are there if you need them:
 
+## Getting Started
+
+New to PikaPods? Learn how to set up and get started with our pods. [More…](getting-started)
 
 ## Custom Domain
 
