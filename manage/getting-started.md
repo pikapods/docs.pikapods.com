@@ -10,6 +10,8 @@ description: Get started with PikaPods and deploy open-source apps easily.
 
 **PikaPods** is an open-source app hosting service that makes it easy to find, install, and use open-source software. To begin your journey with PikaPods, follow these steps to create an account and deploy open-source apps effortlessly.
 
+_[Watch the video tutorial](https://www.youtube.com/watch?v=Y2O_rL4IfW0) for a visual demonstration._
+
 ## Create an Account on PikaPods
 
 Creating an account on PikaPods is simple and doesn't require credit card information. You will receive **$5 starting credit** upon registration, which you can use to run and test open-source apps from our library. Here's how to create your account:
