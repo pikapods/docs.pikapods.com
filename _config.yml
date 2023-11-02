@@ -5,7 +5,7 @@ url: "https://docs.pikapods.com"
 logo: favicon.png
 favicon_ico: favicon.ico
 
-permalink: pretty
+permalink: /404.html
 include: ["_redirects"]
 exclude: ["README.md", "Rakefile", "vendor"]
 
