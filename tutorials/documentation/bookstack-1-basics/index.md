@@ -1,5 +1,6 @@
 ---
-title: Bookstack Basics
+title: Getting Your Documents Organised: A Guide to Bookstack
+description: Explore Bookstack, a self-hosted platform catered to your internal documents and notes, with a user-friendly interface, made just for you and your team!
 layout: page
 parent: Documentation
 grand_parent: Tutorials

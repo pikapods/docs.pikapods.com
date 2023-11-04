@@ -1,5 +1,6 @@
 ---
-title: Listmonk Basics
+title: A Step-By-Step Guide To Listmonk, Your Key to Great Email Campaigns
+description: Discover Listmonk, a self-hosted platform designed for newsletter and mailing list management. Learn how to efficiently start email campaigns and get started!
 layout: page
 parent: Email
 grand_parent: Tutorials

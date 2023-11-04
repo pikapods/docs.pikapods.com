@@ -1,9 +1,9 @@
 ---
-title: Finance
+title: Comprehensive Finance App Hub: Guides, Tutorials, and Resources
 nav_order: 3
 layout: page
 parent: Tutorials
-description: Learn how to effectively manage your finances using PikaPods' finance-related apps.
+description: Your one stop for all PikaPods, open-source finance-related apps. Learn how to self-host and utilize these powerful tools through our guides and videos.
 has_children: true
 has_toc: false
 ---

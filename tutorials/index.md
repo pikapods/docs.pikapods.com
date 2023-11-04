@@ -1,8 +1,8 @@
 ---
-title: Tutorials
+title: Comprehensive PikaPods Tutorials Hub
+description: PikaPods open-source apps offer a variety of business and personal solutions. Our tutorials help you self-host and use these apps. Learn more about them here!
 nav_order: 3
 layout: page
-description: "How to achieve specific tasks with the apps we offer."
 has_children: true
 has_toc: false
 ---

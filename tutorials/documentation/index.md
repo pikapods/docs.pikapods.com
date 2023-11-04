@@ -1,9 +1,9 @@
 ---
-title: Documentation
+title: Comprehensive Documentation app Hub: Guides, Tutorials, and Resources
+description: Click here to find our tutorials and guides for PikaPods open-source, self-hosting apps for effectively creating and managing documentation purposes.
 nav_order: 1
 layout: page
 parent: Tutorials
-description: Discover ways to create, organize, and manage documentation using PikaPods' documentation platform, including the BookStack app.
 has_children: true
 has_toc: false
 ---

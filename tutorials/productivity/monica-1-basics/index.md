@@ -1,6 +1,6 @@
 ---
-title: Monica Basics
-description: Learn the basic features of Monica CRM, including managing relationships and logging conversations.
+title: Mastering Relationship Management: A Guide to Monica CRM
+description: Discover Monica CRM: Your Personal Relationship Management App. Manage contacts, track relationships, and log interactions easily, with your information safe.
 layout: page
 parent: Productivity
 grand_parent: Tutorials

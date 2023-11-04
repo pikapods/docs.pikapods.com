@@ -1,5 +1,6 @@
 ---
-title: Actual Basics
+title: Getting a Grip on Personal Finances: A Comprehensive Overview of Actual
+description: Discover Actual: Your personal finance App, designed for a speedy and seamless way to manage your finances. Find out how to host this app through our guide!
 layout: page
 parent: Finance
 grand_parent: Tutorials
