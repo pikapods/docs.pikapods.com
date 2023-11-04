@@ -1,4 +1,4 @@
-------
+---
 title: Comprehensive Email app Hub: Guides, Tutorials, and Resources
 description: Explore tutorials and guides on how to efficiently manage and optimize your email communication plan using PikaPods suite of self-hosted email-related apps.
 nav_order: 2

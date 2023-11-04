@@ -1,12 +1,13 @@
 ---
 layout: default
-title: PikaPods Tutorials, FAQS and Notes
+title: PikaPods Tutorials, FAQs and Notes
 description: Learn about everything you need to get started with running the best open source apps in an instant, for a fraction of the price with no ads and full privacy!
 nav_order: 1
 permalink: /
 ---
 
 # PikaPods Documentation
+
 {: .fs-9 }
 Everything you need to get started with running the best open source apps in an instant.
 {: .fs-6 .fw-300 }
