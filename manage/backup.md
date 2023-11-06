@@ -3,10 +3,10 @@ title: Backup
 nav_order: 4
 layout: page
 parent: Pod Management
-description: Learn how to perform backups of pod data.
+description: How to take a complete backup of your pod. When using PikaPods, your data is under your control and you can export it at any time.
 ---
 
-# Backup of Pod Data
+# Backing up Your PikaPods Pods
 
 Keeping your data safe is very important to us. In addition to redundant drives, there are also daily backups of all databases and mounted files (everything you see over SFTP) pods use. These backups are meant to recover from server-wide failures. While it's also possible to restore individual pod files in emergencies, we currently can't offer this service regularly.
 

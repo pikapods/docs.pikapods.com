@@ -2,7 +2,7 @@
 layout: default
 title: Home
 nav_order: 1
-description: Frequently asked questions on apps and PikaPods.
+description: Find great open source apps to solve personal and business problems. Then run and manage them with ease on PikaPods.com.
 permalink: /
 ---
 

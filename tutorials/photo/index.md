@@ -3,7 +3,7 @@ title: Photo
 nav_order: 5
 layout: page
 parent: Tutorials
-description: Explore the photo-related apps offered by PikaPods and learn how to effectively use them for various tasks.
+description: Explore the photo-related apps offered by PikaPods and use them to organize your photos in full privacy and without ads.
 has_children: true
 has_toc: false
 ---

@@ -3,7 +3,7 @@ title: Productivity
 nav_order: 6
 layout: page
 parent: Tutorials
-description: "Boost efficiency and productivity with apps designed to streamline tasks, manage projects, optimize workflow."
+description: The different productivity apps offered on PikaPods.com. Help you to better manage relationships, appointments or your household.
 has_children: true
 has_toc: false
 ---

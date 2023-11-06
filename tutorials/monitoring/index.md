@@ -3,7 +3,7 @@ title: Monitoring
 nav_order: 4
 layout: page
 parent: Tutorials
-description: Explore the monitoring-related apps offered by PikaPods and learn how to effectively use them for various tasks.
+description: Discover the monitoring-related apps offered on PikaPods and use them to monitor things like website content, prices or server uptime.
 has_children: true
 has_toc: false
 ---

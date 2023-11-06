@@ -7,7 +7,7 @@ parent: Photo
 grand_parent: Tutorials
 ---
 
-# Using Basic Features of PhotoPrism
+# Get Started with Managing your Photo Collection with PhotoPrism
 
 Discover how to effectively use the basic features of PhotoPrism to enhance your photo management experience. This guide will walk you through searching for photos, uploading and editing images, creating albums, and sharing your content.
 

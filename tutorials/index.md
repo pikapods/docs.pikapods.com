@@ -2,7 +2,7 @@
 title: Tutorials
 nav_order: 3
 layout: page
-description: "How to achieve specific tasks with the apps we offer."
+description: Our tutorials showcase what you can do with the many open source apps we offer. Includes many categories, like documentation, email, finance or monitoring.
 has_children: true
 has_toc: false
 ---

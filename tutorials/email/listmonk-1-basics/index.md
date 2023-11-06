@@ -1,5 +1,6 @@
 ---
 title: Listmonk Basics
+description: Our first tutorial for Listmonk, a great app to manage your personal and professional mailing lists.
 layout: page
 parent: Email
 grand_parent: Tutorials

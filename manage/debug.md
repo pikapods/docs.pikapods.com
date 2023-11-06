@@ -3,7 +3,7 @@ title: Debug
 nav_order: 5
 layout: page
 parent: Pod Management
-description: Troubleshoot and debug your pod using helpful tips and resources.
+description: Troubleshoot and debug your pod. When something goes wrong, you can look at logs or restart a pod to get it working again.
 ---
 
 # Debugging a Pod

@@ -3,7 +3,7 @@ title: Documentation
 nav_order: 1
 layout: page
 parent: Tutorials
-description: Discover ways to create, organize, and manage documentation using PikaPods' documentation platform, including the BookStack app.
+description: Discover apps that can help with organizing notes and documentation in a wiki-style knowledge system.
 has_children: true
 has_toc: false
 ---

@@ -2,7 +2,7 @@
 title: FAQ
 nav_order: 9
 layout: page
-description: "Common errors and frequently asked questions"
+description: "Frequently asked questions regarding our PikaPods.com app hosting service. Covers topics like account limits, sending emails or which apps we can add."
 ---
 # Frequently Asked Questions
 

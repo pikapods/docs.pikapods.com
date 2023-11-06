@@ -3,7 +3,7 @@ title: Custom Domains
 nav_order: 1
 layout: page
 parent: Pod Management
-description: Learn about using custom domains, common errors, and frequently asked questions.
+description: Using a custom domain is a great way to apply your branding or a personal touch to the app you use. Here you can learn how to do it in a few steps.
 ---
 
 # Custom Domains

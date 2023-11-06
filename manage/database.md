@@ -3,7 +3,7 @@ title: Database
 nav_order: 3
 layout: page
 parent: Pod Management
-description: Learn how to manage the pod's database.
+description: Databases are like the brain of an app. While it's not usually needed, at PikaPods you always have the option to edit, import or export the app's database directly.
 ---
 
 # Managing Databases

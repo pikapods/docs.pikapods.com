@@ -2,7 +2,7 @@
 title: Pod Management
 nav_order: 2
 layout: page
-description: "Manage your PikaPod efficiently."
+description: PikaPods allows you to easily run a large number of open source web apps. In this section you can learn how to manage custom domains, files, databases and backups for your pods.
 has_children: true
 has_toc: false
 ---

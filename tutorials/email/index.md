@@ -3,7 +3,7 @@ title: Email
 nav_order: 2
 layout: page
 parent: Tutorials
-description: Learn how to manage and optimize your email communication using PikaPods' email-related apps.
+description: Tutorials for our email-related apps. Help you to set up mailing lists of all sizes for private and business use.
 has_children: true
 has_toc: false
 ---

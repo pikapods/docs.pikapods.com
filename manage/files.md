@@ -3,7 +3,7 @@ title: Files
 nav_order: 2
 layout: page
 parent: Pod Management
-description: Learn how to access pod files using SFTP.
+description: With PikaPods, all data is under your control. Here you learn how to directly access your files using SFTP.
 ---
 
 # Manage Pod Files

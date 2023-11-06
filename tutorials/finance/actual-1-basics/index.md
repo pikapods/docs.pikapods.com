@@ -1,11 +1,12 @@
 ---
 title: Actual Basics
+description: Actual is a fast and private personal budgeting app. In this tutorial you can learn the basics of adding accounts and expenses in simple steps.
 layout: page
 parent: Finance
 grand_parent: Tutorials
 ---
 
-# Getting Started with Actual App
+# Getting Started with Managing your Finances with Actual
 
 **Actual** is a user-friendly and privacy-focused app designed for efficient financial management. Its sleek interface is optimized to ensure a speedy and seamless experience when exploring your finances.
 

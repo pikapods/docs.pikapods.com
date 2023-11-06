@@ -1,12 +1,12 @@
 ---
 title: Monica Basics
-description: Learn the basic features of Monica CRM, including managing relationships and logging conversations.
+description: Learn the basic features of Monica, a CRM for your personal relationships. Helps keep track of conversations, important dates or common interests.
 layout: page
 parent: Productivity
 grand_parent: Tutorials
 ---
 
-# Getting Started
+# Get Started with Monica - A CRM for your Personal Relations
 
 Monica is a personal relationship management app designed to help you effectively manage your relationships. Whether it's personal connections or professional networks, Monica provides comprehensive tools for relationship tracking and maintenance. In this guide, we'll introduce you to the fundamental features of Monica CRM to get you started.
 

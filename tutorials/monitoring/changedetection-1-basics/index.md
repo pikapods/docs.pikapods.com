@@ -1,12 +1,12 @@
 ---
 title: Changedetection Basics
-description: Learn the basic features of Changedetection, including monitoring websites and receiving notifications.
+description: Learn the basic features of Changedetection. An app that lets you monitor any website for changes and get notified of e.g. updates or price changes.
 layout: page
 parent: Monitoring
 grand_parent: Tutorials
 ---
 
-# Getting Started
+# The Basics of Changedetection.io for Monitoring Websites
 
 Changedetection is an open-source app that lets you monitor website changes. You can automate the entire process. From simply monitoring website pages that have a change (such as watching prices, restock notification), to deep inspection such as PDF text support, JSON and XML monitoring and extensive text triggers. Here is our step-by-step guide on how you can set up website monitoring.
 
