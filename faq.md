@@ -16,6 +16,14 @@ Some apps need to send emails to work properly. Currently PikaPods doesn't offer
 No matter which provider you use for emails, be sure to use a *submission port*, like port 465 or 587. To prevent spam from our system port 25 is blocked.
 
 
+## Editing app files or source code
+At *PikaPods* we deploy all apps as isolated containers. This means all dependencies and source code files are bundled by the app author and distributed as container image. This mean you get the same experience as running the same image directly and can be sure there are no modifications to the app.
+
+Compared to other ways of deploying apps (like putting PHP files on shared hosting space), it's not recommended to make adjustments to any files that aren't expliciteyl mounted from the image and visible via SFTP. While it may work temporarily, all such changes will be lost during the next update or edit.
+
+In the large majority of cases, you will find that all necessary files are available via SFTP and no further changes are necessary. If you think a new mounted folder should be made available for an app, do get in [touch](mailto:hello@pikapods.com) and it will be reviewed.
+
+
 ## Using custom domains
 Moved to [Pod Management > Custom Domains](/manage/custom-domains).
 
