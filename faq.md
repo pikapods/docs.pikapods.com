@@ -24,6 +24,26 @@ Compared to other ways of deploying apps (like putting PHP files on shared hosti
 In the large majority of cases, you will find that all necessary files are available via SFTP and no further changes are necessary. If you think a new mounted folder should be made available for an app, do get in [touch](mailto:hello@pikapods.com) and it will be reviewed.
 
 
+## Business use and service level
+Can you use *PikaPods* for your business apps? The answer is yes! Many of our users already run business-critical apps on our platform. We are also hoping to add more feature in the future to serve this segment better. Here what you can expect in terms of uptime, support and data safety:
+
+- **Uptime and Service level**: Historically, you can expect an uptime of about 99.98% over a month at worst, which translatest to about 8 minutes of downtime. This is needed to apply regular app- and security updates. Non-emergency reboots will be scheduled at off-peak hours in their region.
+- **Support Response Time**: Our support staff works in Asian and EU time zones and you can expect a response in less than an hour during normal business hours.
+- **Backups**: We take whole-server offsite backups daily and every server has redundant drives.
+- **Testing**: As opposed to doing automatic container updates, all our updates are tested before they reach your pod. This includes dealing with breaking changes and migrations over time.
+
+In the future, we plan on adding a "business" tier to better address the needs of users who rely on their pod for production needs. This would include:
+
+- Contractual service level agreement (SLA)
+- Guaranteed support response times
+- Per-pod backups/snapshots to e.g. AWS S3 buckets
+- Additional app testing
+- Monitoring of your apps
+- Live migration before reboots to minimize downtime
+
+If you already use *PikaPods* for your business apps and want an additional level of support from the same team, you also look into [Peakford's managed server solutions](https://www.peakford.com/).
+
+
 ## Using custom domains
 Moved to [Pod Management > Custom Domains](/manage/custom-domains).
 
