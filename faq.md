@@ -86,6 +86,8 @@ Moved to [Pod Management > Debug](/manage/debug).
 ## IPv6 Support
 We fully support IPv6 as of May 2023. Before this, IPv6 worked over TCP, but possibly not ICMP. If your pod was created before May 2023, you may need to recreate it. This will happen automatically during updates or when you change resources or env vars.
 
+## Time zones
+Our servers all run on standard UTC time zone. If you prefer to use a different time zone, you can often adjust it in the app itself or pass a new time zone via the `TZ` env var in your dashboard under *Pod Edit > Env Vars*. See [here](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List) for a list of supported time zones. When supported, simply put any value from the *TZ Identifier* column as `TZ` env var. E.g. `EST`, `America/Detroit` or `Etc/GMT+5`.
 
 ## Support for individual apps
 If you have any concerns with your PikaPods account, billing or with running apps, email to [hello@pikapods.com](mailto:hello@pikapods.com) any time. You will generally receive a response within a few hours on working days.
