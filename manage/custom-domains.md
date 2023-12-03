@@ -8,9 +8,13 @@ description: Using a custom domain is a great way to apply your branding or a pe
 
 # Custom Domains
 
-If you already own a domain, you can use it with your pod in an instant. So it will be reachable as e.g. `status.my-domain.com` or `my-domain.com`.
+## Introduction
 
-If you don't have a domain yet, it's also easy to register one. [Domaintyper](https://domaintyper.com/) is a good starting point to find available domains. To compare prices, we like [TLDes](https://tldes.com/cheapest-domains). (no affiliation)
+Using a custom domain with your pod, allows you to make it available under your own name and brand. Like `blog.joedoe.com`. This is a great way to make it consistent with other websites and email. If you already own a domain, you can use it with your pod in an instant. So it will be reachable as e.g. `status.my-domain.com` or `my-domain.com`.
+
+If you don't have a domain yet, it's also easy to register one. [Domaintyper](https://domaintyper.com/) is a good starting point to find available domains. To compare prices, we like [TLDes](https://tldes.com/cheapest-domains) (no affiliation). See the below video to see the full process from buying a domain to setting it up with *PikaPods*.
+
+<iframe class="youtube-video" src="https://www.youtube-nocookie.com/embed/AvKZ2J_GChA?si=NQmU66FQ0fkD4HIA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 
 ## Using Custom Domains
