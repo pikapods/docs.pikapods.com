@@ -10,6 +10,20 @@ description: "Frequently asked questions regarding our PikaPods.com app hosting 
 To ensure system stability, every account is subject to limits on the amount of CPU cores, memory and disk storage it can use. You can view these limits in the control panel under *Account > Account Limits*. To avoid abuse, new accounts start with lower limits. After you make the first top-up to your account, your limits will increase to 10 pods and 2 TB of storage. If you need more than that, please just send an email to [hello@pikapods.com](mailto:hello@pikapods.com).
 
 
+## Support for individual apps
+If you have any concerns with your PikaPods account, billing or an offline pod, email to [hello@pikapods.com](mailto:hello@pikapods.com) any time. You will generally receive a response within a few hours on working days.
+
+Beyond this, we can't offer support for individual apps or their features. This is because we only charge you for the resources to host the app and don't monetize your data or charge for premium features. You can still get help from those sources:
+
+- Many apps have [notes](/apps) that explain setup steps or common issues. You also find them via *See FAQ* in your pod control panel.
+- Visit the *Project Page* link of an app and read their documentation.
+- When setting up *Env Vars*, you will find a link to the official documentation explaining each setting.
+- There may be a forum or chat room for the app to ask questions and get help from other users.
+- Sometimes the author will offer commercial support. This is also a great way to support the app's development.
+- If you think there is a bug in the app or you have an idea for a new feature, you can raise it to the developers on their Github Issues page.
+- Our parent company, [Peakford](https://www.peakford.com/), can provide expert support for most apps, including one-off setup or doing more complex and custom deployments.
+
+
 ## Sending emails
 Some apps need to send emails to work properly. Currently PikaPods doesn't offer email sending services. Some popular and proven options are [Mailjet](https://www.mailjet.com/), [Mailgun](https://www.mailgun.com/) and [Postmark](https://postmarkapp.com/). If you already use Amazon AWS, there is also [SES](https://aws.amazon.com/ses/).
 
@@ -88,13 +102,6 @@ We fully support IPv6 as of May 2023. Before this, IPv6 worked over TCP, but pos
 
 ## Time zones
 Our servers all run on standard UTC time zone. If you prefer to use a different time zone, you can often adjust it in the app itself or pass a new time zone via the `TZ` env var in your dashboard under *Pod Edit > Env Vars*. See [here](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List) for a list of supported time zones. When supported, simply put any value from the *TZ Identifier* column as `TZ` env var. E.g. `EST`, `America/Detroit` or `Etc/GMT+5`.
-
-## Support for individual apps
-If you have any concerns with your PikaPods account, billing or with running apps, email to [hello@pikapods.com](mailto:hello@pikapods.com) any time. You will generally receive a response within a few hours on working days.
-
-For well-defined, one-off setup tasks (like setting up email), we can sometimes help, if your account has seen a minimum of $50 in top-ups.
-
-Unfortunately we don't have the resources to help deal with specific app issues. You may find help in a community forum or similar for that app. Please don't file a Github issue, unless it is a genuine bug report. This is to avoid overloading the app author with support requests.
 
 
 ### Have any other questions? [Email Us!](mailto:hello@pikapods.com)
