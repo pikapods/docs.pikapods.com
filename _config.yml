@@ -18,6 +18,10 @@ aux_links:
 
 theme: just-the-docs
 color_scheme: pikapods
+callouts:
+  note:
+    title: Note
+    color: grey-dk
 kramdown:
   toc_levels: 1..3
 
