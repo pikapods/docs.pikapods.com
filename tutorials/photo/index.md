@@ -18,6 +18,12 @@ Discover PhotoPrism, an AI-powered photo app designed for the decentralized web.
 
 - [Part 1: Basics](photoprism-1-basics): Learn how to utilize essential PhotoPrism features, including uploading images, creating albums, and sharing content.
 
+## Immich
+
+Get started with Immich, a self-hosted alternative to Google Photos, for storing and backing up your photos and videos.
+
+- [Part 1: Basics](immich-1-basics): A guide to setting up and using Immich on PikaPods for photo and video management.
+
 ## Other Photo-Related Apps
 
 Explore a range of other [photo-related apps](https://www.pikapods.com/apps#photo) offered by PikaPods that can further enhance your photo management and editing tasks. Stay tuned for upcoming tutorials and guides on these apps.

@@ -1,5 +1,6 @@
 ---
 title: PhotoPrism Basics
+nav_order: 1
 description: Learn the basic features of PhotoPrism, including browsing and searching for photos, uploading photos and sharing albums.
 image: /tutorials/photo/photoprism-1-basics/1-search-photos.webp
 layout: page
