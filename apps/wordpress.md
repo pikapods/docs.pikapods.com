@@ -16,7 +16,11 @@ If you need to change the domain after installation, follow those steps:
 
 ## Adjust PHP Settings
 
-The default upload limit is set to 64 MB. You can increase this or adjust other PHP settings by editing the `uploads.ini` file using [SFTP](/faq/#accessing-pod-files-using-sftp).
+The default upload limit is set to 64 MB. You can increase this or adjust other PHP settings by editing the `uploads.ini` file using [SFTP](/faq/#accessing-pod-files-using-sftp). This file is already populated with some common settings, like upload limits or memory limits.
+
+## Adjust WordPress Settings
+
+You can use the `WORDPRESS_CONFIG_EXTRA` env var in the *PikaPods* Control panel to pass additional settings to `wp-config.php`. E.g. to change the memory limit enter `define('WP_MEMORY_LIMIT', '256M');`. **Note that this setting can potentially break your site.** So if your pod fails to start or shows errors in the logs, try adjusting this setting first.
 
 ## Debugging
 
