@@ -18,6 +18,12 @@ Discover Changedetection, an open-source app designed to help you monitor websit
 
 - [Part 1: Basics](changedetection-1-basics): Learn the basic features of Changedetection, including monitoring websites and receiving notifications.
 
+## Uptime Kuma
+
+Dive into Uptime Kuma for easy website and server checks. This quick guide covers everything from pod setup to status pages.
+
+- [Quick Start: Uptime Kuma](uptime-kuma-1-setup)
+
 ## Other Monitoring-Related Apps
 
 Explore a variety of [monitoring-related apps](https://www.pikapods.com/apps#monitoring) offered by PikaPods that can further enhance your website, servers and other monitoring tasks. Stay tuned for upcoming tutorials and guides on these apps.
