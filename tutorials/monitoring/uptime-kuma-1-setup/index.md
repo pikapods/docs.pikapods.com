@@ -16,7 +16,7 @@ _[Watch the video tutorial](https://www.youtube.com/watch?v=gbbcnNKPi8M) for a v
 
 Before we start, make sure you're logged into PikaPods. Not a member yet? Signing up is easy, plus you'll get $5 in free credit to kick off your pod journey. Ready to set up? [Sign in or sign up here](https://www.pikapods.com/).
 
-## Step 1: Set up Pod
+## Set up Pod
 
 - **Choose Uptime Kuma** as your Pod.
 - **Name your Pod** (e.g., "my website monitoring").
