@@ -20,9 +20,9 @@ Discover Changedetection, an open-source app designed to help you monitor websit
 
 ## Uptime Kuma
 
-Uptime Kuma provides robust website and server monitoring. This tutorial covers setting up a pod, monitoring setup, and creating status pages.
+Dive into Uptime Kuma for easy website and server checks. This quick guide covers everything from pod setup to status pages.
 
-- [Getting Started](uptime-kuma-setup)
+- [Quick Start: Uptime Kuma](uptime-kuma-1-setup)
 
 ## Other Monitoring-Related Apps
 
