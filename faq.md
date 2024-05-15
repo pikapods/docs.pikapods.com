@@ -85,6 +85,14 @@ Providing you with a stable experience is our main priority. As such we don't ju
 
 For security-related updates, we may do ad-hoc updates of single apps.
 
+## Minimum resource requirements
+When adding new apps, we set minimum resource requirements based on several factors:
+
+- The nature of the app and its resource usage
+- Recommendations from the app's authors and users
+- Our experience with users running the apps on PikaPods
+
+While some apps may work with lower specs initially, they might not provide the best user experience or may cause memory errors or slowness when using certain features. The minimum requirements we set aim to provide a good starting point for most users to ensure a smooth experience.
 
 ## Missing environment variables
 When adding new apps, we will add the most common and useful env vars from the start. Sometimes this doesn't include very specific or newly-added env vars. If you find that an env var you want to use is missing, just send us an email to to [hello@pikapods.com](mailto:hello@pikapods.com) and we will add it right away.
