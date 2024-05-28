@@ -6,11 +6,33 @@ description: "Frequently asked questions regarding our PikaPods.com app hosting 
 ---
 # Frequently Asked Questions
 
+## Pricing
+The cost of running a pod will depend on the resources you choose to allocate to it. All resources have a built-in discount and will get cheaper as you allocate more of them.
+
+The monthly price for a selected combination of compute resources will be shown when adding or editing them. Or on our frontpage under [Pricing](https://www.pikapods.com/#pricing). You can also see the minimum price per month with each [app](https://www.pikapods.com/apps).
+
+You can also stop pods you aren't using. In this case you won't be charged for CPUs or memory, but you will still be charged for allocated storage. There is also a minimum charge of $1 per pod per month, no matter the state.
+
+
+## Minimum Resource Requirements
+Some apps have minimum resource requirements that are optimized to cover a majority of typical use cases. You can always allocate additional resources, if your pod is slow or low on memory.
+
+When adding new apps, we set minimum resource requirements based on several factors:
+
+- The nature of the app and its resource usage
+- Recommendations from the app's authors and users
+- Our experience with users running the apps on PikaPods
+
+While some apps may work with lower specs initially, they might not provide the best user experience or may cause memory errors or slowness when using certain features. The minimum requirements we set aim to provide a good starting point for most users to ensure a smooth experience.
+
+If you pod runs out of memory multiple times, we will notify you and automatically increase memory to make sure it's stable.
+
+
 ## Account Limits
 To ensure system stability, every account is subject to limits on the amount of CPU cores, memory and disk storage it can use. You can view these limits in the control panel under *Account > Account Limits*. To avoid abuse, new accounts start with lower limits. After you make the first top-up to your account, your limits will increase to 10 pods and 2 TB of storage. If you need more than that, please just send an email to [hello@pikapods.com](mailto:hello@pikapods.com).
 
 
-## Support for individual apps
+## Support for Individual Apps
 If you have any concerns with your PikaPods account, billing or an offline pod, email to [hello@pikapods.com](mailto:hello@pikapods.com) any time. You will generally receive a response within a few hours on working days.
 
 Beyond this, we can't offer support for individual apps or their features. This is because we only charge you for the resources to host the app and don't monetize your data or charge for premium features. You can still get help from those sources:
@@ -58,16 +80,6 @@ In the future, we plan on adding a "business" tier to better address the needs o
 If you already use *PikaPods* for your business apps and want an additional level of support from the same team, you also look into [Peakford's managed server solutions](https://www.peakford.com/).
 
 
-## Using custom domains
-Moved to [Pod Management > Custom Domains](/manage/custom-domains).
-
-## Accessing pod files using SFTP
-Moved to [Pod Management > Files](/manage/files).
-
-## Accessing the pod's database
-Moved to [Pod Management > Database](/manage/database).
-
-
 ## Adding new apps
 New apps are regularly being added. If your favorite app isn't available yet, you can suggest or vote for it on our [feedback](https://feedback.pikapods.com/) page. For an app to be suitable for PikaPods, it should roughly match those criteria:
 
@@ -85,28 +97,14 @@ Providing you with a stable experience is our main priority. As such we don't ju
 
 For security-related updates, we may do ad-hoc updates of single apps.
 
-## Minimum resource requirements
-When adding new apps, we set minimum resource requirements based on several factors:
-
-- The nature of the app and its resource usage
-- Recommendations from the app's authors and users
-- Our experience with users running the apps on PikaPods
-
-While some apps may work with lower specs initially, they might not provide the best user experience or may cause memory errors or slowness when using certain features. The minimum requirements we set aim to provide a good starting point for most users to ensure a smooth experience.
 
 ## Missing environment variables
 When adding new apps, we will add the most common and useful env vars from the start. Sometimes this doesn't include very specific or newly-added env vars. If you find that an env var you want to use is missing, just send us an email to to [hello@pikapods.com](mailto:hello@pikapods.com) and we will add it right away.
 
 
-## Backup of pod data
-Moved to [Pod Management > Backup](/manage/backup).
-
-## Debugging a Pod
-Moved to [Pod Management > Debug](/manage/debug).
-
-
 ## IPv6 Support
-We fully support IPv6 as of May 2023. Before this, IPv6 worked over TCP, but possibly not ICMP. If your pod was created before May 2023, you may need to recreate it. This will happen automatically during updates or when you change resources or env vars.
+We fully support IPv6 as of May 2023. Before this, IPv6 worked over TCP, but possibly not ICMP.
+
 
 ## Time zones
 Our servers all run on standard UTC time zone. If you prefer to use a different time zone, you can often adjust it in the app itself or pass a new time zone via the `TZ` env var in your dashboard under *Pod Edit > Env Vars*. See [here](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List) for a list of supported time zones. When supported, simply put any value from the *TZ Identifier* column as `TZ` env var. E.g. `EST`, `America/Detroit` or `Etc/GMT+5`.
