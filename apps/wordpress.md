@@ -10,7 +10,7 @@ If you plan on using a custom domain or restoring an existing site, it's best to
 
 If you need to change the domain after installation, follow those steps:
 
-1. First change the domain in the `wp_options` table, options `home` and `siteurl` using the pod's [database access](/faq/#accessing-the-pods-database) feature.
+1. First change the domain in the `wp_options` table, options `home` and `siteurl` using the pod's [database access](/manage/database) feature.
 2. Update the domain in your _PikaPods_ control panel.
 3. Finally, some resources, like images may still point to the old domain on pages or posts. Solution is to use a [search and replace plugin](https://wordpress.org/plugins/better-search-replace/) to properly update those references. Otherwise images and files may keep referencing the old domain.
 
