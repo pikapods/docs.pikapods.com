@@ -34,4 +34,4 @@ The upstream image currently [doesn't support](https://github.com/docker-library
 ## Casper theme missing
 When using the default *Casper* theme, in rare cases the site may look broken after a pod restart. This is due to a [known issue](https://github.com/docker-library/ghost/issues/230) with Docker adding a broken symlink. If you experience this issue, go to *Settings > Design > Change Theme* and reinstall the desired theme.
 
-You can also upload and customize your own theme via [SFTP](/faq/#accessing-pod-files-using-sftp).
+You can also upload and customize your own theme via [SFTP](/manage/files).

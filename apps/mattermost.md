@@ -29,7 +29,7 @@ Mattermost doesn't always require emails, but uses it for select features, like 
 
 To enable integrations in Mattermost with custom plugins, follow these steps:
 
-1. Use SFTP to access your server. (Refer to [this page](https://docs.pikapods.com/faq/#accessing-pod-files-using-sftp) for accessing pod files using SFTP.)
+1. Use SFTP to access your server. (Refer to [this page](/manage/files) for accessing pod files using SFTP.)
 2. Locate the `config.json` file inside the `config` folder.
 3. Manually set `PluginSettings > EnableUploads` to `true` in the `config.json` file. By default, this setting is `false`.
 4. Save the changes and restart your Mattermost server.

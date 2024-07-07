@@ -5,7 +5,7 @@ parent: App Notes
 ---
 
 ## Edit advanced settings
-Many Bookstack settings are configured via its `.env` file. To edit this file, find it in `/config/www/.env` using [SFTP](/faq/#accessing-pod-files-using-sftp). This path already contains a pre-populated settings file. If you can't see the file, please make sure your FTP client shows hidden files, also known as dotfiles.
+Many Bookstack settings are configured via its `.env` file. To edit this file, find it in `/config/www/.env` using [SFTP](/manage/files). This path already contains a pre-populated settings file. If you can't see the file, please make sure your FTP client shows hidden files, also known as dotfiles.
 
 ## Sending emails
 Bookstack doesn't always require emails, but uses it for select features, like forgotten passwords. Available options can be found [here](https://www.bookstackapp.com/docs/admin/email-webhooks/) and you can add them to the `.env` file, as described above.

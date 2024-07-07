@@ -22,6 +22,6 @@ If you uploaded files over SFTP, Nextcloud may not show them right away. You can
 `'filesystem_check_changes' => 1,`
 
 ## Maintenance Mode
-You can enable or disable maintenance mode in the configs, accessible over [SFTP](/faq/#accessing-pod-files-using-sftp). Find the file `config/config.php` and look for a line containing `'maintenance' => false,`. Then change to `true` or `false` as needed.
+You can enable or disable maintenance mode in the configs, accessible over [SFTP](/manage/files). Find the file `config/config.php` and look for a line containing `'maintenance' => false,`. Then change to `true` or `false` as needed.
 
 In rare cases an installation can stay in maintenance mode after an update.
