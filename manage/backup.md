@@ -14,10 +14,10 @@ All persistent pod data is available over [SFTP](/manage/files#accessing-pod-fil
 
 You can make a full pod backup by following the steps:
 
-1. Stop the pod to make sure all data from memory is written to disk (e.g. for SQLite or Mongo databases)
-2. Enable [SFTP](/manage/files#accessing-pod-files-using-sftp) in the pod's settings.
-3. Log into the pod via SFTP and copy all files.
-4. Enable [Database access](/manage/database#accessing-the-pods-database) in the pod's settings.
+1. Enable [SFTP](/manage/files#accessing-pod-files-using-sftp) in the pod's settings.
+2. Enable [Database access](/manage/database#accessing-the-pods-database) in the pod's settings.
+3. Stop the pod to make sure all data from memory is written to disk (e.g. for SQLite or Mongo databases)
+4. Log into the pod via SFTP and copy all files.
 5. Log into the pod's database and _Export_ the whole database.
 6. Start your pod again
 
