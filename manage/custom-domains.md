@@ -38,11 +38,11 @@ Steps to use a custom domain:
 
 After adding a domain, we will periodically check if DNS is still set up correctly. If there is any issue you will receive a notification.
 
-Only **one custom domain** can be mapped per pod. If you need additional alias domains, you will need to set up redirects with your DNS provider or a service like [Freedirector](https://freedirector.io/lite) (free, no signup needed) or [redirect.pizza](https://redirect.pizza/) (free tier).
+Only **one custom domain** can be mapped per pod. If you need additional alias domains, you will need to set up redirects with your DNS provider or a service like [Freedirector](https://freedirector.io/lite) (free, no signup needed) or [redirect.pizza](https://redirect.pizza/) (free tier). When using Cloudflare, you can also use redirect rules, as described in [this blog post](https://www.timcheadle.com/hosting-ghost-on-pikapods-and-cloudflare/).
 
 ## Cloudflare
 
-It's possible to run a pod behind Cloudflare's proxy after it's set up. This will send all user requests to Cloudflare first and then to _PikaPods_. The setup can be useful for pods that get many outside visitors, but will make your experience slower for private pods that are only used after the user logged in.
+It's possible to run a pod behind Cloudflare's proxy after it's set up. This will send all user requests to Cloudflare first and then to _PikaPods_. The setup can be useful for pods that get many outside visitors, but will make your experience slower for private pods that are only used after the user logged in. [This blog post](https://www.timcheadle.com/hosting-ghost-on-pikapods-and-cloudflare/) describes the steps of setting up a PikaPods pod with CloudFlare.
 
 ### Common Issues
 
