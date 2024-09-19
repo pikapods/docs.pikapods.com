@@ -22,6 +22,13 @@ The default upload limit is set to 64 MB. You can increase this or adjust other 
 
 You can use the `WORDPRESS_CONFIG_EXTRA` env var in the *PikaPods* Control panel to pass additional settings to `wp-config.php`. E.g. to change the memory limit enter `define('WP_MEMORY_LIMIT', '256M');`. **Note that this setting can potentially break your site.** So if your pod fails to start or shows errors in the logs, try adjusting this setting first.
 
+## Reset Password
+
+You can reset your password using the database. Steps are like this:
+
+1. Enable the pod's [database access](/manage/database) feature
+2. Follow the [official WordPress docs](https://wordpress.org/documentation/article/reset-your-password/#through-phpmyadmin) to do the actual reset. Look for the `wp_users` table and then change the `user_pass` field of the user.
+
 ## Debugging
 
 For troubleshooting, WordPress debug mode offers detailed error messages. To activate:
