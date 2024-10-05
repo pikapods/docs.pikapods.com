@@ -44,13 +44,17 @@ Only **one custom domain** can be mapped per pod. If you need additional alias d
 
 You can use Cloudflare as domain registrar and use their DNS feature with PikaPods without any additional steps.  [This blog post](https://www.timcheadle.com/hosting-ghost-on-pikapods-and-cloudflare/) describes the steps of setting up a PikaPods pod with CloudFlare.
 
-It's also possible to use Cloudflare's proxy feature with a PikaPods pod. This will send all user requests to Cloudflare first and then to _PikaPods_. The setup can be useful for pods that get many outside visitors, but will make your experience slower for private pods that are only used after the user logged in. As a result, we don't recommend this setup and don't provide active support for it. If you insist on using it, you can find a list of common issues and solutions below or you can contact Cloudflare support.
+It's also possible to use Cloudflare's proxy feature with a PikaPods pod. This will send all user requests to Cloudflare first and then to _PikaPods_. The setup can be useful for pods that get many outside visitors, but will make your experience slower for private pods that are only used after the user logged in.
+
+Since _PikaPods_ still needs to issue a SSL certificate for your domain, please add an exception for the path `/.well-known/*` in _Security > WAF_:
+
+![Cloudflare WAF Exception](cloudflare-waf.png)
 
 ### Common Issues with Cloudflare
 
 **Enabling proxy feature**: When first adding a custom domain via Cloudflare, ensure the _Proxy_ feature is **disabled**. Else we can't verify the DNS settings of your domain. You can enable proxying again after adding the custom domain.
 
-**Web application firewall (WAF)**: If you use Cloudflare's proxy feature, it's possible that our monitoring will get blocked and we can no longer determine if your pod is available on its custom domain and we can't renew the encryption certificate for you custom domain. If you get alert emails, while your pod is available, you can whitelist our control panel to make sure it can do its status checks. See [here](https://developers.cloudflare.com/waf/tools/ip-access-rules/) on how to change access rules. IPs to add will be the ones used by our control panel and may change. Check the current `A` (IPv4) and `AAAA` (IPv6) records for `api.pikapods.com` for numeric IPs.
+**Web application firewall (WAF)**: If you use Cloudflare's proxy feature, it's possible that our monitoring will get blocked and we can no longer determine if your pod is available on its custom domain and we can't renew the encryption certificate for you custom domain. In this case please ensure you have an exception added for the path `/.well-known/*` in _Security > WAF_, as desribed above.
 
 **Origin SSL Setting**: Also ensure that you activate [**Full SSL encryption**](https://developers.cloudflare.com/ssl/origin-configuration/ssl-modes/#available-encryption-modes) (by default, it is set to Flexible SSL, which will cause an infinite loop) or disable the proxy and switch to DNS-only mode.
 
