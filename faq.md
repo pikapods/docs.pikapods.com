@@ -106,6 +106,16 @@ When adding new apps, we will add the most common and useful env vars from the s
 We fully support IPv6 as of May 2023. Before this, IPv6 worked over TCP, but possibly not ICMP.
 
 
+## Which data center do you use?
+
+Depending on the region you choose, most pods will be deployed in the following data center:
+
+- EU region: Hetzner Falkenstein, Germany
+- US region: Evocative BOS1 Data Center, Boston, MA
+
+Additional data center partners may be added over time, depending on current market conditions and operational needs.
+
+
 ## Time zones
 Our servers all run on standard UTC time zone. If you prefer to use a different time zone, you can often adjust it in the app itself or pass a new time zone via the `TZ` env var in your dashboard under *Pod Edit > Env Vars*. See [here](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List) for a list of supported time zones. When supported, simply put any value from the *TZ Identifier* column as `TZ` env var. E.g. `EST`, `America/Detroit` or `Etc/GMT+5`.
 
