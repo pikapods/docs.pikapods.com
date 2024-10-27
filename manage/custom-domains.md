@@ -44,9 +44,9 @@ Only **one custom domain** can be mapped per pod. If you need additional alias d
 
 You can use Cloudflare as domain registrar and use their DNS feature with PikaPods without any additional steps.  [This blog post](https://www.timcheadle.com/hosting-ghost-on-pikapods-and-cloudflare/) describes the steps of setting up a PikaPods pod with CloudFlare.
 
-It's also possible to use Cloudflare's proxy feature with a PikaPods pod. This will send all user requests to Cloudflare first and then to _PikaPods_. The setup can be useful for pods that get many outside visitors, but will make your experience slower for private pods that are only used after the user logged in.
+Using Cloudflare's proxy feature with a _PikaPods_ pod can be beneficial for pods that receive a high volume of external traffic. However, it can slow down performance for private pods that are primarily accessed by logged-in users. Additionally, this setup exposes your unencrypted traffic entirely to Cloudflare, which may raise privacy concerns.
 
-Since _PikaPods_ still needs to issue a SSL certificate for your domain, please add an exception for the path `/.well-known/*` in _Security > WAF_:
+Even if you decide to use Cloudflare, _PikaPods_ still needs to issue a SSL certificate for your domain. To make this process more reliable, please add an exception for the path `/.well-known/*` in _Security > WAF_ and choose to _Skip_ any firewall actions to this path:
 
 ![Cloudflare WAF Exception](cloudflare-waf.png)
 
