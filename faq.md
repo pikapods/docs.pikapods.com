@@ -97,7 +97,7 @@ Providing you with a stable experience is our main priority. As such we don't ju
 
 For security-related updates, we may do ad-hoc updates of single apps.
 
-For breaking changes (as defined in release logs), we will send a notification by email one week before the update. 
+For breaking changes (as defined in release logs), we will send a notification by email one week before the update.
 
 
 ## Missing environment variables
