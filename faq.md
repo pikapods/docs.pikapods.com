@@ -97,21 +97,32 @@ Providing you with a stable experience is our main priority. As such we don't ju
 
 For security-related updates, we may do ad-hoc updates of single apps.
 
+For breaking changes (as defined in release logs), we will send a notification by email one week before the update. 
+
 
 ## Missing environment variables
 When adding new apps, we will add the most common and useful env vars from the start. Sometimes this doesn't include very specific or newly-added env vars. If you find that an env var you want to use is missing, just send us an email to to [hello@pikapods.com](mailto:hello@pikapods.com) and we will add it right away.
 
 
 ## IPv6 Support
-We fully support IPv6 as of May 2023. Before this, IPv6 worked over TCP, but possibly not ICMP.
+All our servers are set up to be reachable via IPv6.
 
 
-## Which data center do you use?
+## Proxy Headers
+
+Your pod runs behind a proxy, which handles SSL. The following proxy headers are set and can be used by pods to e.g. log the actual IP of visitors:
+
+- `X-Forwarded-For`
+- `X-Forwarded-Proto`
+- `X-Forwarded-Host`
+
+
+## Data centers
 
 Depending on the region you choose, most pods will be deployed in the following data center:
 
-- EU region: Hetzner Falkenstein, Germany
-- US region: Evocative BOS1 Data Center, Boston, MA
+- EU region: Hetzner Falkenstein, Germany and Hetzner Finland
+- US region: Evocative BOS1 Data Center, Boston, MA and Cyber WURX, Atlanta, GA
 
 Additional data center partners may be added over time, depending on current market conditions and operational needs.
 
