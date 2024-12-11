@@ -22,7 +22,7 @@ Some apps also write logs to their persistent storage. Those can be accessed via
 
 If the error is still unclear or no log is available, you can also use _Report Issue_, include the logs you got, and we'll investigate further.
 
-<img src="/img/pod-show-logs.jpg" width="60%" />
+<img src="/img/pod-show-logs.png" width="60%" />
 
 ## Recreate Pod
 
