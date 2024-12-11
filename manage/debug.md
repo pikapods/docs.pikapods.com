@@ -12,14 +12,17 @@ If a pod shows "Pod is loading..." for more than a few minutes, there is usually
 
 ## Check Logs
 
-In most cases the detailed error can be found in the pod logs. To view them, just click the _Show Logs_ button and look for obvious errors.
+In most cases, the detailed error can be found in the pod logs. To view them, follow these steps:
+
+1. Navigate to your pod card.
+2. Click on the **More** button located at the bottom right of the pod card.
+3. Select **Show Logs** from the dialogue menu that appears.
 
 Some apps also write logs to their persistent storage. Those can be accessed via [SFTP](/manage/files).
 
-If the error is still unclear or no log is available, you can also use _Report Issue_, include the logs you got and we'll investigate further.
+If the error is still unclear or no log is available, you can also use _Report Issue_, include the logs you got, and we'll investigate further.
 
 <img src="/img/pod-show-logs.jpg" width="60%" />
-
 
 ## Recreate Pod
 
