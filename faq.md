@@ -47,9 +47,9 @@ Beyond this, we can't offer support for individual apps or their features. This 
 
 
 ## Sending emails
-Some apps need to send emails to work properly. Currently PikaPods doesn't offer email sending services. Some popular and proven options are [Mailjet](https://www.mailjet.com/), [Mailgun](https://www.mailgun.com/) and [Postmark](https://postmarkapp.com/). If you already use Amazon AWS, there is also [SES](https://aws.amazon.com/ses/).
+Some apps need to send emails to work properly. Currently PikaPods doesn't offer email sending services. Some popular options are [Mailjet](https://www.mailjet.com/), [Mailgun](https://www.mailgun.com/) and [Postmark](https://postmarkapp.com/). If you already have a Google/Gmail Email account, you could [use](https://support.google.com/a/answer/176600?hl=en#gmail-smtp-option) that too.
 
-No matter which provider you use for emails, be sure to use a *submission port*, like port 465 or 587. To prevent spam from our system port 25 is blocked.
+No matter which provider you use for emails, be sure to use a *submission port*, like port 465 or 587. To prevent spam from our systems port 25 is blocked.
 
 
 ## Editing app files or source code
