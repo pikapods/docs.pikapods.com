@@ -131,5 +131,18 @@ Additional data center partners may be added over time, depending on current mar
 Our servers all run on standard UTC time zone. If you prefer to use a different time zone, you can often adjust it in the app itself or pass a new time zone via the `TZ` env var in your dashboard under *Pod Edit > Env Vars*. See [here](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List) for a list of supported time zones. When supported, simply put any value from the *TZ Identifier* column as `TZ` env var. E.g. `EST`, `America/Detroit` or `Etc/GMT+5`.
 
 
+## Delete your Account
+
+If you are not using your *PikaPods* account to run any pods, there is no cost assosicated with it, so you could just let it sit until you need it again. Any credit you have, including free welcome credit, won't expire and will still be there.
+
+In case you still want to fully remove the account, use those steps:
+
+1. Remove all your pods first.
+2. Navigate to [Account > Profile > Remove Account](https://www.pikapods.com/account?tab=profile) to close the account.
+3. You will receive an email notification confirming the account closure.
+
+Please note that this can't be undone and to use *PikaPods* again you will need to sign up for a new account.
+
+
 ### Have any other questions? [Email Us!](mailto:hello@pikapods.com)
 {: .no_toc }
