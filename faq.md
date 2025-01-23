@@ -103,6 +103,10 @@ For breaking changes (as defined in release logs), we will send a notification b
 ## Missing environment variables
 When adding new apps, we will add the most common and useful env vars from the start. Sometimes this doesn't include very specific or newly-added env vars. If you find that an env var you want to use is missing, just send us an email to to [hello@pikapods.com](mailto:hello@pikapods.com) and we will add it right away.
 
+## Disk Usage and Database Storage
+Some apps primarily store their data in a database rather than using disk storage. For these apps, the disk usage bar will not be visible in the dashboard, and adding disk storage is not necessary. Examples include apps like Umami Analytics that primarily use database storage.
+
+For database-intensive apps, we automatically allocate sufficient database storage space. Database storage does not count towards your disk usage quota and is provided free of charge.
 
 ## IPv6 Support
 All our servers are set up to be reachable via IPv6.
