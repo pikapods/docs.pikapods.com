@@ -46,6 +46,28 @@ Follow the steps below to set up incremental backups:
 - [**iDrive e2**](https://www.idrive.com/s3-storage-e2/): A more recent addition, if you are looking for a lower price. You need to commit for a year, but get 50% off the first year and then pay around $4-5/TB/month.
 - [**Amazon AWS S3**](https://aws.amazon.com/s3/): The best-known offering, but also the most expensive and more complicated to set up. Can make sense, if you already use other services from AWS.
 
+### Additional S3-Compatible Providers
+
+The following providers have been reported to work by our users:
+
+#### [Oracle Cloud Object Storage](https://www.oracle.com/bd/cloud/storage/object-storage/)
+- **Setup Steps**:
+  1. Create or identify your Object Storage Bucket in the OCI Console
+  2. Note down your Object Storage Namespace and Bucket Name
+  3. Generate access keys: Go to Identity & Security → Users → [Your User] → Customer Secret Keys
+     - Note: Customer Secret Keys are preferred over Swift Passwords or Auth Tokens for S3 compatibility
+  4. Click "Generate Secret Key" and save both the Access Key and Secret Key pair
+- **PikaPods Settings**:
+  - **S3 Endpoint**: `https://<namespace>.compat.objectstorage.<region>.oraclecloud.com`
+    - Example: if your namespace is "abcxyz" and region is "us-ashburn-1", use:
+    - `https://abcxyz.compat.objectstorage.us-ashburn-1.oraclecloud.com`
+  - **Bucket**: Your OCI bucket name (exactly as shown in OCI Console)
+  - **S3 Access Key ID**: The Access Key from your generated Customer Secret Key
+  - **S3 Secret Key**: The Secret Key from your generated Customer Secret Key
+- **Notes**: 
+  - Free Tier includes 10 GB of Object Storage
+  - Make sure the user with the secret keys has permission to read/write the bucket
+
 ### *PikaPods* Backup Settings
 
 After signing up with your chosen provider, you can create a "bucket" to hold your data. One bucket can only hold backups for one pod.
@@ -118,5 +140,3 @@ To ensure the integrity of your backups:
 
 - Keep the *Repository Password* shown in *Pod Settings > Backups* in a safe place. It's needed to decrypt the backup. Without it, the backup will be useless. We don't keep a copy of this password after a pod was deleted.
 - Regularly verify your backups: While *PikaPods* takes every possible measure to ensure usable backups, there could be unexpected failures or edge cases with individual apps that make a backup incomplete. Doing a trial restore of a backup can uncover such issues.
-
-
