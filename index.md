@@ -22,16 +22,16 @@ Our documenation shows you how to get the most of the features _PikaPods_ provid
 
 ### Pod Management
 
-For advanced users: Manage your pod's files, database and domain. [More...](manage)
+Manage your pod's files, database, domain and backups. [More...](manage)
+
+### App Notes
+
+Additional notes on configuring and using specific apps. [More...](apps)
 
 ### Tutorials
 
 Find the right app for a job and learn how to use it for specific tasks: [More...](tutorials)
 
-### App Notes
-
-Additional notes on app setup and configuration: [More...](apps)
-
 ### FAQ
 
-Frequently asked questions about our service: [More...](faq)
+Frequently asked questions about our service. [More...](faq)
