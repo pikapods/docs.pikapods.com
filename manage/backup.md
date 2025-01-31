@@ -125,6 +125,26 @@ To ensure the integrity of your backups:
 
 The following providers have been reported to work by our users.
 
+#### **[Cloudflare R2](https://www.cloudflare.com/developer-platform/products/r2/)**
+
+A cost-effective S3-compatible storage with no egress fees. Includes 10GB storage and unlimited bandwidth in the free tier.
+
+Setup Steps in Cloudflare Dashboard:
+1. Go to R2 from the left sidebar
+2. Create a new bucket for your backups
+3. Generate API Token:
+   - Click "Manage R2 API Tokens"
+   - Create a new API token
+   - Give it "Object Read & Write" permissions for your bucket only
+   - Save both the Access Key ID and Secret Access Key
+
+Settings to use on *PikaPods*:
+- **S3 Endpoint**: `[account-id].r2.cloudflarestorage.com`
+  - Find your endpoint in R2 bucket settings
+- **Bucket**: Your R2 bucket name
+- **S3 Access Key ID**: Access Key ID from your API token
+- **S3 Secret Key**: Secret Access Key from your API token
+
 #### **[Oracle Cloud Object Storage](https://www.oracle.com/bd/cloud/storage/object-storage/)**
 
 Setup Steps in the OCI Console:
