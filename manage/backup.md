@@ -40,7 +40,7 @@ Follow the steps below to set up incremental backups:
 
 ### S3 Storage Provider
 
-*PikaPods* doesn't offer backup storage and it's best practice to keep backups with another provider. *S3* is a standardized storage protocol, first introduced by Amazon and now offered by many companies. You can use any one of them. To make the choice easier, here a list of popular choices:
+*PikaPods* doesn't offer backup storage and it's best practice to keep backups with another provider. *S3* is a standardized storage protocol, first introduced by Amazon and now offered by many companies. You can use any one of them. To make the choice easier, here a list of popular choices. For even more options, also see the [providers our users reported to be working](#additional-providers) further down.
 
 - [**Backblaze B2**](https://www.backblaze.com/cloud-storage): A reliable and established choice priced at $6/TB/month. Some data transfer is included, so unless you download your backup very often, you will only pay for what you use each month. 10 GB are free, which is enough to keep backups of smaller pods.
 - [**iDrive e2**](https://www.idrive.com/s3-storage-e2/): A more recent addition, if you are looking for a lower price. You need to commit for a year, but get 50% off the first year and then pay around $4-5/TB/month.
