@@ -159,3 +159,26 @@ Settings to use on *PikaPods*:
 - **Bucket**: Your OCI bucket name (exactly as shown in OCI Console)
 - **S3 Access Key ID**: The Access Key from your generated Customer Secret Key
 - **S3 Secret Key**: The Secret Key from your generated Customer Secret Key
+
+#### **[Scaleway Object Storage](https://www.scaleway.com/en/cloud-storage-solutions/)**
+
+A European S3-compatible storage solution with multiple region options and flexible pricing, including Glacier storage for backups.
+
+Setup Steps in Scaleway Console:
+1. Create your Object Storage Bucket:
+   - Choose a region: Paris, Amsterdam, or Warsaw
+   - Choose use case: Backup & Archiving
+   - Set your bucket name (e.g., pikapod-backup)
+2. Generate API Keys:
+   - Go to *Account > API Keys > Generate an API key*
+   - Select "Generate for myself (IAM user)"
+   - Enable Object Storage and set your preferred Project
+   - Save both the Access Key ID and Secret Key
+
+Settings to use on *PikaPods*:
+- **S3 Endpoint**: `s3.<region>.scw.cloud`
+  - Example: for Paris region use `s3.fr-par.scw.cloud`
+  - Note: Do NOT include bucket name in the endpoint
+- **Bucket**: Your bucket name (found under Bucket Settings > Bucket ID)
+- **S3 Access Key ID**: The Access Key ID from your generated API key
+- **S3 Secret Key**: The Secret Key from your generated API key
