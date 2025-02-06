@@ -13,6 +13,8 @@ The monthly price for a selected combination of compute resources will be shown 
 
 You can also stop pods you aren't using. In this case you won't be charged for CPUs or memory, but you will still be charged for allocated storage. There is also a minimum charge of $1 per pod per month, no matter the state.
 
+We may adjust pricing for new pods to better reflect the current price of compute resources. For existing pods, the pricing valid at the time of creation will still apply.
+
 
 ## Minimum Resource Requirements
 Some apps have minimum resource requirements that are optimized to cover a majority of typical use cases. You can always allocate additional resources, if your pod is slow or low on memory.
