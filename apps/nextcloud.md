@@ -7,6 +7,7 @@ parent: App Notes
 ## Updates
 You may see a notification to update in Nextcloud's admin section. Since updates are centrally managed, this feature is disabled. Your pod will automatically receive updates within 1-2 weeks of their release. We also run any required migration scripts for you. 😇
 
+If you happen to see a **Update Needed** notification in your Nextcloud pod, you can run the update script by *pausing* and then *resuming* the pod after waiting for 1 minute. This will also run the update script. If you keep seeing the error after this there may be an update error related to custom apps.
 
 ## Warnings regarding `.well-known` paths
 You may see warning regarding `.well-known` paths to CalDAV and CardDAV services in the *Security & setup warnings* section. Those are false positives and those paths will work as expected.
