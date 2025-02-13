@@ -29,6 +29,16 @@ You can reset your password using the database. Steps are like this:
 1. Enable the pod's [database access](/manage/database) feature
 2. Follow the [official WordPress docs](https://wordpress.org/documentation/article/reset-your-password/#through-phpmyadmin) to do the actual reset. Look for the `wp_users` table and then change the `user_pass` field of the user.
 
+## Email Configuration
+
+To enable WordPress email functionality for user registration, password reset, and notifications, you'll need to configure an external SMTP service. While this can be configured manually using the `WORDPRESS_CONFIG_EXTRA` environment variable, we recommend using one of these well-maintained SMTP plugins for easier setup:
+
+- [Simple Email Sender](https://wordpress.org/plugins/simple-email-sender-with-smtp-and-debugging/): A lightweight plugin ideal for basic SMTP configuration
+- [Post SMTP](https://wordpress.org/plugins/post-smtp/): Feature-rich plugin with email logging and good compatibility
+- [WP Mail SMTP](https://wordpress.org/plugins/wp-mail-smtp/): Popular option with extensive email service integrations
+
+For SMTP server details, you can use any email service that provides SMTP access. See our [FAQ on sending emails](/faq#sending-emails) for recommended email service providers.
+
 ## Debugging
 
 For troubleshooting, WordPress debug mode offers detailed error messages. To activate:
