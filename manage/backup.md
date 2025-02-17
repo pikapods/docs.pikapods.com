@@ -61,10 +61,10 @@ With your bucket and key all set up, you can now add them in *PikaPods*.
 
 In the final step you enter the bucket hostname (often called endpoint), the bucket name and related access key and password (often called access key secret or similar) on the *PikaPods* control panel. These settings can be found under *Pod Settings > Backups* are separate for each pod, since *one* bucket can only keep backups of *one* pod.
 
-For the endpoint, be sure to use the hostname **without** the bucket name prepended. Some examples and how to find it:
+For the endpoint, be sure to use the hostname **without** the bucket name prepended. Also don't enter `https://`. Some examples and how to find it:
 
-- **Backblaze B2**: `s3.us-west-001.backblazeb2.com`, shown as *Endpoint* under *Buckets*
-- **iDrive e2**: `n6j2.fra1.idrivee2-95.com`, shown as *Region endpoint* under *Dashboard*
+- **Backblaze B2**: Shown as *Endpoint* under *Buckets*, e.g. `s3.us-west-001.backblazeb2.com`
+- **iDrive e2**: Shown as *Region endpoint* under *Dashboard*, e.g. `n6j2.fra1.idrivee2-95.com`
 - **Amazon AWS S3**: Just `s3.amazonaws.com` will work. Or a regional endpoint like `s3.us-east-1.amazonaws.com`, listed [here](https://docs.aws.amazon.com/general/latest/gr/s3.html#auto-endpoints-s3).
 
 <img src="s3-setup.png" width="400" />
