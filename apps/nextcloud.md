@@ -4,10 +4,19 @@ layout: page
 parent: App Notes
 ---
 
-## Updates
-You may see a notification to update in Nextcloud's admin section. Since updates are centrally managed, this feature is disabled. Your pod will automatically receive updates within 1-2 weeks of their release. We also run any required migration scripts for you. 😇
+## _Update Needed_ Notification
+You may see a _Update Needed_ notification instead of the login page. This can occur after adding a new custom app or if your pod was paused when updates were applied.
 
-If you happen to see a **Update Needed** notification in your Nextcloud pod, you can run the update script by *pausing* and then *resuming* the pod after waiting for 1 minute. This will also run the update script. If you keep seeing the error after this there may be an update error related to custom apps.
+To resolve this, run _Nextcloud_'s update script:
+
+1. Select _More > Pause Pod_ in your _PikaPods_ dashboard.
+2. Wait for a about a minute.
+3. Now resume the pod via _More > Resume Pod_. This step will run the update script, which can take several minutes.
+
+If you keep seeing the error after this there may be an update error related to custom apps and the logs found in _More > Show Logs_ may have more details.
+
+## Nextcloud Updates
+You may see a notification to update in Nextcloud's admin section. Since updates are centrally managed, this feature is disabled. Your pod will automatically receive updates within 1-2 weeks of their release. We also run any required migration scripts for you. 😇
 
 ## Warnings regarding `.well-known` paths
 You may see warning regarding `.well-known` paths to CalDAV and CardDAV services in the *Security & setup warnings* section. Those are false positives and those paths will work as expected.
