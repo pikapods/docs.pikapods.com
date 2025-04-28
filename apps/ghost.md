@@ -55,3 +55,18 @@ User-agent: *
 When using the default _Casper_ theme, in rare cases the site may look broken after a pod restart. This is due to a [known issue](https://github.com/docker-library/ghost/issues/230) with Docker adding a broken symlink. If you experience this issue, go to _Settings > Design > Change Theme_ and reinstall the desired theme.
 
 You can also upload and customize your own theme via [SFTP](/manage/files).
+
+## Two-Factor Authentication (2FA)
+
+Ghost has introduced two-factor authentication for staff accounts. By default, this security feature is enabled and requires staff members to verify new devices when logging in.
+
+If you prefer to disable this feature, you can do so by:
+
+1. Go to your pod settings in the PikaPods control panel
+2. Navigate to the "ENV VARS" section
+3. Set the following environment variable:
+   - `security__staffDeviceVerification`: `false`
+
+If you wish to keep 2FA enabled, you must set up [Transactional emails](#transactional-emails) as described above, as these are required for sending verification codes.
+
+For more information about Ghost's 2FA feature, see the [official changelog](https://ghost.org/changelog/2fa/).
