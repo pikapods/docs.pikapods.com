@@ -182,3 +182,18 @@ Settings to use on *PikaPods*:
 - **Bucket**: Your bucket name (found under Bucket Settings > Bucket ID)
 - **S3 Access Key ID**: The Access Key ID from your generated API key
 - **S3 Secret Key**: The Secret Key from your generated API key
+
+#### **[Tebi S3](https://tebi.io/)**
+
+A European S3-compatible storage solution (based in Cyprus) with a generous free tier offering 50 GB total storage (25 GB of data in 2 copies). Offers unlimited pay-as-you-go plans with no credit card needed to get started. Includes 250 GB of free outbound transfer.
+
+Setup Steps in Tebi:
+1. Create an account and set up a bucket for your backups
+2. Generate access keys for your bucket
+3. Save both the Access Key ID and Secret Key
+
+Settings to use on *PikaPods*:
+- **S3 Endpoint**: `s3.tebi.io`
+- **Bucket**: Your bucket name
+- **S3 Access Key ID**: The Access Key ID from your generated key
+- **S3 Secret Key**: The Secret Key from your generated key

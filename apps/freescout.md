@@ -4,7 +4,19 @@ layout: page
 parent: App Notes
 ---
 
-# Known Issues
+
+## Reset Password
+
+If you forgot your password and don't have the email feature set up, you can reset the password via the database. Steps:
+
+1. Enable [database access](/manage/database) for the pod.
+2. Log into the database from the *PikaPods* control panel
+3. Navigate to the *users* table
+4. Ensure you see the *password* field. It contains a `bcrypt`-encrypted password
+5. Generate a new `bcrypt` hash using your new password. E.g. on [this website](https://bcrypt-generator.com/).
+6. Enter the whole new hash in the *password* field (Do NOT enter the cleartext password!)
+7. Save the changes in Adminer and confirm you can log in again.
+
 
 ## Cache Not Clearing After Changes
 
