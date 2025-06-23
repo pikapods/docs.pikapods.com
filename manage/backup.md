@@ -12,7 +12,7 @@ Keeping your data safe is very important to us. That's why we take measures at m
 
 ## Full Server Backups
 
-We keep daily backups of all databases and mounted files (everything you see over SFTP) pods use. These backups are meant to recover from server-wide failures. While it's also possible to restore individual pod files in emergencies, we currently can't offer this service regularly.
+We keep daily backups of all databases and mounted files (everything you see over SFTP) pods use. These backups are meant to recover from server-wide failures. Restoring individual pods from them should be a last resort and your own backups are always preferrable. If you have lost pod data for any reason and are interested in using our full server backups, get in [touch](mailto:support@pikapods.com) and we'll confirm possible recovery points and cost.
 
 ## Manual One-Time Backups
 
