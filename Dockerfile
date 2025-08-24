@@ -1,22 +1,21 @@
 # Use Ruby 3.4 Alpine for Jekyll 4.3 compatibility
-FROM docker.io/library/ruby:3.4-alpine
+FROM docker.io/library/ruby:3.4
 
 # Install dependencies
-RUN apk add --no-cache \
-    build-base \
-    linux-headers \
+RUN apt-get update && apt-get install -y \
+    build-essential \
     git \
     nodejs \
-    npm
+    npm \
+    && rm -rf /var/lib/apt/lists/*
 
 # Set working directory
 WORKDIR /app
 
-# Declare volume mount point for application files
-VOLUME ["/app"]
 
-# Copy Gemfile and Gemfile.lock
-COPY Gemfile* ./
+# Copy Gemfile and Gemfile.lock explicitly for proper cache invalidation
+COPY Gemfile ./
+COPY Gemfile.lock ./
 
 # Install bundler and gems
 RUN gem install bundler && \
