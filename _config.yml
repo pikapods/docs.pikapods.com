@@ -7,7 +7,7 @@ favicon_ico: favicon.ico
 
 permalink: /404.html
 include: ["_redirects"]
-exclude: ["README.md", "Rakefile", "vendor"]
+exclude: ["README.md", "Rakefile", "vendor", "Dockerfile", "docker-compose.yml", "docker-compose.yaml", ".dockerignore"]
 
 search_enabled: true
 heading_anchors: true
