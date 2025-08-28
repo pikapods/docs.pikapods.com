@@ -56,6 +56,27 @@ When using the default _Casper_ theme, in rare cases the site may look broken af
 
 You can also upload and customize your own theme via [SFTP](/manage/files).
 
+## Using MinIO Storage
+
+Ghost can use MinIO (an S3-compatible storage service) for storing images and other media files. To set this up, you'll need to:
+
+1. Install the MinIO storage adapter:
+   - Connect to your pod via [SFTP](/manage/files)
+   - Navigate to the `content` directory
+   - Create the path `adapters/storage/minio` if it doesn't exist
+   - Upload the contents of [ghost-minio](https://github.com/captbrogers/ghost-minio) repository into this directory
+
+2. Configure the storage adapter in pod `Settings > ENV VARS` with your MinIO credentials:
+   - `storage__active`: `minio`
+   - `storage__minio__accessKey`: Your MinIO access key
+   - `storage__minio__secretKey`: Your MinIO secret key
+   - `storage__minio__bucket`: Your bucket name
+   - `storage__minio__endPoint`: Your MinIO server endpoint (without http/https)
+   - `storage__minio__port`: MinIO server port (optional, defaults to 9000)
+   - `storage__minio__useSSL`: Set to `true` if using HTTPS (optional)
+
+After configuring these settings, Ghost will store all new media uploads in your MinIO bucket instead of the local filesystem.
+
 ## Two-Factor Authentication (2FA)
 
 Ghost has introduced two-factor authentication for staff accounts. By default, this security feature is enabled and requires staff members to verify new devices when logging in.
