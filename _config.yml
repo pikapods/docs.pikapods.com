@@ -7,7 +7,16 @@ favicon_ico: favicon.ico
 
 permalink: /404.html
 include: ["_redirects"]
-exclude: ["README.md", "Rakefile", "vendor", "Dockerfile", "docker-compose.yml", "docker-compose.yaml", ".dockerignore"]
+exclude:
+  [
+    "README.md",
+    "Rakefile",
+    "vendor",
+    "Dockerfile",
+    "docker-compose.yml",
+    "docker-compose.yaml",
+    ".dockerignore",
+  ]
 
 search_enabled: true
 heading_anchors: true
@@ -22,6 +31,9 @@ callouts:
   note:
     title: Note
     color: grey-dk
+  warning:
+    title: Warning
+    color: yellow
 kramdown:
   toc_levels: 1..3
 
