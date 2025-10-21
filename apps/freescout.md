@@ -29,6 +29,21 @@ To clear the FreeScout cache, follow these steps:
 
 This will ensure that any changes you make, such as modifying profile photo sizes, are properly applied.
 
+## Clearing Module Cache
+
+If you've installed a broken module in FreeScout and need to remove it, you can clear the module cache by following these steps:
+
+1. Enable SFTP access to your FreeScout pod via _Pod Settings > Files_ and connect (see [Accessing Pod Files using SFTP](/manage/files#accessing-pod-files-using-sftp))
+2. Remove the broken module from `data/Modules/` directory if it's still there
+3. Delete all files in these directories:
+   - `data/storage/framework/cache/data/*`
+   - `data/storage/framework/views/*`
+   - `data/storage/framework/sessions/*`
+4. Visit `https://your-pod.pikapod.net/tools.php` and enter your APP_KEY (found in `data/config/config.php`) to clear the cache
+5. Restart the pod
+
+For more detailed information, see the [official FreeScout cache clearing documentation](https://github.com/freescout-help-desk/freescout/wiki/Clearing-the-Cache).
+
 ## Migration Guide
 
 When migrating an existing FreeScout installation to PikaPods, follow these steps:
