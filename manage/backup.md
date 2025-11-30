@@ -211,3 +211,28 @@ Settings to use on _PikaPods_:
 - **Bucket**: Your bucket name
 - **S3 Access Key ID**: The Access Key ID from your generated key
 - **S3 Secret Key**: The Secret Key from your generated key
+
+#### **[MEGA S4](https://mega.io/objectstorage)**
+
+MEGA's S3-compatible object storage service with multiple regional endpoints. Offers competitive pricing and strong privacy focus.
+
+Setup Steps in MEGA:
+
+1. Go to _Object storage_ in the MEGA web client
+2. Create a new bucket for your backups
+3. Navigate to _Object storage > Keys_ in the settings
+4. Click _Create key_ and choose _Root user_
+5. Enter a key name and click _Next_
+6. Save both the Access Key ID and Secret Key (download or copy them immediately, as the Secret Key won't be shown again)
+
+Settings to use on _PikaPods_:
+
+- **S3 Endpoint**: Choose one of the available endpoints from _Settings > Object storage > Endpoints_. Examples:
+  - `s3.eu-central-1.s4.mega.io` (Amsterdam)
+  - `s3.eu-central-2.s4.mega.io` (Luxembourg)
+  - `s3.ca-central-1.s4.mega.io` (Montreal)
+  - `s3.ca-west-1.s4.mega.io` (Vancouver)
+  - `s3.g.s4.mega.io` (global endpoint, points to Amsterdam)
+- **Bucket**: Your bucket name
+- **S3 Access Key ID**: The Access Key from your created key
+- **S3 Secret Key**: The Secret Key from your created key
