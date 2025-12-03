@@ -34,3 +34,14 @@ To resolve the 401 error, follow these steps:
 ### Additional Information
 
 We have created a [GitHub issue](https://github.com/activepieces/activepieces/issues/6022) regarding this problem, but it has not been addressed by the developers. Users experiencing this issue should follow the steps above to mitigate the problem until a permanent fix is implemented.
+
+## Troubleshooting After Updates
+
+If you encounter errors after an Activepieces update, such as module installation failures, missing dependencies, or flows that fail to work properly, clearing the cache folder can force a clean reinstall of dependencies.
+
+1. Pause the pod via _More > Pause_ in the PikaPods dashboard.
+2. Access your pod files via SFTP. (Refer to [this page](/manage/files) for accessing pod files using SFTP.)
+3. Delete everything inside the `cache` folder.
+4. Resume the pod via _More > Resume_ in the PikaPods dashboard.
+
+This will trigger Activepieces to reinstall all dependencies and pieces from scratch, which often resolves issues caused by incomplete or corrupted installations during updates.
