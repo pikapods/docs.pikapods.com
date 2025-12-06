@@ -6,6 +6,9 @@ parent: FAQ
 description: "Technical questions about email, IPv6, proxy headers, data centers and time zones."
 ---
 # Technical Details
+{: .no_toc }
+1. TOC
+{:toc}
 
 ## Sending emails
 Some apps need to send emails to work properly. Currently PikaPods doesn't offer email sending services. Some popular options are [Mailjet](https://www.mailjet.com/), [Mailgun](https://www.mailgun.com/) and [Postmark](https://postmarkapp.com/). If you already have a Google/Gmail Email account, you could [use](https://support.google.com/a/answer/176600?hl=en#gmail-smtp-option) that too.

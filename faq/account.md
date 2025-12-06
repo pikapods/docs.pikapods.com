@@ -6,6 +6,9 @@ parent: FAQ
 description: "Questions about pricing, account limits, business use and account management."
 ---
 # Billing & Account
+{: .no_toc }
+1. TOC
+{:toc}
 
 ## Pricing
 The cost of running a pod will depend on the resources you choose to allocate to it. All resources have a built-in discount and will get cheaper as you allocate more of them.

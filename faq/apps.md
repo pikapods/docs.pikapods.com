@@ -6,6 +6,9 @@ parent: FAQ
 description: "Questions about app support, file editing, adding new apps and update policies."
 ---
 # Apps & Updates
+{: .no_toc }
+1. TOC
+{:toc}
 
 ## Support for Individual Apps
 If you have any concerns with your PikaPods account, billing or an offline pod, email to [hello@pikapods.com](mailto:hello@pikapods.com) any time. You will generally receive a response within a few hours on working days.
