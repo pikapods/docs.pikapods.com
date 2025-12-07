@@ -26,6 +26,12 @@ aux_links:
     - "https://www.pikapods.com"
 
 theme: just-the-docs
+
+sass:
+  quiet_deps: true
+  silence_deprecations:
+    - color-functions
+    - import
 color_scheme: pikapods
 callouts:
   note:

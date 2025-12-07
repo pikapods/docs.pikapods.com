@@ -20,18 +20,18 @@ _PikaPods_ helps you run the best open source apps with just a few clicks. Compa
 Our documenation shows you how to get the most of the features _PikaPods_ provides.
 
 
-### Pod Management
+### [Pod Management](manage)
 
-Manage your pod's files, database, domain and backups. [More...](manage)
+Manage your pod's files, database, domain and backups. Learn how to use your own domain, access files via SFTP, export data, and set up automated backups. You have full control over your data at all times.
 
-### App Notes
+### [App Notes](apps)
 
-Additional notes on configuring and using specific apps. [More...](apps)
+Additional notes on configuring and using specific apps. Find setup instructions, common issues, and solutions for apps like Nextcloud, WordPress, Immich, and many others. Save time by learning from others' experience.
 
-### Tutorials
+### [Tutorials](tutorials)
 
-Find the right app for a job and learn how to use it for specific tasks: [More...](tutorials)
+Find the right app for a job and learn how to use it for specific tasks. Browse tutorials by category, including documentation, email, finance, monitoring, photo management, and productivity. Discover which open source app fits your needs.
 
-### FAQ
+### [FAQ](faq)
 
-Frequently asked questions about our service. [More...](faq)
+Frequently asked questions about our service. Learn about pricing, account limits, app updates, technical details like email setup and data center locations. Get answers to common questions before you ask.

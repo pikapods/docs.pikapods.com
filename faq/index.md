@@ -10,13 +10,13 @@ has_toc: false
 
 Find answers to common questions about PikaPods organized by topic:
 
-## [Billing & Account](/faq/account)
+## [Billing & Account](account)
 Questions about pricing, resource requirements, account limits, business use and account management.
 
-## [Apps & Updates](/faq/apps)
+## [Apps & Updates](apps)
 Questions about app support, editing files, adding new apps, update policies and environment variables.
 
-## [Technical Details](/faq/technical)
+## [Technical Details](technical)
 Technical questions about sending emails, IPv6, proxy headers, data centers and time zones.
 
 ---

@@ -11,26 +11,26 @@ has_toc: false
 
 It's easy to get started with our pods, but advanced features are there if you need them:
 
-## Getting Started
+## [Getting Started](getting-started)
 
-New to PikaPods? Learn how to set up and get started with our pods. [More…](getting-started)
+New to PikaPods? Learn how to create an account, deploy your first app, and start using it in minutes. No credit card required and you get $5 in free credits to explore.
 
-## Custom Domain
+## [Custom Domain](custom-domains)
 
-Attach your own domain to a pod. [More…](custom-domains)
+Attach your own domain to a pod. Make your app accessible under your own brand, like blog.yourdomain.com. We automatically handle SSL certificates to keep your connection secure.
 
-## Files
+## [Files](files)
 
-Access pod files using SFTP and perform backups. [More…](files)
+Access pod files using SFTP. Upload, download, and manage your pod's files directly from your computer. This gives you full control over your data and makes migrations easy.
 
-## Database
+## [Database](database)
 
-Manage the pod's database. [More…](database)
+Manage the pod's database. View, edit, and export your app's data when needed. Useful for advanced customizations, migrations, or manual data corrections.
 
-## Backup
+## [Backup](backup)
 
-Learn how to perform backups of pod data. [More…](backup)
+Learn how to perform backups of pod data. Keep your data safe with automatic daily backups to your own storage. Backups are encrypted and incremental, so only changes are transferred.
 
-## Debug
+## [Debug](debug)
 
-Troubleshoot and debug your pod using helpful tips and resources. [More…](debug)
+Troubleshoot and debug your pod. Find and fix issues quickly by viewing application logs. Learn how to diagnose startup problems and get your pod running again.
