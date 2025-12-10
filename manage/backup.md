@@ -112,6 +112,17 @@ Then to actually [restore](https://restic.readthedocs.io/en/stable/050_restore.h
 $ restic restore XXXXXXX
 ```
 
+To restore the data to a new pod:
+
+1. Add new empty pod and enable [database](/manage/database) and [file access](/manage/files).
+2. Stop this empty pod. Data in this pod will be removed.
+3. In the database, remove all tables and import the SQL dump from the backup .
+4. Using SFTP, put back all the files. Remove any existing files in the process.
+5. Start the new pod and check the [logs](/manage/debug) for potential errors
+
+Some pods don't use a database or don't use files. In this case those steps can be skipped. You may also need to
+adjust env vars. Those aren't contained in the Restic backup.
+
 ### Cost and Security
 
 This section has additional steps you can take to secure your backups and S3 storage account.
