@@ -45,12 +45,13 @@ New apps are regularly being added. If your favorite app isn't available yet, yo
 
 
 ## Updating apps
-Providing you with a stable experience is our main priority. As such we don't just automatically apply updates as they are released, but test them in a staging environment before making them available to all pods. Updates should also be for a stable release (in the context of the project) and released for a minimum of 3 days. Generally updates will reach your pod within 1-2 weeks of their release.
+Providing you with a stable experience is our main priority. As such we don't just automatically apply updates as they are released, but test them in a staging environment before making them available to all pods. Updates should also be for a stable release (in the context of the project) and released for a minimum of 3 days. Generally updates will reach your pod within 1-2 weeks of their release, but often sooner.
 
 For security-related updates, we may do ad-hoc updates of single apps.
 
 For breaking changes (as defined in release logs), we will send a notification by email one week before the update.
 
+For all other updates, you can choose to receive a notification when your pod is updated by changing the setting in *Edit Pod Settings > Basics > Notify me of updates*.
 
 ## Missing environment variables
 When adding new apps, we will add the most common and useful env vars from the start. Sometimes this doesn't include very specific or newly-added env vars. If you find that an env var you want to use is missing, just send us an email to to [hello@pikapods.com](mailto:hello@pikapods.com) and we will add it right away.
