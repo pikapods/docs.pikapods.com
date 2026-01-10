@@ -24,6 +24,6 @@ If the error is still unclear or no log is available, you can also use _Report I
 
 <img src="/img/pod-show-logs.png" width="60%" />
 
-## Recreate Pod
+## Restart Pod
 
-You can fully reset your pod by adjusting either _Resources_ or _Env Vars_ in the _Settings_ tab. This will recreate the application and only your database (if any) and files will remain. Doing so will also resolve any issue that happened _inside_ the application. It won't resolve issues that are related to settings files or wrong env vars.
+You can restart the pod from _More > Restart Pod_. This will resolve many errors and can be needed to apply changed settings.
