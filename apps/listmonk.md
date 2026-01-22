@@ -6,9 +6,12 @@ parent: App Notes
 
 ## Customize System Templates
 
-System templates for emails and public pages are available for editing via [SFTP](/manage/files), as described [here](https://listmonk.app/docs/templating/#system-templates). You find them in the `static` folder. It may be necessary to restart the pod to apply changes.
+System templates for emails and public pages can be customized via [SFTP](/manage/files) in the `static` folder. On older pods, this includes `email-templates` and `public` subfolders. Newer pods use built-in defaults and the `static` folder may be empty.
 
-You can also update those templates by grabbing the latest version from [Github](https://github.com/knadh/listmonk/tree/master/static).
+{: .warning }
+A pod restart is always required to apply template changes.
+
+Outdated templates can cause **Internal Server Error** (e.g., related to Captcha). To resolve this, [update your templates from GitHub](https://github.com/knadh/listmonk/tree/master/static) or delete the contents of the `static` folder to revert to the latest built-in defaults.
 
 ## Reset Password
 
