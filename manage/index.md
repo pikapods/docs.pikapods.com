@@ -34,3 +34,7 @@ Learn how to perform backups of pod data. Keep your data safe with automatic dai
 ## [Debug](debug)
 
 Troubleshoot and debug your pod. Find and fix issues quickly by viewing application logs. Learn how to diagnose startup problems and get your pod running again.
+
+## [Firewall](firewall)
+
+Restrict access to your pod using an IP allowlist. Secure your application by only allowing connections from trusted IP addresses.
