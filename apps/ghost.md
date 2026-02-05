@@ -77,26 +77,19 @@ Ghost can use MinIO (an S3-compatible storage service) for storing images and ot
 
 After configuring these settings, Ghost will store all new media uploads in your MinIO bucket instead of the local filesystem.
 
-## Adding Analytics (Umami)
+## Adding Analytics
 
 Umami is a privacy-friendly, self-hosted alternative to Google Analytics or Plausible. We also offer [Umami analytics in PikaPods](https://www.pikapods.com/pods?run=umami). You can easily add it to your Ghost site:
 
 1. Log into your Umami dashboard and add your website to get the tracking script.
 2. In Ghost Admin, go to **Settings > Code Injection**.
 3. Paste the tracking script into the **Site Header** section.
-   Example: `<script defer src="https://<pod-url>.pikapod.net/script.js" data-website-id="YOUR_SITE_ID"></script>`
+   - Example: `<script defer src="https://<pod-url>.pikapod.net/script.js" data-website-id="YOUR_SITE_ID"></script>`
 4. Click **Save**.
 
-Your Ghost site will now start sending analytics to your Umami instance.
+Your Ghost site will now start sending analytics to your Umami pod.
 
-## Adding Analytics (Plausible)
-
-Plausible is another popular privacy-focused analytics platform. Integrating it with Ghost is just as simple:
-
-1. Log into your Plausible dashboard and add your website to get the tracking script.
-2. In Ghost Admin, go to **Settings > Code Injection**.
-3. Paste the tracking script into the **Site Header** section.
-4. Click **Save**.
+Plausible is another popular privacy-focused analytics platform. Ghost has an [official Plausible integration guide](https://ghost.org/integrations/plausible/) that you can follow.
 
 ## Two-Factor Authentication (2FA)
 
