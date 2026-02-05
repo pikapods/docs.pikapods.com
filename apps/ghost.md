@@ -88,6 +88,15 @@ Umami is a privacy-friendly, self-hosted alternative to Google Analytics or Plau
 
 Your Ghost site will now start sending analytics to your Umami instance.
 
+## Adding Analytics (Plausible)
+
+Plausible is another popular privacy-focused analytics platform. Integrating it with Ghost is just as simple:
+
+1. Log into your Plausible dashboard and add your website to get the tracking script.
+2. In Ghost Admin, go to **Settings > Code Injection**.
+3. Paste the tracking script into the **Site Header** section.
+4. Click **Save**.
+
 ## Two-Factor Authentication (2FA)
 
 Ghost has introduced two-factor authentication for staff accounts. By default, this security feature is enabled and requires staff members to verify new devices when logging in.
