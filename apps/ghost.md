@@ -77,6 +77,17 @@ Ghost can use MinIO (an S3-compatible storage service) for storing images and ot
 
 After configuring these settings, Ghost will store all new media uploads in your MinIO bucket instead of the local filesystem.
 
+## Adding Analytics (Umami)
+
+Umami is a privacy-friendly, self-hosted alternative to Google Analytics or Plausible. You can easily add it to your Ghost site:
+
+1. Log into your Umami dashboard and add your website to get the tracking script.
+2. In Ghost Admin, go to **Settings > Code Injection**.
+3. Paste the tracking script into the **Site Header** section.
+4. Click **Save**.
+
+Your Ghost site will now start sending analytics to your Umami instance.
+
 ## Two-Factor Authentication (2FA)
 
 Ghost has introduced two-factor authentication for staff accounts. By default, this security feature is enabled and requires staff members to verify new devices when logging in.
