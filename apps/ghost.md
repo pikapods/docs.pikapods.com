@@ -79,11 +79,12 @@ After configuring these settings, Ghost will store all new media uploads in your
 
 ## Adding Analytics (Umami)
 
-Umami is a privacy-friendly, self-hosted alternative to Google Analytics or Plausible. You can easily add it to your Ghost site:
+Umami is a privacy-friendly, self-hosted alternative to Google Analytics or Plausible. We also offer [Umami analytics in PikaPods](https://www.pikapods.com/pods?run=umami). You can easily add it to your Ghost site:
 
 1. Log into your Umami dashboard and add your website to get the tracking script.
 2. In Ghost Admin, go to **Settings > Code Injection**.
 3. Paste the tracking script into the **Site Header** section.
+   Example: `<script defer src="https://<pod-url>.pikapod.net/script.js" data-website-id="YOUR_SITE_ID"></script>`
 4. Click **Save**.
 
 Your Ghost site will now start sending analytics to your Umami instance.
