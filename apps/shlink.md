@@ -21,20 +21,6 @@ If you need to generate a new API key, you can insert it directly into the [data
 
 To get started, log in to the database GUI (Adminer) and click **SQL command** in the top-left sidebar.
 
-### Requirements
-- **Format**: Alphanumeric characters only.
-- **Length**: Between 32 and 64 characters.
-
-### Step 1: Generate a SHA256 hash
-
-Pick a secure string for your key and generate its hash using MariaDB:
-
-```sql
-SELECT SHA2('your-api-key', 256);
-```
-
-### Step 2: Insert into the database
-
 Run the following SQL to create the key:
 
 ```sql
@@ -44,13 +30,15 @@ INSERT INTO api_keys (
     expiration_date,
     enabled
 ) VALUES (
-    'YOUR_SHA256_HASH_HERE',
-    'My Manual Key',
-    NULL,  -- Never expires
-    1      -- Enabled
+    SHA2('YourSecureApiKey', 256),  -- Your plaintext API key
+    'Dashboard access key',         -- Any unique label for this key
+    NULL,                           -- Never expires
+    1                               -- Enabled
 );
 ```
 
-Once inserted, use your plaintext key (`your-api-key`) to connect at [app.shlink.io](https://app.shlink.io).
+Replace `YourSecureApiKey` with your own API key. A 32 to 64 character alphanumeric key is recommended, but shorter keys will also work.
+
+Once inserted, use the plaintext key you chose to connect at [app.shlink.io](https://app.shlink.io). Since no roles are added here, this creates an admin API key.
 
 For more info on configuration, see the [official documentation](https://shlink.io/documentation/).
