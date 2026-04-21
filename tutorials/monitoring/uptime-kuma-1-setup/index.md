@@ -6,7 +6,7 @@ parent: Monitoring
 grand_parent: Tutorials
 ---
 
-# Setting Up Uptime Kuma on Pikapods
+# Setting Up Uptime Kuma on PikaPods
 
 This guide walks you through the essentials of using Uptime Kuma on PikaPods, from pod configuration and account creation to monitoring setup and leveraging status pages, all with the open-source tool Uptime Kuma, designed for seamless website performance tracking.
 
@@ -45,7 +45,7 @@ Before we start, make sure you're logged into PikaPods. Not a member yet? Signin
 
 ## Configuring Notifications
 
-There are many different notification services to choose from. Including email or SMS. To add a new notification channel:
+There are many different notification services to choose from, including email and SMS. To add a new notification channel:
 
 - Select **Setup Notifications** when editing your monitor or head to **Settings > Notifications**.
 - Select **Notification Type**.

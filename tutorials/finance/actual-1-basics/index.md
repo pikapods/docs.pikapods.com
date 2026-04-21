@@ -10,7 +10,7 @@ grand_parent: Tutorials
 
 **Actual** is a user-friendly and privacy-focused app designed for efficient financial management. Its sleek interface is optimized to ensure a speedy and seamless experience when exploring your finances.
 
-This guide will walk you through creating an account, importing files and transactions, as well as editing transactions using **Actual**.
+This guide will walk you through creating an account, importing files, and adding transactions manually using **Actual**.
 
 _[Watch the video tutorial](https://www.youtube.com/watch?v=mdvqzI_SfpQ) for a visual demonstration._
 

@@ -10,7 +10,7 @@ has_toc: false
 
 # Photo
 
-Enhance your photography experience with PikaPods' photo-related apps. These applications are designed to help you organize, edit, and share your photos effortlessly. Discover the power of intelligent photo management and seamless sharing.
+Enhance your photography experience with PikaPods photo-related apps. These applications are designed to help you organize, edit, and share your photos effortlessly. Discover the power of intelligent photo management and seamless sharing.
 
 ## PhotoPrism
 

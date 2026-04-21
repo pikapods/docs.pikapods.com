@@ -10,7 +10,7 @@ has_toc: false
 
 # Email
 
-Explore tutorials and guides on how to efficiently manage and optimize your email communication using PikaPods' suite of email-related apps.
+Explore tutorials and guides on how to efficiently manage and optimize your email communication using PikaPods email-related apps.
 
 ## Listmonk
 

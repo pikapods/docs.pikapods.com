@@ -14,13 +14,13 @@ Those are used for sending newsletters. Currently **only Mailgun is supported**.
 
 ### Transactional emails
 
-Used to e.g. send a welcome email or reset a user's password. You can use any SMTP service for this. Since we need Mailgun for bulk emails anyway, here the steps for using Mailgun:
+Used to e.g. send a welcome email or reset a user's password. You can use any SMTP service for this. Since we need Mailgun for bulk emails anyway, here are the steps for using Mailgun:
 
 1. Log into your Mailgun control panel
 2. Find the domain's _SMTP Credentials_ tab, as described [here](https://help.mailgun.com/hc/en-us/articles/203380100-Where-Can-I-Find-My-API-Key-and-SMTP-Credentials-#01GAJ2K1WS5GSWGKQ82TSVQSNV)
 3. Add a new SMTP user. The password will be shown in a grey box at the bottom-right
-4. Go back to _PikaPods_ and open the pods settings (or add those settings in the config file via [SFTP](/faq/#accessing-pod-files-using-sftp))
-5. Under _Env Vars_ fill in the below details as shown [here](https://forum.ghost.org/t/failed-to-send-magic-link-email-error-when-trying-to-sign-up/31035/14)
+4. Go back to _PikaPods_ and open the pod settings (or add those settings in the config file via [SFTP](/manage/files#accessing-pod-files-using-sftp))
+5. Under _Env Vars_ fill in the following details as shown [here](https://forum.ghost.org/t/failed-to-send-magic-link-email-error-when-trying-to-sign-up/31035/14)
    - `mail__transport`: `SMTP`
    - `mail__from`: `noreply@EXAMPLE.COM`
    - `mail__options__service`: `Mailgun`

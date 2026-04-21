@@ -8,11 +8,11 @@ description: How to take a complete backup of your pod. When using PikaPods, you
 
 # Backing up Your PikaPods Pods
 
-Keeping your data safe is very important to us. That's why we take measures at multiple levels to ensure no data gets lost. Here the different types of backups available:
+Keeping your data safe is very important to us. That's why we take measures at multiple levels to ensure no data gets lost. Here are the different types of backups available:
 
 ## Full Server Backups
 
-We keep daily backups of all databases and mounted files (everything you see over SFTP) pods use. These backups are meant to recover from server-wide failures. Restoring individual pods from them should be a last resort and your own backups are always preferrable. If you have lost pod data for any reason and are interested in using our full server backups, get in [touch](mailto:support@pikapods.com) and we'll confirm possible recovery points and cost.
+We keep daily backups of all databases and mounted files (everything you see over SFTP) that pods use. These backups are meant to recover from server-wide failures. Restoring individual pods from them should be a last resort, and your own backups are always preferable. If you have lost pod data for any reason and are interested in using our full server backups, get in [touch](mailto:support@pikapods.com) and we'll confirm possible recovery points and cost.
 
 {: .warning }
 
@@ -22,12 +22,12 @@ We keep daily backups of all databases and mounted files (everything you see ove
 
 If you just need to grab your data once for a migration, you can follow these manual steps. They let you export your files and related database:
 
-All persistent pod data is available over [SFTP](/manage/files#accessing-pod-files-using-sftp). Some pods also use an external database, usually Postgresql or MySQL/MariaDB.
+All persistent pod data is available over [SFTP](/manage/files#accessing-pod-files-using-sftp). Some pods also use an external database, usually PostgreSQL or MySQL/MariaDB.
 
 You can make a full pod backup by following the steps:
 
 1. Enable [SFTP](/manage/files#accessing-pod-files-using-sftp) in the pod's settings.
-2. Enable [Database access](/manage/database#accessing-the-pods-database) in the pod's settings.
+2. Enable [Database access](/manage/database#edit-the-pods-database) in the pod's settings.
 3. Stop the pod to make sure all data from memory is written to disk (e.g. for SQLite or Mongo databases)
 4. Log into the pod via SFTP and copy all files.
 5. Log into the pod's database and _Export_ the whole database.
@@ -43,7 +43,7 @@ Follow the steps below to set up incremental backups:
 
 ### S3 Storage Provider
 
-_PikaPods_ doesn't offer backup storage and it's best practice to keep backups with another provider. _S3_ is a standardized storage protocol, first introduced by Amazon and now offered by many companies. You can use any one of them. To make the choice easier, here a list of popular choices. For even more options, also see the [providers our users reported to be working](#additional-providers) further down.
+_PikaPods_ doesn't offer backup storage and it's best practice to keep backups with another provider. _S3_ is a standardized storage protocol, first introduced by Amazon and now offered by many companies. You can use any one of them. To make the choice easier, here is a list of popular choices. For even more options, also see the [providers our users reported to be working](#additional-providers) further down.
 
 - [**Backblaze B2**](https://www.backblaze.com/cloud-storage): A reliable and established choice priced at $6/TB/month. Some data transfer is included, so unless you download your backup very often, you will only pay for what you use each month. 10 GB are free, which is enough to keep backups of smaller pods.
 - [**iDrive e2**](https://www.idrive.com/s3-storage-e2/): A more recent addition, if you are looking for a lower price. You need to commit for a year, but get 50% off the first year and then pay around $4-5/TB/month.
@@ -81,7 +81,7 @@ To verify your backup integrity, follow the [Restic documentation on checking in
 
 ### Restore Backups using Restic
 
-Incremental backups use the [Restic](https://restic.readthedocs.io/en/) tool. To verify or restore a pod backup, follow the steps below. Note that this needs some technical expertise, but we are working in integrating the process in the control panel eventually.
+Incremental backups use the [Restic](https://restic.readthedocs.io/en/) tool. To verify or restore a pod backup, follow the steps below. Note that this needs some technical expertise, but we are working on integrating the process into the control panel eventually.
 
 First take note of the repository URL and password found in _Pod Settings > Backups_. Then you will also need the access key and secret created with your S3 provider. Those can't be retrieved from _PikaPods_ for security reasons, but you could recreate them if needed.
 
@@ -116,7 +116,7 @@ To restore the data to a new pod:
 
 1. Add new empty pod and enable [database](/manage/database) and [file access](/manage/files).
 2. Stop this empty pod. Data in this pod will be removed.
-3. In the database, remove all tables and import the SQL dump from the backup .
+3. In the database, remove all tables and import the SQL dump from the backup.
 4. Using SFTP, put back all the files. Remove any existing files in the process.
 5. Start the new pod and check the [logs](/manage/debug) for potential errors
 

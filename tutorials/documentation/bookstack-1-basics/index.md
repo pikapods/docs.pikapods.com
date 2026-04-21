@@ -1,12 +1,12 @@
 ---
-title: Bookstack Basics
-description: The basics of using Bookstack, a popular open source documentation app. Helps to organize knowledge in books, chapters and pages and set up permissions for sharing.
+title: BookStack Basics
+description: The basics of using BookStack, a popular open source documentation app. Helps organize knowledge in books, chapters, and pages and set up permissions for sharing.
 layout: page
 parent: Documentation
 grand_parent: Tutorials
 ---
 
-# Start Organizing your Documentation and Notes with Bookstack
+# Start Organizing Your Documentation and Notes with BookStack
 
 **BookStack** is a user-friendly, self-hosted platform designed for efficient organization and storage of information. The platform's content is fully searchable, allowing you to search at various levels, from books to chapters and pages. Linking directly to specific paragraphs keeps your documentation connected. This tutorial will guide you through the process of creating books and shelves.
 

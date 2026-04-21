@@ -19,7 +19,7 @@ For more comprehensive details, refer to the [official tutorials](https://change
 <video controls loop muted preload="none" src="1-add-monitor-website.mp4" poster="1-add-monitor-website.webp">
 </video>
 
-You can monitor any website for changes. You can track changes for the entire website, or track only one page. You can also monitor for out of stock items. Here are the steps to adding website that you want to track:
+You can monitor any website for changes. You can track changes for the entire website, or track only one page. You can also monitor for out-of-stock items. Here are the steps to add a website that you want to track:
 
 1. **Copy the URL** that you want to monitor for changes.
 2. **Paste the URL** in the empty field.
@@ -45,7 +45,7 @@ You can adjust monitoring settings for each website that you are tracking. You c
 <video controls loop muted preload="none" src="3-add-discord-notifications.mp4" poster="3-add-discord-notifications.webp">
 </video>
 
-Changedetection lets you receive website changes notifications in Discord. You can receive notifications for all websites that you are tracking. Here are the steps:
+Changedetection lets you receive notifications about website changes in Discord. You can receive notifications for all websites that you are tracking. Here are the steps:
 
 1. Open your Discord account and create a new server (your personal server).
 2. Right-click on your server and select **Server Settings** > **Integrations**.

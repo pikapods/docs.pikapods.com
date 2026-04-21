@@ -10,7 +10,7 @@ You can enable, disable and manage extension settings in the admin interface und
 
 To install new plugins:
 
-1. Get the plugin source code from the plugin's Github repository. Either by cloning it or downloading the code as zip via _Code > Download ZIP_.
+1. Get the plugin source code from the plugin's GitHub repository. Either by cloning it or downloading the code as a zip via _Code > Download ZIP_.
 2. Upload the plugin folder via [SFTP](/manage/files) into `/plugins`.
 3. Restart the pod. This will detect the plugin and compile related web assets.
 4. Now the new plugin should show up in _Admin > Plugins_. (Restarting Discourse can take a few minutes.)

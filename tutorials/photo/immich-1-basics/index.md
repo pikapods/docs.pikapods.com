@@ -48,7 +48,7 @@ menu using different viewing options, including:
   through a timeline and view all the photos taken within a given time period.
 - Explore: This view will show you photos organised by face (in the **people** section), or
   location (in the **places** section). Users can also assign names to different faces, and
-  view collections of photos that that person features in.
+  view collections of photos that a person features in.
 - Map: This option will give you a bird’s eye view of where in the world your photos were
   taken. You can zoom in on a continent, country, or specific place for a deeper look at
   your photos in different locations.
@@ -74,7 +74,7 @@ the following sections:
 
 ### Part 5: How to Create and Share an Album on Immich
 
-Once you’ve uploaded your photos and created a secure, alternative to Google Photos back up
+Once you’ve uploaded your photos and created a secure alternative to Google Photos backup
 for your images and videos, it’s time to organise your photos into albums. In this way, you’ll be
 able to share your memories with your friends and family by simply sending them a link to your
 album! Here’s how you can create albums on Immich:

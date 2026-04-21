@@ -31,7 +31,7 @@ When adding new apps, we set minimum resource requirements based on several fact
 
 While some apps may work with lower specs initially, they might not provide the best user experience or may cause memory errors or slowness when using certain features. The minimum requirements we set aim to provide a good starting point for most users to ensure a smooth experience.
 
-If you pod runs out of memory multiple times, we will notify you and automatically increase memory to make sure it's stable.
+If your pod runs out of memory multiple times, we will notify you and automatically increase memory to make sure it's stable.
 
 
 ## Account Limits
@@ -39,9 +39,9 @@ To ensure system stability, every account is subject to limits on the amount of 
 
 
 ## Business use and service level
-Can you use *PikaPods* for your business apps? The answer is yes! Many of our users already run business-critical apps on our platform. We are also hoping to add more feature in the future to serve this segment better. Here what you can expect in terms of uptime, support and data safety:
+Can you use *PikaPods* for your business apps? The answer is yes! Many of our users already run business-critical apps on our platform. We are also hoping to add more features in the future to serve this segment better. Here's what you can expect in terms of uptime, support, and data safety:
 
-- **Uptime and maintenance**: Historically, you can expect an uptime of about 99.95% over a month or better, which translates to about 30 minutes of downtime in a month. This is needed to apply regular app updates, as well as system updates. App updates happen about twice a month and take a few seconds only. System updates need a reboot and last about 15 minutes. They will be scheduled at off-peak hours in their region and happen ever 3 to 6 months. It can take up to 30 minutes for all pods to be back up, since they are started back up in random sequence. (These numbers are historical averages and don't consitute any uptime guarantee or service level agreement.)
+- **Uptime and maintenance**: Historically, you can expect an uptime of about 99.95% over a month or better, which translates to about 30 minutes of downtime in a month. This is needed to apply regular app updates, as well as system updates. App updates happen about twice a month and take only a few seconds. System updates need a reboot and last about 15 minutes. They will be scheduled at off-peak hours in their region and happen every 3 to 6 months. It can take up to 30 minutes for all pods to be back up, since they are started back up in random sequence. (These numbers are historical averages and don't constitute any uptime guarantee or service level agreement.)
 - **Support Response Time**: Our support staff works in Asian and EU time zones and you can expect a response in less than an hour during normal business hours.
 - **Backups**: We take whole-server offsite backups daily and every server has redundant drives.
 - **Testing**: As opposed to doing automatic container updates, all our updates are tested before they reach your pod. This includes dealing with breaking changes and migrations over time.
@@ -55,12 +55,12 @@ In the future, we plan on adding a "business" tier to better address the needs o
 - Monitoring of your apps
 - Live migration before reboots to minimize downtime
 
-If you already use *PikaPods* for your business apps and want an additional level of support from the same team, you also look into [Peakford's managed server solutions](https://www.peakford.com/).
+If you already use *PikaPods* for your business apps and want an additional level of support from the same team, you can also look into [Peakford's managed server solutions](https://www.peakford.com/).
 
 
 ## Delete your Account
 
-If you are not using your *PikaPods* account to run any pods, there is no cost assosicated with it, so you could just let it sit until you need it again. Any credit you have, including free welcome credit, won't expire and will still be there.
+If you are not using your *PikaPods* account to run any pods, there is no cost associated with it, so you could just let it sit until you need it again. Any credit you have, including free welcome credit, won't expire and will still be there.
 
 In case you still want to fully remove the account, use those steps:
 

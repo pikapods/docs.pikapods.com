@@ -8,7 +8,7 @@ parent: App Notes
 
 If you plan on using a custom domain or restoring an existing site, it's best to set the custom domain _before_ completing the WordPress installation assistant.
 
-If you need to change the domain after installation, follow those steps:
+If you need to change the domain after installation, follow these steps:
 
 1. First change the domain in the `wp_options` table, options `home` and `siteurl` using the pod's [database access](/manage/database) feature.
 2. Update the domain in your _PikaPods_ control panel.
@@ -16,7 +16,7 @@ If you need to change the domain after installation, follow those steps:
 
 ## Adjust PHP Settings
 
-The default upload limit is set to 64 MB. You can increase this or adjust other PHP settings by editing the `uploads.ini` file using [SFTP](/faq/#accessing-pod-files-using-sftp). This file is already populated with some common settings, like upload limits or memory limits.
+The default upload limit is set to 64 MB. You can increase this or adjust other PHP settings by editing the `uploads.ini` file using [SFTP](/manage/files#accessing-pod-files-using-sftp). This file is already populated with some common settings, like upload limits or memory limits.
 
 ## Adjust WordPress Settings
 
@@ -37,7 +37,7 @@ To enable WordPress email functionality for user registration, password reset, a
 - [Post SMTP](https://wordpress.org/plugins/post-smtp/): Feature-rich plugin with email logging and good compatibility
 - [WP Mail SMTP](https://wordpress.org/plugins/wp-mail-smtp/): Popular option with extensive email service integrations
 
-For SMTP server details, you can use any email service that provides SMTP access. See our [FAQ on sending emails](/faq#sending-emails) for recommended email service providers.
+For SMTP server details, you can use any email service that provides SMTP access. See our [FAQ on sending emails](/faq/technical#sending-emails) for recommended email service providers.
 
 ## Debugging
 

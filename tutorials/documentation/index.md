@@ -10,7 +10,7 @@ has_toc: false
 
 # Documentation
 
-Explore tutorials and guides to effectively create, organize, and manage documentation using PikaPods' suite of documentation apps.
+Explore tutorials and guides to effectively create, organize, and manage documentation using PikaPods documentation apps.
 
 ## BookStack
 

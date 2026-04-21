@@ -8,12 +8,12 @@ parent: App Notes
 
 You can manage extensions using the [Extension Manager](https://github.com/flarum/extension-manager) extension, which comes pre-installed with all Flarum pods on *PikaPods*. Navigate to *Administration > Features > Extension Manager* in your Flarum pod to enable and use it.
 
-To persist extensions during pod updates and edits, you also need to add the `vendor/package-name` in the file `/data/extensions/list`. This file can be accessed via [SFTP](/faq/#accessing-pod-files-using-sftp). Be sure to have a new line at the end of the file. (We are [working](https://github.com/crazy-max/docker-flarum/issues/103) to get rid of this step.)
+To persist extensions during pod updates and edits, you also need to add the `vendor/package-name` in the file `/data/extensions/list`. This file can be accessed via [SFTP](/manage/files#accessing-pod-files-using-sftp). Be sure to have a new line at the end of the file. (We are [working](https://github.com/crazy-max/docker-flarum/issues/103) to get rid of this step.)
 
 
 ## Send email with SMTP
 
-First login to the Flarum forum as an administrator and then follow these steps:
+First, log in to the Flarum forum as an administrator and then follow these steps:
 
 1. Go to **Administration > Email**.
 2. Under **Choose a Driver**, select **SMTP**.
@@ -32,7 +32,7 @@ Once you have completed these steps, Flarum will be able to send its verificatio
 
 ## Changing initial admin user
 
-You MUST setup [email with SMTP](#send-email-with-smtp) before editing the initial admin user.
+You MUST set up [email with SMTP](#send-email-with-smtp) before editing the initial admin user.
 
 **Step 1: Change username**
 
@@ -55,4 +55,3 @@ You MUST setup [email with SMTP](#send-email-with-smtp) before editing the initi
 2. Under **Account**, click **Change Password**.
 3. In the popup, click **Send Password Reset Email** and check email.
 4. You will now receive a password reset email to your account email. Click the link in the email to reset password.
-

@@ -27,7 +27,7 @@ The finance category features apps designed to assist you in managing your finan
 
 ## Monitoring
 
-Variety of apps to help you track and monitor system performance and availability. These apps can be used to monitor websites, servers, applications, and other IT infrastructure. [More…](monitoring)
+A variety of apps to help you track and monitor system performance and availability. These apps can be used to monitor websites, servers, applications, and other IT infrastructure. [More…](monitoring)
 
 ## Photo
 
@@ -35,4 +35,4 @@ The photo category includes all apps used to organize, edit, or share photos. [M
 
 ## Productivity
 
-Boost your efficiency and productivity with apps designed to streamline tasks, manage projects, and optimize your workflow Explore apps to simplify your work processes and achieve more in less time. [More…](productivity)
+Boost your efficiency and productivity with apps designed to streamline tasks, manage projects, and optimize your workflow. Explore apps to simplify your work processes and achieve more in less time. [More…](productivity)
