@@ -61,3 +61,51 @@ Then follow the steps for your pod's database type.
 4. Add the generated bcrypt hash to the password field.
 5. Put your edited database copy back in the same place.
 6. Start your pod back up and log in using the new password.
+
+## Migrating Monitors to a MySQL-based Pod
+
+There is no supported direct database migration from SQLite to MySQL. If you want to move to a new MySQL-based pod, the safest approach is to copy monitor definitions and start with fresh monitoring history.
+
+The example below uses the `kuma` CLI from [BigBoot/AutoKuma](https://github.com/BigBoot/AutoKuma). Download the correct binary for your OS from the [releases page](https://github.com/BigBoot/AutoKuma/releases) and put it on your `PATH`.
+
+- Use `kuma-mac`, `kuma-linux`, or `kuma-windows.exe` for this workflow.
+- Do not use `autokuma-mac`, `autokuma-linux`, or `autokuma-windows.exe`. Those are daemon binaries for watching Docker labels and do not support `monitor list` or `monitor add`.
+
+If you see `Invalid config: missing configuration field "kuma.url"`, you are likely running `autokuma-*` instead of `kuma-*`.
+
+The CLI uses the admin username and password from the web UI. Replace `https://SOURCE`, `https://TARGET`, `admin`, and `PASS` in the examples with your own pod URLs and login details.
+
+### Export monitors
+
+```bash
+kuma --url https://SOURCE \
+  --username admin --password 'PASS' \
+  monitor list > monitors.json
+```
+
+### Import monitors
+
+`monitor add` consumes one JSON object per file, so split the export first with `jq`. This example removes IDs, tags, and notification references so the monitors can be imported into a fresh pod without source-only foreign keys:
+
+```bash
+mkdir -p out
+for id in $(jq -r 'keys[]' monitors.json); do
+  jq --arg id "$id" \
+    '.[$id] | del(.id, .tags, .notificationIDList)' \
+    monitors.json > "out/$id.json"
+done
+
+kuma --url https://TARGET \
+  --username admin --password 'PASS' \
+  monitor add out/*.json
+```
+
+### Notifications and tags
+
+Each monitor can reference notifications and tags by numeric ID. Those IDs only exist on the source pod. On the target pod, they will be different or missing. If you keep those references during import, you may see a database error about `monitor_tag_tag_id_foreign` or another missing foreign key.
+
+The import example above removes these references to keep the basic migration short and reliable.
+
+Notifications and tags can also be exported and imported with the same CLI using `kuma notification list`, `kuma notification add`, `kuma tag list`, and `kuma tag add`, but they must exist on the target pod before monitors referencing them are imported.
+
+Status pages and other settings can also be migrated separately, but this gets more involved. For most large installations, copying monitors, notifications, and tags is enough to move to a new MySQL-based pod.
