@@ -66,12 +66,7 @@ Then follow the steps for your pod's database type.
 
 There is no supported direct database migration from SQLite to MySQL. If you want to move to a new MySQL-based pod, the safest approach is to copy monitor definitions and start with fresh monitoring history.
 
-The example below uses the `kuma` CLI from [BigBoot/AutoKuma](https://github.com/BigBoot/AutoKuma). Download the correct binary for your OS from the [releases page](https://github.com/BigBoot/AutoKuma/releases) and put it on your `PATH`.
-
-- Use `kuma-mac`, `kuma-linux`, or `kuma-windows.exe` for this workflow.
-- Do not use `autokuma-mac`, `autokuma-linux`, or `autokuma-windows.exe`. Those are daemon binaries for watching Docker labels and do not support `monitor list` or `monitor add`.
-
-If you see `Invalid config: missing configuration field "kuma.url"`, you are likely running `autokuma-*` instead of `kuma-*`.
+The example below uses the `kuma` CLI from [BigBoot/AutoKuma](https://github.com/BigBoot/AutoKuma). Download the correct binary for your OS from the [releases page](https://github.com/BigBoot/AutoKuma/releases) (`kuma-mac`, `kuma-linux`, or `kuma-windows.exe`) and put it on your `PATH`.
 
 The CLI uses the admin username and password from the web UI. Replace `https://SOURCE`, `https://TARGET`, `admin`, and `PASS` in the examples with your own pod URLs and login details.
 
