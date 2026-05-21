@@ -81,15 +81,15 @@ After configuring these settings, Ghost will store all new media uploads in your
 
 Tinybird Analytics is included with all Ghost pods free of charge on a fair use and best-effort basis. It is not part of our usual hosting service and uses infrastructure controlled by Tinybird, Inc.
 
-Due to technical limitations, this feature can only be enabled after your pod has been created. This means _Settings > Web analytics_ will be greyed out on new pods. It will be enabled automatically the next time the pod is edited, restarted, or updated. No additional steps are needed beyond that.
+Due to technical limitations, this feature can only be enabled after your pod has been created. This means _Settings > Web analytics_ will be greyed out on new pods. The feature is enabled automatically the next time the pod is edited, restarted, or updated. No additional steps are needed beyond that.
 
 Once the feature is active, you will see a new _Analytics > Web traffic_ tab in Ghost.
 
-Ghost's analytics don't use cookies or any other persistent browser storage, so there's no need for a consent banner.
+A few things worth knowing:
 
-Visitor identifiers are hashed with a rotating salt before any data leaves your pod. This means the analytics provider can't identify individual visitors or track them across days.
-
-Analytics data is kept for 13 months and then removed automatically. Analytics data follows your pod's region. For example, EU pods store analytics data in the EU, and US pods store analytics data in the US.
+- Ghost's analytics don't use cookies or any other persistent browser storage, so there's no need for a consent banner.
+- Visitor identifiers are hashed with a rotating salt before any data leaves your pod. This means the analytics provider can't identify individual visitors or track them across days.
+- Analytics data is kept for 13 months and then removed automatically. Analytics data follows your pod's region. For example, EU pods store analytics data in the EU, and US pods store analytics data in the US.
 
 If you do not want to use this feature, you can disable it in _Settings > Web analytics_.
 
