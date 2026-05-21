@@ -81,27 +81,17 @@ After configuring these settings, Ghost will store all new media uploads in your
 
 Tinybird Analytics is included with all Ghost pods free of charge on a fair use and best-effort basis. It is not part of our usual hosting service and uses infrastructure controlled by Tinybird, Inc.
 
-Due to technical limitations, this feature can only be enabled after your pod has been created. This means _Settings > Web analytics_ will be greyed out on new pods. It will be enabled automatically when editing, restarting, or updating the pod after creation. No additional steps are needed beyond that.
+Due to technical limitations, this feature can only be enabled after your pod has been created. This means _Settings > Web analytics_ will be greyed out on new pods. It will be enabled automatically the next time the pod is edited, restarted, or updated. No additional steps are needed beyond that.
 
 Once the feature is active, you will see a new _Analytics > Web traffic_ tab in Ghost.
+
+Ghost's analytics don't use cookies or any other persistent browser storage, so there's no need for a consent banner.
+
+Visitor identifiers are hashed with a rotating salt before any data leaves your pod. This means the analytics provider can't identify individual visitors or track them across days.
 
 Analytics data is kept for 13 months and then removed automatically. Analytics data follows your pod's region. For example, EU pods store analytics data in the EU, and US pods store analytics data in the US.
 
 If you do not want to use this feature, you can disable it in _Settings > Web analytics_.
-
-## Adding Analytics
-
-Umami is a privacy-friendly, self-hosted alternative to Google Analytics or Plausible. We also offer [Umami analytics in PikaPods](https://www.pikapods.com/pods?run=umami). You can easily add it to your Ghost site:
-
-1. Log into your Umami dashboard and add your website to get the tracking script.
-2. In Ghost Admin, go to **Settings > Code Injection**.
-3. Paste the tracking script into the **Site Header** section.
-   - Example: `<script defer src="https://<pod-url>.pikapod.net/script.js" data-website-id="YOUR_SITE_ID"></script>`
-4. Click **Save**.
-
-Your Ghost site will now start sending analytics to your Umami pod.
-
-Plausible is another popular privacy-focused analytics platform. Ghost has an [official Plausible integration guide](https://ghost.org/integrations/plausible/) that you can follow.
 
 ## Two-Factor Authentication (2FA)
 
