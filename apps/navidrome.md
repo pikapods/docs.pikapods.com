@@ -4,6 +4,23 @@ layout: page
 parent: App Notes
 ---
 
+## Multi-Library Setup
+
+Navidrome supports [multiple libraries](https://www.navidrome.org/docs/usage/features/multi-library/) for separate collections with user-specific access controls. This can be useful for separating personal, family, friend, audiobook, or other collections.
+
+On PikaPods, the default library uses `/music`. This library scans recursively, so adding another library inside `/music`, such as `/music/friend`, can cause duplicate entries because the default `/music` library will also see those files.
+
+For additional libraries, use the separate `/libraries` folder instead. For example:
+
+```txt
+/music
+/libraries/family
+/libraries/friend
+/libraries/audiobooks
+```
+
+Keep your main collection in `/music`, then create additional folders under `/libraries` and add them in Navidrome under _Settings > Libraries_. Each library should have its own non-overlapping folder.
+
 ## Advanced Configuration: Using navidrome.toml
 
 Some advanced Navidrome settings, such as custom tag splitters for artist fields, can only be set via a configuration file (`navidrome.toml`) and not through environment variables.
