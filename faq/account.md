@@ -17,6 +17,10 @@ The monthly price for a selected combination of compute resources will be shown 
 
 You can also stop pods you aren't using. In this case you won't be charged for CPUs or memory, but you will still be charged for allocated storage. There is also a minimum charge of $1 per pod per month, no matter the state.
 
+{: .warning }
+
+> Stopped pods will also stay stopped for upgrades. For some apps this can break migrations, if too many versions are skipped. So it's not recommended to keep a pod stopped for more than a few weeks.
+
 We may adjust pricing for new pods to better reflect the current price of compute resources. For existing pods, the pricing valid at the time of creation will still apply.
 
 
