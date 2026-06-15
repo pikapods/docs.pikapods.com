@@ -21,7 +21,7 @@ You can also stop pods you aren't using. In this case you won't be charged for C
 
 > Stopped pods will also stay stopped for upgrades. For some apps this can break migrations, if too many versions are skipped. So it's not recommended to keep a pod stopped for more than a few weeks.
 
-We may adjust pricing for new pods to better reflect the current price of compute resources. For existing pods, the pricing valid at the time of creation will still apply.
+We regularly adjust pricing for new pods to better reflect the current price of compute resources. For existing pods, see *Price Adjustments* below.
 
 
 ## Minimum Resource Requirements
@@ -36,6 +36,21 @@ When adding new apps, we set minimum resource requirements based on several fact
 While some apps may work with lower specs initially, they might not provide the best user experience or may cause memory errors or slowness when using certain features. The minimum requirements we set aim to provide a good starting point for most users to ensure a smooth experience.
 
 If your pod runs out of memory multiple times, we will notify you and automatically increase memory to make sure it's stable.
+
+
+## Price Adjustments
+
+From time to time we adjust our pricing to reflect current market conditions, such as changes in the cost of compute and storage hardware. This happens infrequently, usually at most once a year.
+
+A new pricing version applies to **new pods right away**. Your **existing pods keep the price they were created with for at least another year**. After that, after the next adjustment, a pod moves up by one pricing version: to the version just before the current one, never directly to the newest. This means existing pods always trail the latest pricing by at least one version, so they stay cheaper than a pod created today.
+
+{: .example }
+
+> You create a pod in early 2024, so it runs on 2024 pricing. We adjust prices in mid-2025, but your pod stays on 2024 pricing. At the next adjustment in 2026, your pod moves up one version to 2025 pricing, while new pods use 2026 pricing.
+
+Editing a pod's resources does not change its pricing. You can scale an existing pod's CPU, memory or storage up or down and it keeps the pricing it already has.
+
+You can see which pricing version a pod uses next to its estimated monthly cost when editing its resources.
 
 
 ## Account Limits

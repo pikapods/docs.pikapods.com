@@ -37,6 +37,9 @@ callouts:
   note:
     title: Note
     color: grey-dk
+  example:
+    title: Example
+    color: grey-dk
   warning:
     title: Warning
     color: yellow
