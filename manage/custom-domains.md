@@ -42,19 +42,21 @@ Only **one custom domain** can be mapped per pod. If you need additional alias d
 
 ## Cloudflare
 
-You can use Cloudflare as domain registrar and use their DNS feature with PikaPods without any additional steps. [This blog post](https://www.timcheadle.com/hosting-ghost-on-pikapods-and-cloudflare/) describes the steps of setting up a PikaPods pod with Cloudflare.
+You can use Cloudflare with (orange cloud) or without (grey cloud) proxy feature. The orange cloud means all traffic will first go to Cloudflare and then to your pod. Grey cloud means Cloudflare just tells your browser _where_ to find the pod, but then the connection is direct.
 
-Using Cloudflare's proxy feature with a _PikaPods_ pod can be beneficial for pods that receive a high volume of external traffic. However, it can slow down performance for private pods that are primarily accessed by logged-in users. Additionally, this setup exposes your unencrypted traffic entirely to Cloudflare, which may raise privacy concerns.
+Usually no additional steps are needed for either option. Since we will still issue a real SSL certificate for your custom domain, the following steps are recommended, if you encounter any issues:
 
-Even if you decide to use Cloudflare, _PikaPods_ still needs to issue an SSL certificate for your domain. To make this process more reliable, please add an exception for the path `/.well-known/*` in _Security > WAF_ and choose to _Skip_ any firewall actions for this path:
+1. In Cloudflare, add the DNS record DNS-only first (grey cloud).
+2. Enable the custom domain in PikaPods and wait until it loads over HTTPS — the certificate is issued directly during this step.
+3. (Optional) Switch the record to Proxied (orange cloud) and set SSL/TLS to Full (strict).
 
-![Cloudflare WAF Exception](cloudflare-waf.png)
+If you want to restrict your pod to only receive traffic from Cloudflare and block direct access, you can enable our [Firewall](firewall) feature and select to _Also allow Cloudflare IPs_ in addition to your own IP.
 
 ### Common Issues with Cloudflare
 
-**Enabling proxy feature**: When first adding a custom domain via Cloudflare, ensure the _Proxy_ feature is **disabled**. Else we can't verify the DNS settings of your domain. You can enable proxying again after adding the custom domain.
+**Cloudflare SSL/TLS settings**: If you proxy your domain through Cloudflare (orange cloud), set _SSL/TLS → Overview → encryption mode_ to _Full (strict)_. Your pod automatically obtains a valid Let's Encrypt certificate, so Full (strict) — the most secure option — works out of the box. Do not use "Flexible" (it causes redirect loops and isn't encrypted to your pod), and don't leave the mode on "Automatic."
 
 **Web application firewall (WAF)**: If you use Cloudflare's proxy feature, it's possible that our monitoring will get blocked and we can no longer determine if your pod is available on its custom domain, and we can't renew the encryption certificate for your custom domain. In this case, please ensure you have an exception added for the path `/.well-known/*` in _Security > WAF_, as described above.
 
-**Origin SSL Setting**: Also ensure that you activate [**Full SSL encryption**](https://developers.cloudflare.com/ssl/origin-configuration/ssl-modes/#available-encryption-modes) (by default, it is set to Flexible SSL, which will cause an infinite loop) or disable the proxy and switch to DNS-only mode.
+![Cloudflare WAF Exception](cloudflare-waf.png)
 
