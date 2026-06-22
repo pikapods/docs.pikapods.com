@@ -13,7 +13,7 @@ description: "Questions about app support, file editing, adding new apps and upd
 ## Support for Individual Apps
 If you have any concerns with your PikaPods account, billing, or an offline pod, email [hello@pikapods.com](mailto:hello@pikapods.com) any time. You will generally receive a response within a few hours on working days.
 
-Beyond this, we can't offer support for individual apps or their features. This is because they are developed, maintained, and distributed by independent third-party authors and communities. We only ever charge you for the resources to host these apps and don't monetize your data or charge for premium features. You can still get help from those sources:
+Beyond this, we can't offer support for individual apps or their features. This is because they are developed, maintained, and distributed by independent third-party authors and communities. Our focus is on ensuring your hosting environment runs smoothly and we only charge for the resources to host these apps and don't monetize your data or charge for premium features. If you need additional support, you can still get help from those sources:
 
 - Many apps have [notes](/apps) that explain setup steps or common issues. You also find them via *See FAQ* in your pod control panel.
 - Visit the *Project Page* link of an app and read their documentation.
