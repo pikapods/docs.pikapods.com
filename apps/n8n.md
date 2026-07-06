@@ -91,3 +91,8 @@ After running this, restart the n8n pod from your dashboard. With the backlog go
 
 > **What is deleted:** only your **execution history** — the logs of past, failed, and pending workflow runs. Your **workflows and credentials are not affected**; they are stored separately and remain intact. The pending runs that are removed were stuck and would not have completed anyway.
 
+## Calling one workflow from another on the same instance
+
+If a workflow needs to trigger another workflow running on the same n8n instance, use the built-in **Execute Workflow** node instead of an HTTP Request node calling the webhook's URL.
+
+Calling your own instance's public URL via HTTP Request routes the request out through DNS and back in over the network, adding unnecessary latency and an extra point of failure. The Execute Workflow node calls the target workflow directly within the same n8n process, with no network round-trip involved.
