@@ -130,6 +130,7 @@ This section has additional steps you can take to secure your backups and S3 sto
 To avoid unexpected charges from your chosen S3 storage provider in relation to _PikaPods_ backups:
 
 - Regularly review the storage usage. If you add a lot of data to a pod, the backup will be larger too.
+- If you enable the setting to prune, old snapshots are automatically pruned. 60 days of snapshots are stored with pruning enabled. At this time, the retention policy is not user-configurable from the control panel.
 - Be mindful of outgoing data transfer charges. While traffic is free at _PikaPods_, S3 providers sometimes charge for it. Usually _uploading_ data to them is free, but _downloading_ it can be expensive. Creating a new backup on _PikaPods_ will _download_ very little data to the S3 service, but restoring a backup or pruning it can use more.
 - Be sure to limit the access of keys you add on _PikaPods_ to _one bucket only_. _PikaPods_ doesn't need access to your other bucket and doesn't need permission to create buckets. It will only ever write files to the bucket you set up.
 
