@@ -7,16 +7,14 @@ description: How to take a complete backup of your pod. When using PikaPods, you
 ---
 
 # Backing up Your PikaPods Pods
+{: .no_toc }
 
-Keeping your data safe is very important to us. That's why we take measures at multiple levels to ensure no data gets lost. Here are the different types of backups available:
+You own your data at _PikaPods_ — and that includes backing it up. We take measures at multiple levels to reduce the risk of data loss, but no hosting provider can promise your data back. **If the data in your pod is important to you, set up your own backups.** Our [incremental backups to S3](#incremental-backups-to-s3) do this automatically each night, into storage you control and can restore from without us.
 
-## Full Server Backups
+Here are the different types of backups available:
 
-We keep daily backups of all databases and mounted files (everything you see over SFTP) that pods use. These backups are meant to recover from server-wide failures. Restoring individual pods from them should be a last resort, and your own backups are always preferable. If you have lost pod data for any reason and are interested in using our full server backups, get in [touch](mailto:support@pikapods.com) and we'll confirm possible recovery points and cost.
-
-{: .warning }
-
-> We don't stop apps during full server backups and thus a small number of apps using their own database (like MongoDB, PostgreSQL, MariaDB and such) may not have a complete backup each time. So this type of backup is only offered on a best-effort basis and not guaranteed. For apps with critical data, we strongly recommend setting up your own [incremental backups to S3](#incremental-backups-to-s3) for maximum reliability.
+1. TOC
+{:toc}
 
 ## Manual One-Time Backups
 
@@ -43,7 +41,7 @@ Follow the steps below to set up incremental backups:
 
 ### S3 Storage Provider
 
-_PikaPods_ doesn't offer backup storage and it's best practice to keep backups with another provider. _S3_ is a standardized storage protocol, first introduced by Amazon and now offered by many companies. You can use any one of them. To make the choice easier, here is a list of popular choices. For even more options, also see the [providers our users reported to be working](#additional-providers) further down.
+_PikaPods_ doesn't offer backup storage and it's best practice to keep backups with another provider. _S3_ is a standardized storage protocol, first introduced by Amazon and now offered by many companies. You can use any one of them. To make the choice easier, here are the ones we recommend. The [provider setup reference](#provider-setup-reference) further down has setup details for these and for more providers our users reported to be working.
 
 - [**Backblaze B2**](https://www.backblaze.com/cloud-storage): A reliable and established choice priced at $6/TB/month. Some data transfer is included, so unless you download your backup very often, you will only pay for what you use each month. 10 GB are free, which is enough to keep backups of smaller pods.
 - [**iDrive e2**](https://www.idrive.com/s3-storage-e2/): A more recent addition, if you are looking for a lower price. You need to commit for a year, but get 50% off the first year and then pay around $4-5/TB/month.
@@ -51,27 +49,23 @@ _PikaPods_ doesn't offer backup storage and it's best practice to keep backups w
 
 ### _PikaPods_ Backup Settings
 
-After signing up with your chosen provider, you can create a "bucket" to hold your data. One bucket can only hold backups for one pod.
+After signing up with your chosen provider, create a "bucket" to hold your data, then create an access key for it. Providers use different names for this, but you always end up with an **access key ID** and a **secret key**. Please be sure to limit the key to this one bucket only. The [provider setup reference](#provider-setup-reference) has the exact steps for each provider. Most providers show the secret key only once, so copy it before closing the dialog.
 
-After adding a bucket, you can add an API key to access it. Please be sure to limit the key to this one bucket only. How to do this for different providers:
+With your bucket and key set up, you can add them in _PikaPods_ under _Pod Settings > Backups_. Here you enter the bucket hostname (often called endpoint), the bucket name and the related access key ID and secret key. These settings are separate for each pod, since _one_ bucket can only keep backups of _one_ pod.
 
-- **Backblaze B2**: Under _Application Keys_ choose _Add a New Application Key_, then select the previously created bucket.
-- **iDrive e2**: Under _Access Keys_ add a new key and pick the region and bucket created before.
-- **Amazon AWS S3**: Use the IAM console to create a user, then create a policy allowing full access to the bucket and assign it to the user. Finally, create an _Access Key_ for that user.
-
-With your bucket and key all set up, you can now add them in _PikaPods_.
-
-In the final step you enter the bucket hostname (often called endpoint), the bucket name and related access key and password (often called access key secret or similar) on the _PikaPods_ control panel. These settings can be found under _Pod Settings > Backups_ are separate for each pod, since _one_ bucket can only keep backups of _one_ pod.
-
-For the endpoint, be sure to use the hostname **without** the bucket name prepended. Also don't enter `https://`. Some examples and how to find it:
-
-- **Backblaze B2**: Shown as _Endpoint_ under _Buckets_, e.g. `s3.us-west-001.backblazeb2.com`
-- **iDrive e2**: Shown as _Region endpoint_ under _Dashboard_, e.g. `n6j2.fra1.idrivee2-95.com`
-- **Amazon AWS S3**: Just `s3.amazonaws.com` will work. Or a regional endpoint like `s3.us-east-1.amazonaws.com`, listed [here](https://docs.aws.amazon.com/general/latest/gr/s3.html#auto-endpoints-s3).
+For the endpoint, be sure to use the hostname **without** the bucket name prepended. Also don't enter `https://`. The [provider setup reference](#provider-setup-reference) lists the endpoint for each provider.
 
 <img src="s3-setup.png" width="400" />
 
 After entering and verifying those settings, you can trigger your first backup via _More > Backup_. Depending on the size of the pod's files and database, this can take several minutes. After a successful backup, the date and time will be shown in the pod's overview and in _Pod Settings > Backups_.
+
+### Save Your Repository Password
+
+With backups configured, _Pod Settings > Backups_ also shows a **Repository URL** and a **Repository Password**. The password encrypts your backup and is the only way to decrypt it again.
+
+{: .warning }
+
+> Copy the _Repository Password_ somewhere safe outside your pod now, ideally into a password manager. Without it your backup can't be decrypted and is useless. We don't keep a copy of this password after a pod was deleted.
 
 ### Checking Backup Integrity
 
@@ -83,7 +77,7 @@ To verify your backup integrity, follow the [Restic documentation on checking in
 
 Incremental backups use the [Restic](https://restic.readthedocs.io/en/) tool. To verify or restore a pod backup, follow the steps below. Note that this needs some technical expertise, but we are working on integrating the process into the control panel eventually.
 
-First take note of the repository URL and password found in _Pod Settings > Backups_. Then you will also need the access key and secret created with your S3 provider. Those can't be retrieved from _PikaPods_ for security reasons, but you could recreate them if needed.
+First take note of the _Repository URL_ and _Repository Password_ found in _Pod Settings > Backups_. Then you will also need the access key ID and secret key created with your S3 provider. Those can't be retrieved from _PikaPods_ for security reasons, but you could recreate them if needed.
 
 It's easiest to set all those settings as environment variables. For example for S3:
 
@@ -136,98 +130,52 @@ To avoid unexpected charges from your chosen S3 storage provider in relation to 
 
 To ensure the integrity of your backups:
 
-- Keep the _Repository Password_ shown in _Pod Settings > Backups_ in a safe place. It's needed to decrypt the backup. Without it, the backup will be useless. We don't keep a copy of this password after a pod was deleted.
+- Keep your [Repository Password](#save-your-repository-password) somewhere safe. Without it, the backup can't be decrypted and is useless.
 - Regularly verify your backups: While _PikaPods_ takes every possible measure to ensure usable backups, there could be unexpected failures or edge cases with individual apps that make a backup incomplete. Doing a trial restore of a backup can uncover such issues.
 
-### Additional Providers
+### Provider Setup Reference
 
-The following providers have been reported to work by our users.
+Where to create the access key and secret for each provider, and what to use as the endpoint. The first three are the ones recommended under [S3 Storage Provider](#s3-storage-provider); the rest have been reported to work by our users.
+
+#### **[Backblaze B2](https://www.backblaze.com/cloud-storage)**
+
+- **Access key and secret**: Called an _Application Key_ here. Under _Application Keys_ choose _Add a New Application Key_, then select the previously created bucket.
+- **S3 Endpoint**: Shown as _Endpoint_ under _Buckets_, e.g. `s3.us-west-001.backblazeb2.com`
+
+#### **[iDrive e2](https://www.idrive.com/s3-storage-e2/)**
+
+- **Access key and secret**: Under _Access Keys_ add a new key and pick the region and bucket created before.
+- **S3 Endpoint**: Shown as _Region endpoint_ under _Dashboard_, e.g. `n6j2.fra1.idrivee2-95.com`
+
+#### **[Amazon AWS S3](https://aws.amazon.com/s3/)**
+
+- **Access key and secret**: Use the IAM console to create a user, then create a policy allowing full access to the bucket and assign it to the user. Finally, create an _Access Key_ for that user.
+- **S3 Endpoint**: Just `s3.amazonaws.com` will work. Or a regional endpoint like `s3.us-east-1.amazonaws.com`, listed [here](https://docs.aws.amazon.com/general/latest/gr/s3.html#auto-endpoints-s3).
 
 #### **[Cloudflare R2](https://www.cloudflare.com/developer-platform/products/r2/)**
 
-A cost-effective S3-compatible storage with no egress fees. Includes 10GB storage and unlimited bandwidth in the free tier.
-
-Setup Steps in Cloudflare Dashboard:
-
-1. Go to R2 from the left sidebar
-2. Create a new bucket for your backups
-3. Generate API Token:
-   - Click "Manage R2 API Tokens"
-   - Create a new API token
-   - Give it "Object Read & Write" permissions for your bucket only
-   - Save both the Access Key ID and Secret Access Key
-
-Settings to use on _PikaPods_:
-
-- **S3 Endpoint**: `[account-id].r2.cloudflarestorage.com`
-  - Find your endpoint in R2 bucket settings
-- **Bucket**: Your R2 bucket name
-- **S3 Access Key ID**: Access Key ID from your API token
-- **S3 Secret Key**: Secret Access Key from your API token
+- **Access key and secret**: Called an _API Token_ here. Under _R2 > Manage R2 API Tokens_ create a token with _Object Read & Write_ permission for your bucket only.
+- **S3 Endpoint**: Shown in the R2 bucket settings, e.g. `[account-id].r2.cloudflarestorage.com`
 
 #### **[Oracle Cloud Object Storage](https://www.oracle.com/bd/cloud/storage/object-storage/)**
 
-Setup Steps in the OCI Console:
-
-1. Create or identify your Object Storage Bucket
-2. Note down your Object Storage Namespace and Bucket Name
-3. Generate access keys: Go to _Identity & Security > Users > Your User > Customer Secret Keys_
-4. Click _Generate Secret Key_ and save both the Access Key and Secret Key pair
-
-Settings to use on _PikaPods_:
-
-- **S3 Endpoint**: `<namespace>.compat.objectstorage.<region>.oraclecloud.com`
-  - Example: if your namespace is `abc` and region is `us-1`, use: `abc.compat.objectstorage.us-1.oraclecloud.com`
-- **Bucket**: Your OCI bucket name (exactly as shown in OCI Console)
-- **S3 Access Key ID**: The Access Key from your generated Customer Secret Key
-- **S3 Secret Key**: The Secret Key from your generated Customer Secret Key
+- **Access key and secret**: Called a _Customer Secret Key_ here. Under _Identity & Security > Users > Your User > Customer Secret Keys_ choose _Generate Secret Key_.
+- **S3 Endpoint**: `<namespace>.compat.objectstorage.<region>.oraclecloud.com`, e.g. `abc.compat.objectstorage.us-1.oraclecloud.com`. Your namespace is shown in the bucket details.
 
 #### **[Scaleway Object Storage](https://www.scaleway.com/en/cloud-storage-solutions/)**
 
-A European S3-compatible storage solution with multiple region options and flexible pricing, including Glacier storage for backups.
-
-Setup Steps in Scaleway Console:
-
-1. Create your Object Storage Bucket:
-   - Choose a region: Paris, Amsterdam, or Warsaw
-   - Choose use case: Backup & Archiving
-   - Set your bucket name (e.g., pikapod-backup)
-2. Generate API Keys:
-   - Go to _Account > API Keys > Generate an API key_
-   - Select "Generate for myself (IAM user)"
-   - Enable Object Storage and set your preferred Project
-   - Save both the Access Key ID and Secret Key
-
-Settings to use on _PikaPods_:
-
-- **S3 Endpoint**: `s3.<region>.scw.cloud`
-  - Example: for Paris region use `s3.fr-par.scw.cloud`
-  - Note: Do NOT include bucket name in the endpoint
-- **Bucket**: Your bucket name (found under Bucket Settings > Bucket ID)
-- **S3 Access Key ID**: The Access Key ID from your generated API key
-- **S3 Secret Key**: The Secret Key from your generated API key
+- **Access key and secret**: Called an _API Key_ here. Under _Account > API Keys > Generate an API key_, generate one for yourself and be sure to enable _Object Storage_ for it.
+- **S3 Endpoint**: `s3.<region>.scw.cloud`, e.g. `s3.fr-par.scw.cloud` for Paris.
 
 #### **[MEGA S4](https://mega.io/objectstorage)**
 
-MEGA's S3-compatible object storage service with multiple regional endpoints. Offers competitive pricing and strong privacy focus.
+- **Access key and secret**: Under _Object storage > Keys_ choose _Create key_ and pick _Root user_.
+- **S3 Endpoint**: Listed under _Settings > Object storage > Endpoints_, e.g. `s3.eu-central-1.s4.mega.io` (Amsterdam) or `s3.g.s4.mega.io` (global).
 
-Setup Steps in MEGA:
+## Full Server Backups
 
-1. Go to _Object storage_ in the MEGA web client
-2. Create a new bucket for your backups
-3. Navigate to _Object storage > Keys_ in the settings
-4. Click _Create key_ and choose _Root user_
-5. Enter a key name and click _Next_
-6. Save both the Access Key ID and Secret Key (download or copy them immediately, as the Secret Key won't be shown again)
+Finally, we keep daily backups of all databases and mounted files (everything you see over SFTP) that pods use. These are meant to recover from server-wide failures, so using them to restore a single pod is a last resort — your own backups are always preferable. If you have lost pod data for any reason and are interested in using our full server backups, get in [touch](mailto:support@pikapods.com) and we'll confirm possible recovery points and cost.
 
-Settings to use on _PikaPods_:
+{: .warning }
 
-- **S3 Endpoint**: Choose one of the available endpoints from _Settings > Object storage > Endpoints_. Examples:
-  - `s3.eu-central-1.s4.mega.io` (Amsterdam)
-  - `s3.eu-central-2.s4.mega.io` (Luxembourg)
-  - `s3.ca-central-1.s4.mega.io` (Montreal)
-  - `s3.ca-west-1.s4.mega.io` (Vancouver)
-  - `s3.g.s4.mega.io` (global endpoint, points to Amsterdam)
-- **Bucket**: Your bucket name
-- **S3 Access Key ID**: The Access Key from your created key
-- **S3 Secret Key**: The Secret Key from your created key
+> We don't stop apps during full server backups and thus a small number of apps using their own database (like MongoDB, PostgreSQL, MariaDB and such) may not have a complete backup each time. So this type of backup is only offered on a best-effort basis and not guaranteed.

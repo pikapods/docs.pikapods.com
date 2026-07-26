@@ -62,7 +62,7 @@ Can you use *PikaPods* for your business apps? The answer is yes! Many of our us
 
 - **Uptime and maintenance**: Historically, you can expect an uptime of about 99.95% over a month or better, which translates to about 30 minutes of downtime in a month. This is needed to apply regular app updates, as well as system updates. App updates happen about twice a month and take only a few seconds. System updates need a reboot and last about 15 minutes. They will be scheduled at off-peak hours in their region and happen every 3 to 6 months. It can take up to 30 minutes for all pods to be back up, since they are started back up in random sequence. (These numbers are historical averages and don't constitute any uptime guarantee or service level agreement.)
 - **Support Response Time**: Our support staff works in Asian and EU time zones and you can expect a response in less than an hour during normal business hours.
-- **Backups**: We take whole-server offsite backups daily and every server has redundant drives.
+- **Backups**: We take whole-server offsite backups daily and every server has redundant drives. These protect against server-wide failures and aren't a per-pod restore service — if your data matters, set up your own [pod backups](/manage/backup).
 - **Testing**: As opposed to doing automatic container updates, all our updates are tested before they reach your pod. This includes dealing with breaking changes and migrations over time.
 
 In the future, we plan on adding a "business" tier to better address the needs of users who rely on their pod for production needs. This would include:
