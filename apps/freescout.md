@@ -44,6 +44,18 @@ If you've installed a broken module in FreeScout and need to remove it, you can 
 
 For more detailed information, see the [official FreeScout cache clearing documentation](https://github.com/freescout-help-desk/freescout/wiki/Clearing-the-Cache).
 
+## Installing Modules
+
+FreeScout modules can be installed on PikaPods without CLI access in most cases. Even if they aren't from the official marketplace, but from Github. Here's the process:
+
+* Download the module source from GitHub (Code > Download ZIP)
+* Enable SFTP access via Pod Settings > Files and connect using an SFTP client (see https://docs.pikapods.com/manage/files)
+* Upload the module folder to `/data/Modules/`
+* Clear the cache via Manage > System > Tools > Clear Cache in the FreeScout UI
+* Restart the pod via More > Restart Pod
+
+Do note that if a specific module requires running php artisan commands for database migrations, that is a limitation of our managed environment. We don't provide terminal/CLI access, and we're unable to run artisan commands on your behalf inside the container. Modules that only need file placement and cache clearing work fine, but modules requiring migration commands may not be compatible.
+
 ## Migration Guide
 
 When migrating an existing FreeScout installation to PikaPods, follow these steps:
