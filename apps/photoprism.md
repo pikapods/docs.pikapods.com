@@ -44,17 +44,22 @@ It's possible to import pictures from a remote WebDAV location, which e.g. Nextc
 
 ## Maximum Upload Size
 
-PikaPods does not impose a maximum upload limit. However, PhotoPrism's default maximum upload limit is set to 1 GB. You can increase this limit by setting the `PHOTOPRISM_ORIGINALS_LIMIT` environment variable. This value is in megabytes (MB), so to set the maximum upload limit to 2 GB, you would set `PHOTOPRISM_ORIGINALS_LIMIT` to `2000`.
+PikaPods does not impose a maximum upload limit. PhotoPrism itself applies two
+separate size limits, both defaulting to 1000 MB (1 GB):
 
-You can adjust the `PHOTOPRISM_ORIGINALS_LIMIT` value in the PikaPods control panel, in the pod's settings.
+- `PHOTOPRISM_UPLOAD_LIMIT`: the maximum total size of files uploaded through the web interface, in MB.
+- `PHOTOPRISM_ORIGINALS_LIMIT`: the maximum size of any single media file, in MB. This applies to all media files when they are indexed, not only web uploads. Files larger than this are skipped even when added over WebDAV or placed directly in the originals folder.
 
-Here are the steps on how to increase the maximum upload limit:
+Both limits apply to web uploads, so to upload larger files you generally need to raise both. To allow 2 GB, set each to `2000`. To remove the limits entirely, set each to `-1`.
+
+To change these values:
 
 - Open the PikaPods control panel.
 - Click on the pod's settings.
 - Scroll down to the "ENV VARS" section.
-- Enter the desired value in MB for the upload limit in the PHOTOPRISM_ORIGINALS_LIMIT field.
-- Click on the "Save" button.
+- Set `PHOTOPRISM_UPLOAD_LIMIT` and `PHOTOPRISM_ORIGINALS_LIMIT` to your desired
+  value in MB.
+- Click "Save".
 
-The maximum upload limit will be updated to the value you entered.
+The maximum upload limit will be updated to the desired value.
 
