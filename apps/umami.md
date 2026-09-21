@@ -12,6 +12,7 @@ After your pod was updated to version v1.39.4 on Nov 2, 2022, you may see a blan
 
 Umami does not currently include a built-in option to automatically purge old analytics data. Large installations can therefore grow over time, especially in the `website_event` and `session` tables. If revenue tracking or session replay is enabled, `revenue`, `session_replay`, and `session_replay_saved` can also grow.
 
+{: .warning }
 If your pod is using excessive database storage, we may remove analytics data older than 3 months if we cannot reach the pod owner. You can also do this yourself from [database access](/manage/database) using Adminer.
 
 Before deleting data, make sure you have a backup or are comfortable permanently removing old analytics history. The following examples remove data older than 3 months.
