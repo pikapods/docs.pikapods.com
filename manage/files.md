@@ -10,7 +10,6 @@ description: With PikaPods, all data is under your control. Here you learn how t
 
 Pods can also use permanent file stores, called *volumes*. Volumes live outside your pod and persist across updates and configuration changes. E.g. a photo app will usually keep the pictures you upload in such a volume. This has the benefit that you can easily upload or download those files.
 
-
 ## Accessing Pod Files Using SFTP
 
 SFTP is a way to securely access remote files. It's similar to FTP, but uses encryption. To access your pod's files, first enable SFTP in the pod's settings on the **Pod Settings > SFTP** tab. This will display the hostname, username and password to use.
@@ -29,7 +28,13 @@ To connect to a pod, you need the following details, which will be displayed in 
 - Username: Usually something like `p9999`
 - Password: A randomly generated password
 
-The first time you may be prompted to verify the server signature. So you can be certain to connect to the correct server in the future.
+The first time you may be prompted to verify the server signature. So you can be certain to connect to the correct server in the future. 
+
+Here are the keys we deploy. Those will be the same for all servers.
+
+`3072 SHA256:pKUIT/ITOIp3xjvnQHhOyKgNC+Xd0xUSUR35pXPYwik (RSA)
+256 SHA256:3J+hd0oGw8WFNQs4hzQfqXFxjaj63M5+xo9vDJxIkjs (ECDSA)
+256 SHA256:NxFGy3MAKP6FlZQS3QlOf7FWmxhNUQcD8u4PGWpOJ4M (ED25519)`
 
 Also note that you can only _write_ to subfolders, like `data` or `music` that you may see. You can **not** add files in the top folder, since those wouldn't be accessible in your pod.
 
