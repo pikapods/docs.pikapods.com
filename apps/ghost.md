@@ -107,3 +107,13 @@ If you prefer to disable this feature, you can do so by:
 If you wish to keep 2FA enabled, you must set up [Transactional emails](#transactional-emails) as described above, as these are required for sending verification codes.
 
 For more information about Ghost's 2FA feature, see the [official changelog](https://ghost.org/changelog/2fa/).
+
+## Resetting the admin password
+
+If you can't log in and password reset emails aren't working, you can reset your Ghost admin password directly in the pod's database:
+
+1. In the PikaPods control panel, go to _Edit Pod Settings > Database_ and turn on _Enable Database Access_ (see [Database access](/manage/database)).
+2. Open the Adminer link and log in using the credentials displayed on that page.
+3. Open the `users` table and locate your admin account.
+4. Generate a new bcrypt hash (cost factor 10, `$2a$` or `$2b$` format) for your new password, for example with [bcrypt-generator.com](https://bcrypt-generator.com/). Replace the value in the `password` field with the new hash and save.
+5. Remember to disable database access again once you are done.
