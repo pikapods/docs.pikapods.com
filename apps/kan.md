@@ -1,3 +1,9 @@
+---
+title: Kan
+layout: page
+parent: App Notes
+---
+
 ## Uploading attachments and avatars
 
 [Kan](https://kan.bn/) only supports file uploads (card attachments and user avatars) through external S3-compatible object storage. Unlike other apps, it can't store files on the pod's disk, and PikaPods doesn't include built-in S3 storage. You need to bring your own bucket from a provider such as Cloudflare R2, Backblaze B2 or AWS S3.
