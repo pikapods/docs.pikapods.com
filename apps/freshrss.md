@@ -3,6 +3,8 @@ title: FreshRSS
 layout: page
 parent: App Notes
 ---
+# FreshRSS
+
 FreshRSS is a self-hosted RSS and Atom feed aggregator that is lightweight, fast, and easy to customize. Running [FreshRSS on PikaPods](https://www.pikapods.com/apps/freshrss)? These notes cover a few things worth knowing. Anything else is covered in the [official FreshRSS docs](https://freshrss.github.io/FreshRSS/).
 
 ## Automatically refresh feeds

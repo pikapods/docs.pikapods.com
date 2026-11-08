@@ -3,6 +3,8 @@ title: Navidrome
 layout: page
 parent: App Notes
 ---
+# Navidrome
+
 Navidrome is a self-hosted music server and streamer that is compatible with Subsonic clients. Once you have [deployed Navidrome on PikaPods](https://www.pikapods.com/apps/navidrome), here are a few common scenarios you might face. Full documentation is in the [official Navidrome docs](https://www.navidrome.org/docs/).
 
 ## Multi-Library Setup
