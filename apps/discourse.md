@@ -3,6 +3,8 @@ title: Discourse
 layout: page
 parent: App Notes
 ---
+# Discourse
+
 
 ## Installing Extensions
 

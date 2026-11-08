@@ -3,6 +3,8 @@ title: Immich
 layout: page
 parent: App Notes
 ---
+# Immich
+
 Immich is a high-performance, self-hosted photo and video backup solution with mobile apps and a web UI. Running [Immich on PikaPods](https://www.pikapods.com/apps/immich)? These notes cover a few things worth knowing. Refer to the [official Immich docs](https://immich.app/docs) for complete documentation.
 
 ## Using external libraries

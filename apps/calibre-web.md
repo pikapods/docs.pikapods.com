@@ -3,6 +3,8 @@ title: Calibre Web
 layout: page
 parent: App Notes
 ---
+# Calibre Web
+
 Calibre Web is a web app for browsing, reading, and downloading e-books from a Calibre library. This help page addresses common scenarios for users who have [deployed Calibre Web on PikaPods](https://www.pikapods.com/apps/calibre-web). Refer to the [official Calibre Web docs](https://github.com/janeczku/calibre-web/wiki) for complete documentation.
 
 ## Uploading Books

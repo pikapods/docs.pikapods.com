@@ -3,6 +3,8 @@ title: MediaWiki
 layout: page
 parent: App Notes
 ---
+# MediaWiki
+
 MediaWiki is the wiki software that powers Wikipedia, suited for building large, collaborative knowledge bases. Running [MediaWiki on PikaPods](https://www.pikapods.com/apps/mediawiki)? These notes cover a few things worth knowing. The [official MediaWiki docs](https://www.mediawiki.org/wiki/Documentation) cover the full feature set.
 
 ## Adjust Settings

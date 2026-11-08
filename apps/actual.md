@@ -3,6 +3,8 @@ title: Actual Budget
 layout: page
 parent: App Notes
 ---
+# Actual Budget
+
 Actual Budget is a local-first, open-source personal finance app for envelope-style budgeting, with optional sync across devices. Running [Actual Budget on PikaPods](https://www.pikapods.com/apps/actual)? These notes cover a few things worth knowing. For anything not covered here, see the [official Actual Budget docs](https://actualbudget.org/docs/).
 
 ## OIDC Authentication with Custom Domains

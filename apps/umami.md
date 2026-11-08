@@ -3,6 +3,8 @@ title: Umami
 layout: page
 parent: App Notes
 ---
+# Umami
+
 Umami is a simple, privacy-focused web analytics tool and an alternative to Google Analytics. Running [Umami on PikaPods](https://www.pikapods.com/apps/umami)? These notes cover a few things worth knowing. Anything else is covered in the [official Umami docs](https://umami.is/docs).
 
 ## No Analytics after Update

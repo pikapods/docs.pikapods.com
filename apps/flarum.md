@@ -3,6 +3,8 @@ title: Flarum
 layout: page
 parent: App Notes
 ---
+# Flarum
+
 Flarum is a modern, extensible forum software with a clean, fast interface. Here are a few tips and fixes for [Flarum](https://www.pikapods.com/apps/flarum) pods hosted on PikaPods. For anything not covered here, see the [official Flarum docs](https://docs.flarum.org/).
 
 ## Installing Extensions

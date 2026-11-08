@@ -3,6 +3,8 @@ title: Gitea
 layout: page
 parent: App Notes
 ---
+# Gitea
+
 [Gitea](https://about.gitea.com/) is a lightweight, self-hosted Git service with a web UI, issues, pull requests, and a built-in package registry. This help page addresses common scenarios for users who have [deployed Gitea on PikaPods](https://www.pikapods.com/apps/gitea). For anything not covered here, see the [official Gitea docs](https://docs.gitea.com/).
 
 ## Git over HTTPS only

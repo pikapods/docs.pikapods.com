@@ -3,6 +3,8 @@ title: BookStack
 layout: page
 parent: App Notes
 ---
+# BookStack
+
 BookStack is a self-hosted wiki platform that organizes content into shelves, books, chapters, and pages. Here are a few tips and fixes for [BookStack](https://www.pikapods.com/apps/bookstack) pods hosted on PikaPods. The [official BookStack docs](https://www.bookstackapp.com/docs/) cover the full feature set.
 
 ## Edit advanced settings

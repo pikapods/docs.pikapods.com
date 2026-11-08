@@ -3,6 +3,8 @@ title: Monica
 layout: page
 parent: App Notes
 ---
+# Monica
+
 Monica is a personal CRM for keeping track of the people in your life, from contacts to conversations and reminders. Here are a few tips and fixes for [Monica](https://www.pikapods.com/apps/monica) pods hosted on PikaPods. Refer to the [official Monica docs](https://docs.monicahq.com/) for complete documentation.
 
 ## Sending emails

@@ -3,6 +3,8 @@ title: Etherpad
 layout: page
 parent: App Notes
 ---
+# Etherpad
+
 Etherpad is a self-hosted, real-time collaborative editor for writing documents together in the browser. Once you have [deployed Etherpad on PikaPods](https://www.pikapods.com/apps/etherpad), here are a few common scenarios you might face. Anything else is covered in the [official Etherpad docs](https://docs.etherpad.org/).
 
 ## Manage Users/Authentication
