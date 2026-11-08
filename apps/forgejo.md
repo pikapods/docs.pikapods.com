@@ -3,7 +3,7 @@ title: Forgejo
 layout: page
 parent: App Notes
 ---
-[Forgejo](https://forgejo.org/) is a self-hosted, community-driven Git service (a Gitea fork) with a web UI, issues, pull requests, and CI via Forgejo Actions. Full documentation is in the [official Forgejo docs](https://forgejo.org/docs/).
+[Forgejo](https://forgejo.org/) is a self-hosted, community-driven Git service (a Gitea fork) with a web UI, issues, pull requests, and CI via Forgejo Actions. This help page addresses common scenarios for users who have [deployed Forgejo on PikaPods](https://www.pikapods.com/apps/forgejo). The [official Forgejo docs](https://forgejo.org/docs/) cover the full feature set.
 
 ## Git over HTTPS only
 

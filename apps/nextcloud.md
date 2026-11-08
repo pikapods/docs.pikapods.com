@@ -3,6 +3,7 @@ title: Nextcloud
 layout: page
 parent: App Notes
 ---
+Nextcloud is a self-hosted collaboration platform for files, calendars, contacts, and more. Running [Nextcloud on PikaPods](https://www.pikapods.com/apps/nextcloud)? These notes cover a few things worth knowing. For anything not covered here, see the [official Nextcloud docs](https://docs.nextcloud.com/).
 
 ## _Update Needed_ Notification
 You may see a _Update Needed_ notification instead of the login page. This can occur after adding a new custom app or if your pod was paused when updates were applied.

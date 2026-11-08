@@ -3,6 +3,7 @@ title: Listmonk
 layout: page
 parent: App Notes
 ---
+Listmonk is a self-hosted newsletter and mailing list manager with a fast, simple dashboard. This help page addresses common scenarios for users who have [deployed Listmonk on PikaPods](https://www.pikapods.com/apps/listmonk). Full documentation is in the [official Listmonk docs](https://listmonk.app/docs/).
 
 ## Customize System Templates
 

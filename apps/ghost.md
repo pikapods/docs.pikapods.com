@@ -3,6 +3,7 @@ title: Ghost
 layout: page
 parent: App Notes
 ---
+Ghost is an open-source publishing platform for blogs, memberships, and paid newsletters. Here are a few tips and fixes for [Ghost](https://www.pikapods.com/apps/ghost) pods hosted on PikaPods. Full documentation is in the [official Ghost docs](https://ghost.org/docs/).
 
 ## Sending email
 

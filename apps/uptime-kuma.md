@@ -3,6 +3,7 @@ title: Uptime Kuma
 layout: page
 parent: App Notes
 ---
+Uptime Kuma is a self-hosted monitoring tool that tracks uptime and sends alerts when your services go down. Here are a few tips and fixes for [Uptime Kuma](https://www.pikapods.com/apps/uptime-kuma) pods hosted on PikaPods. Full documentation is in the [official Uptime Kuma docs](https://github.com/louislam/uptime-kuma/wiki).
 
 # Known Issues
 
