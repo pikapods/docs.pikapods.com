@@ -3,6 +3,7 @@ title: The Lounge
 layout: page
 parent: App Notes
 ---
+The Lounge is a self-hosted web IRC client that stays connected, so you never miss a message. Once you have [deployed The Lounge on PikaPods](https://www.pikapods.com/apps/thelounge), here are a few common scenarios you might face. Refer to the [official The Lounge docs](https://thelounge.chat/docs) for complete documentation.
 
 ## Managing Users
 

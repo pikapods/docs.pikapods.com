@@ -3,6 +3,7 @@ title: Mattermost
 layout: page
 parent: App Notes
 ---
+Mattermost is an open-source team collaboration and messaging platform, an alternative to Slack. Once you have [deployed Mattermost on PikaPods](https://www.pikapods.com/apps/mattermost), here are a few common scenarios you might face. For anything not covered here, see the [official Mattermost docs](https://docs.mattermost.com/).
 
 ## Initial Setup
 

@@ -3,6 +3,7 @@ title: Activepieces
 layout: page
 parent: App Notes
 ---
+Activepieces is an open-source, self-hosted workflow automation tool with a visual builder and a large library of integrations. Once you have [deployed Activepieces on PikaPods](https://www.pikapods.com/apps/activepieces), here are a few common scenarios you might face. Full documentation is in the [official Activepieces docs](https://www.activepieces.com/docs).
 
 ## Known Session Issue
 

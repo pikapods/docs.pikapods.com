@@ -3,6 +3,7 @@ title: PhotoPrism
 layout: page
 parent: App Notes
 ---
+PhotoPrism is an AI-powered, self-hosted photo management app for browsing, organizing, and sharing your library. This help page addresses common scenarios for users who have [deployed PhotoPrism on PikaPods](https://www.pikapods.com/apps/photoprism). Refer to the [official PhotoPrism docs](https://docs.photoprism.app/) for complete documentation.
 
 ## Sync from Mobile Apps
 

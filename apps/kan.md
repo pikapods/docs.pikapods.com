@@ -3,6 +3,7 @@ title: Kan
 layout: page
 parent: App Notes
 ---
+Kan is an open-source, Trello-style kanban board for planning and tracking work with your team. Here are a few tips and fixes for [Kan](https://www.pikapods.com/apps/kan) pods hosted on PikaPods. Anything else is covered in the [official Kan docs](https://docs.kan.bn/).
 
 ## Uploading attachments and avatars
 
